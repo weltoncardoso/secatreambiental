@@ -1,0 +1,298 @@
+body{
+	font-family: 'Poppins', sans-serif;
+	font-weight: normal;
+}
+header{
+	background: url(../img/bg.jpg);
+}
+.carousel{
+	height: 87%;
+}
+.carousel-inner{
+	margin-left: 10%;
+}
+.tab{
+	width: 100%;
+	font-size: 1.7em;
+	text-transform: uppercase;
+	color: #fff;
+	background: #bca708;
+	padding: 15px 0 15px 0; 
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+  text-transform: uppercase;
+}
+.bg-nav{
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.whatsapp{
+	color: #fff;
+	padding: 5px 20px 5px 20px;
+	top: 80px;
+	right: 40px;
+	position: absolute;
+	border-radius: 20px;
+	background: #55c767; /* Old browsers */
+	background: -moz-linear-gradient(top, #55c767 0%, #49aa4f 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #55c767 0%,#49aa4f 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #55c767 0%,#49aa4f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#55c767', endColorstr='#49aa4f',GradientType=0 ); /* IE6-9 */
+	z-index: 100;
+	border: 1px solid #202b29;  
+}
+.whatsapp span{
+	font-size: 12px;
+}
+.banner{
+  width: 100%;
+  height: 805px;
+  background: url(../img/bg.jpg);
+}
+.v-banner{
+	display: block;
+}
+.m-banner{
+	display: none;
+	visibility: hidden;
+}
+
+.partners .row{
+	font-family: "Times New Roman", Times, serif;
+	text-transform: uppercase;
+	font-size: 1em;
+	text-align: center;
+}
+.partners .row span{
+	margin: 0 auto;
+}
+.partners img{
+	width: 80%;
+}
+.partners a{
+	-webkit-filter: grayscale(100%);
+	   -moz-filter: grayscale(100%);
+	    -ms-filter: grayscale(100%);
+	     -o-filter: grayscale(100%);
+	filter: grayscale(100%);
+	opacity: 0.5;
+}
+.partners a:hover{
+	filter: inherit;
+	opacity: 1;
+}
+.about{
+	font-family: "Times New Roman", Times, serif;
+	background: url(../img/folhas.jpg) no-repeat top center;
+}
+.about h1{
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	font-size: 3.125em;
+	color: #263e3d;
+}
+.about p{
+	width: 50%;
+	margin: 0 auto; 
+	font-size: 1.25em;
+	line-height: 1.8em;
+}
+.about-page-img{
+	-webkit-box-shadow: -14px -15px 0px 1px rgba(54,61,57,1);
+	-moz-box-shadow: -14px -15px 0px 1px rgba(54,61,57,1);
+	box-shadow: -14px -15px 0px 1px rgba(54,61,57,1);
+}
+.about-page p:first-child{
+	font-size: 1em;
+}
+.about-page p{
+	font-size: .9em;
+}
+.about-page h3{
+	color: #bca708;
+	font-style: italic;
+}
+.differential h5{
+	text-transform: uppercase;
+}
+.differential{
+	font-size: 14px;
+  	text-align: center;
+  	border-bottom: 7px solid #bca708;
+	background: -moz-linear-gradient(top, #ffffff 0%, #f8f6e6 99%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #ffffff 0%,#f8f6e6 99%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #ffffff 0%,#f8f6e6 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f8f6e6',GradientType=0 ); /* IE6-9 */
+}
+.differential .card{
+	background: none;
+  	border: none;
+}
+.differential .card img{
+	max-width: 144px;
+	margin: 0 auto; 
+}
+.about{
+	text-align: center;
+}
+.ass{
+	font-size: 11px;
+	color: #fff;
+	text-align: center;
+	padding: 25px 0 25px 0; 
+	background: #363d39;
+}
+.social{
+	font-size: 35px;
+}
+.social a{
+	margin-right: 20px;
+	color: #fff;
+}
+.view h2{
+	width: 110%;
+	position: absolute;
+	top: 60px;
+	left: -10%;
+	font-size: 46px;
+	color: #bca708;
+	font-weight: 800;
+}
+.view p{
+	width: 80%;
+	margin-left: 5%;
+	margin-top: 200px;
+	font-size: 15px;
+	color: #292929;
+}
+.agronomos{
+
+}
+.agronomos h4{
+	margin: 0 auto;
+	text-align: center;
+	color: #0a1c11;
+	margin-bottom: 60px; 
+}
+.agronomos .card{
+	width: 80%;
+}
+.depoimentos-page h5{
+	color: #0a1c11;
+}
+.depoimentos-page .media-body{
+	padding: 10px 20px 0 20px;
+	font-size: .9em;
+}
+.btn{
+	background: #bca708;
+	border: none;
+}
+.btn:hover{
+	background: #363d39;
+	border: none;
+}
+
+.perguntas .btn{
+	background: none;
+	border: none;
+}
+.perguntas .btn:hover{
+	background: none;
+	border: none;
+}
+.btn-outline-secondary{
+	color: #fff;
+}
+
+
+
+/* -----------------/Menu Lateral --------------------*/
+.list-group-item {
+  border: none;
+}
+.list-group-item.active,
+.list-group-item.active:hover,
+.list-group-item.active:focus {
+  color: #666;
+  background-color: #d7d7d7;
+  font-weight: bold;
+  border-radius: 0;
+}
+
+.map{
+	height: 550px;
+	border-top: 11px solid #284724;
+}
+.footer{
+	padding: 77px 0 77px 0;
+	color: #fff;
+	background: #0a1c11;
+}
+.footer h5{
+	font-size: 0.9375em;
+	text-transform: uppercase;
+}
+.footer p{
+	color: #8c908e;
+	font-size: 0.75em;
+	text-transform: uppercase;
+}
+.footer span{
+	font-size: 1.8em;
+}
+.footer ul{
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+.footer ul li{
+	list-style: none;
+}
+.footer ul li a{
+	color: #8c908e;
+	font-size: 0.75em;
+	text-transform: uppercase;
+}
+
+
+@media (max-width: 768px) { 
+	.banner{
+	  height: 100vh;
+	  background: url(../img/bg.jpg);
+	}
+	.v-banner{
+		display: none;
+		visibility: hidden;
+	}
+	.m-banner{
+		display: block;
+	}
+	.whatsapp{
+		display: none;
+	}
+	.about h1{
+		font-size: 2.2em;
+	}
+	.about p{
+		width: 95%;
+	}
+	.view h2{
+		width: 100%;
+		position: inherit;
+		top: 0;
+		left: 0;	
+		margin-top: 10px;	
+	}
+	.view p{
+		width: 90%;
+		margin-left: 0;
+		margin-top: 0;
+	}
+
+	.footer{
+		text-align: center;
+	}
+	.footer h5{
+		margin-top: 2.5em;
+	}
+}
