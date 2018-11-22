@@ -5,5 +5,9 @@ php_value display_errors 1
 RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ /secatre1.0/index.php?q=$1 [QSA,L]
+<<<<<<< HEAD
+RewriteRule ^(.*)$ /secatreambiental/index.php?q=$1 [QSA,L]
+=======
+RewriteRule ^(.*)$ /secatreambiental/index.php?q=$1 [QSA,L]
+>>>>>>> origin/master
 

@@ -1,7 +1,11 @@
 <?php
 require 'environment.php';
 
-define("BASE", "http://localhost/secatre1.0/curso/");
+<<<<<<< HEAD
+define("BASE", "http://localhost/secatreambiental/curso/");
+=======
+define("BASE", "http://localhost/secatreambiental/curso/");
+>>>>>>> origin/master
 
 global $config;
 $config = array();

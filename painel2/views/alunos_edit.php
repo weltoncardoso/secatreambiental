@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<!DOCTYPE html>
+>>>>>>> origin/master
 <head>
   <meta charset="UTF-8" />
   <title>Cadastro de novo Aluno</title>

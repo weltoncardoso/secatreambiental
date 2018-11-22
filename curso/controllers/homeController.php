@@ -12,6 +12,7 @@ public function __construct() {
 
 }
 public function index() {
+<<<<<<< HEAD
 
 			$dados = array(
 				'info' => array(),
@@ -37,4 +38,21 @@ public function index() {
 
 		}
 	}
+=======
+	$dados = array(
+		'info' => array(),
+		'cursos' => array()
+	);
+
+	$alunos = new Alunos();
+	$alunos->setAluno($_SESSION['lgaluno']);
+	$dados['info'] = $alunos;
+
+	$cursos = new Cursos();
+	$dados['cursos'] = $cursos->getCursosDoAluno($alunos->getId());
+
+$this->loadTemplate('home', $dados);
+
+}
+>>>>>>> origin/master
 }
