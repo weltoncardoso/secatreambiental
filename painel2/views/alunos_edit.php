@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <head>
   <meta charset="UTF-8" />
   <title>Cadastro de novo Aluno</title>
