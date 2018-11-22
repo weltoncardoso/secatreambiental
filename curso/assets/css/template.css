@@ -1,0 +1,167 @@
+body {
+	margin: 0;
+	background: #EEE;
+}
+h3 {
+	color: red; 
+}
+h1{
+    color: #000;
+     font-size: 60px;
+      text-shadow: -1px 0 white, 0 1px white,
+      1px 0 white, 0 -1px white;
+      text-align: center;
+}
+p {
+	color: #4ab3c6; 
+}
+.topo {
+	height: 40px;
+	background-color: #333;
+	color: #fff;
+}
+.topo a {
+	color: #fff;
+	text-decoration: none;	
+}
+.topo a div {
+float: right;
+height: 40px;
+line-height: 40px;
+padding-right: 20px;
+padding-left: 20px;
+}
+.topo a div:hover {
+background-color: #555;
+}
+.topousuario {
+	float: right;
+	margin-right: 20px;
+	height: 40px;
+	line-height: 40px; 
+}
+.cursoitem {
+	width: 260px;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+	border: 2px solid #baf1df;
+	border-radius: 10px;
+	color: black;
+	text-align: center;
+    background-color: #ccc;
+	margin:10px;
+	padding:5px;
+	box-shadow:0 0 5px #999;
+
+}
+
+.cursoinfo {
+	height: 100px;
+	background-color: #baf1df;
+}
+.cursoinfo img {
+	float: left;
+	height: 80px;
+	margin-right: 20px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.cursoinfo h3 {
+	margin: 0;
+	padding-top: 10px;
+}
+.curso_left a {
+	color: #000;
+	text-decoration: none;
+}
+.curso_left {
+width: 25%;
+max-width: 300px;
+min-width: 180px;
+min-height: 300px;
+float: left;
+background-color: #e0fbf8;
+overflow-y: scroll;
+}
+.curso_right {
+width: 75%;
+min-height: 300px;
+float: left;
+overflow-y: scroll;
+background-color: #ebf7f0;
+}
+
+.curso_right iframe{
+width: 100%;
+}
+
+.modulo {
+	height: 30px;
+	line-height: 30px;
+	padding-left: 20px;
+	background-color: #6aca76;
+}
+.aula {
+	height: 30px;
+	line-height: 30px;
+	padding-left: 30px;
+}
+.aula:hover {
+	background-color: #b4fdf5;
+}
+.form_duvida textarea {
+width: 100%;
+height: 150px;
+}
+
+input[type="submit"]{
+  width: 30%!important;
+  cursor: pointer;  
+  background: rgb(61, 157, 179);
+  padding: 8px 5px;
+  color: #fff;
+  font-size: 20px;  
+  border: 1px solid #fff;   
+  margin-bottom: 10px;  
+  text-shadow: 0 1px 1px #333;
+ 
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+ 
+  transition: all 0.2s linear;
+}
+ 
+/*estilo do botão submit no hover */
+input[type="submit"]:hover{
+  background: #4ab3c6;
+}
+
+
+@media (max-width: 768px) { 
+
+
+.curso_left a {
+	color: #000;
+	text-decoration: none;
+}
+.curso_left {
+width: 10%;
+max-width: 300px;
+min-width: 180px;
+min-height: 300px;
+float: left;
+background-color: #e0fbf8;
+overflow-y: scroll;
+}
+
+.cursoinfo {
+	height: 170px;
+	background-color: #baf1df;
+}
+
+.curso_right iframe{
+width: 50%;
+}
+
+}

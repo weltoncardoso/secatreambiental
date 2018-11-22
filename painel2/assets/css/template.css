@@ -1,0 +1,159 @@
+body {
+	margin: 0;
+	background: #EEE;
+}
+.topo {
+	height: 40px;
+	background-color: #333;
+	color: #fff;
+}
+h1{
+    color: #fff;
+     font-size: 60px;
+      text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black;
+      text-align: center;
+}
+.topo a {
+	color: #fff;
+	text-decoration: none;	
+}
+tr:nth-child(even) {background: #eee; border-radius: 20px;}
+tr:nth-child(odd) {background: #ccc; border-radius: 20px;}
+
+.tabelacurso table{
+    font-size: 25px;
+    margin-bottom: 10%;
+     margin-right:10%;
+      margin-top: 40px;
+       margin-left: 10%;
+         background: #f7f7f7;
+}
+
+.topo a div {
+float: left;
+height: 40px;
+line-height: 40px;
+padding-right: 20px;
+padding-left: 20px;
+}
+.topo a div:hover {
+background-color: #555;
+}
+.botaoAdd {
+	border: 0;
+    background-color: #1E90FF;
+    height: 40px;
+    width: 250px;
+    line-height: 40px;
+    margin-left: 40%;
+    margin-right: 40%;
+    border-radius: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    display: inline-block;
+}
+.botaoAdd a {
+	text-decoration: none;
+	color: #fff;
+    cursor: pointer;
+
+}
+
+.botao {
+	border: 0;
+    background-color: #1E90FF;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    font-size: 15px;
+    display: inline-block;
+}
+.botaodel {
+    border: 0;
+    background-color: #FF0000;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    font-size: 15px;
+    display: inline-block;
+}
+.botao a {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+
+}
+.botaodel a {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+.botaoExcMod {
+    border: 0;
+    background-color: #FF6347;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 13px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    display: inline-block;
+    float: right;
+}
+.botaoExcMod a {
+   text-decoration: none;
+    color: #fff; 
+    cursor: pointer;
+
+}
+.botaoExcAul {
+    border: 0;
+    background-color: #FF6347;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 13px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    
+    float: right;
+}
+.botaoExcAul a {
+   text-decoration: none;
+    color: #fff; 
+    cursor: pointer;
+}
+.botaoEditAul {
+    border: 0;
+    background-color: #1E90FF;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 13px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    
+    float: right;
+}
+.botaoEditAul a {
+   text-decoration: none;
+    color: white;
+    cursor: pointer;
+ 
+}
+
