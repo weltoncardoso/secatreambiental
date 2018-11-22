@@ -2,7 +2,7 @@
 require 'environment.php';
 
 <<<<<<< HEAD
-define("BASE", "http://localhost/secatreambiental/");
+define("BASE", "http://localhost/secatre1.0/");
 =======
 define("BASE", "http://localhost/secatreambiental/");
 >>>>>>> origin/master
