@@ -18,7 +18,7 @@ public function index() {
 				'cursos' => array()
 			);
 
-a
+
 			$alunos = new Alunos();
 			$alunos->setAluno($_SESSION['lgaluno']);
 			$dados['info'] = $alunos;
