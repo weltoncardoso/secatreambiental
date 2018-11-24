@@ -33,9 +33,17 @@ public function entrar($id) {
 		$dados['modulos'] = $modulos->getModulos($id);
 		$dados['aulas_assistidas'] = $alunos->getNumAulasAssistidas($id);
 		$dados['total_aulas'] = $curso->getTotalAulas();
-	
 
-	$this->loadTemplate('curso_entrar', $dados);
+		$dados['aluno'] = $alunos->getAluno($alunos->getId());
+			$horaBanco = $dados['aluno']['date_cadastro'];
+			$horaADD = date('Y/m/d', strtotime("+10 days",strtotime($horaBanco)));
+			$horaAtual =  date("Y/m/d");
+			if($horaAtual <= $horaADD){
+        	$this->loadTemplate('curso_entrar', $dados);
+            }elseif ($horaAtual >= $horaADD) {
+            	$this->loadView('403', $dados);          
+		}
+	
 	} else {
 		header("Location: ".BASE);
 	}

@@ -26,15 +26,17 @@ public function index() {
 			$cursos = new Cursos();
 			$dados['cursos'] = $cursos->getCursosDoAluno($alunos->getId());
 
-			$dados['aluno'] = $alunos->getAluno($alunos->getId());
-			$horaBanco = $dados['aluno']['date_cadastro']; 
-			$horaADD = date('Y/m/d', strtotime("+90 days",strtotime($horaBanco))); 
-			$horaAtual =  date("Y/m/d");
-			if($horaAtual >= $horaADD){
-        	$this->loadTemplate('home', $dados);
-            }else{
-				echo "Voçê nao tem mais acesso!!!";
+		// 	$dados['aluno'] = $alunos->getAluno($alunos->getId());
+		// 	$horaBanco = $dados['aluno']['date_cadastro'];
+		// 	$horaADD = date('Y/m/d', strtotime("+10 days",strtotime($horaBanco)));
+		// 	$horaAtual =  date("Y/m/d");
+		// 	if($horaAtual <= $horaADD){
+  //       	$this->loadTemplate('home', $dados);
+  //           }else{
+		// 		$this->loadView('403', $dados);
 
-		}
+		// }
+
+		$this->loadTemplate('home', $dados);
 	}
 }
