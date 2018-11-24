@@ -38,12 +38,12 @@
 				<strong>Endereço do Cliente:</strong><br/>
 				
 			 <strong>CEP: </strong><?php echo utf8_encode($venda['cep']); ?><br/>
-			 <strong>RUA: </strong><?php echo utf8_encode($venda['rua']); ?><br/>
-			 <strong>NUMERO: </strong><?php echo utf8_encode($venda['numero']); ?><br/>
-			 <strong>COMPLEMENTO: </strong><?php echo utf8_encode($venda['complemento']); ?><br/>
-			 <strong>BAIRRO: </strong><?php echo utf8_encode($venda['bairro']); ?><br/>
-			 <strong>CIDADE: </strong><?php echo utf8_encode($venda['cidade']); ?><br/>
-			 <strong>ESTADO: </strong><?php echo utf8_encode($venda['estado']); ?>
+			 <strong>Rua: </strong><?php echo utf8_encode($venda['rua']); ?><br/>
+			 <strong>Número: </strong><?php echo utf8_encode($venda['numero']); ?><br/>
+			 <strong>Complemento: </strong><?php echo utf8_encode($venda['complemento']); ?><br/>
+			 <strong>Bairro: </strong><?php echo utf8_encode($venda['bairro']); ?><br/>
+			 <strong>Cidade: </strong><?php echo utf8_encode($venda['cidade']); ?><br/>
+			 <strong>Estado: </strong><?php echo utf8_encode($venda['estado']); ?>
 			</td>
 		</tr>
 	</table>
