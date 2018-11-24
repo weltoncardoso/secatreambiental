@@ -1,7 +1,7 @@
 <h1>Leis e Normas</h1>
 
-<div style="text-align:center">
-<a href="<?php echo BASE; ?>leis/add" class="btn btn-default" style="background-color:#ff0000; color:#ffffff">Adicionar Leis e Normas</a>
+<div style="text-align:center"></br>
+<a href="<?php echo BASE; ?>leis/add" class="btn btn-default" style="background-color:#0000ff; color:#ffffff">Adicionar Leis e Normas</a>
 </div>
 </br>
 <table class="table table-striped">
@@ -9,7 +9,7 @@
 		<tr>
 			<th>Nome</th>
 			<th>Categoria</th>
-			<th width="200">Acoes</th>
+			<th width="200">Acões</th>
 		</tr>
 	</thead>
 

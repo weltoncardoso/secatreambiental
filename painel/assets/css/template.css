@@ -102,19 +102,22 @@ button,
 	background-size: cover;
 }
 
-tr:nth-child(even) {background: #eee}
-tr:nth-child(odd) {background: #ccc}
+tr:nth-child(even) {background: #eee; border-radius: 20px;}
+tr:nth-child(odd) {background: #ccc; border-radius: 20px;}
+
 
 
 table{
 	margin-top: 10px;
 }
 table th{
+    color: green;
 	height: 40px;
 	line-height: 40px;
 	text-align: left;
 	padding-left: 10px;
 	padding-right: 10px;
+	font-size: 20px;
 
 }
 table td{

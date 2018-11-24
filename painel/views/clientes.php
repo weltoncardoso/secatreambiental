@@ -1,6 +1,6 @@
 <h1>Clientes</h1>
-<div style="text-align:center">
-<a href="<?php echo BASE; ?>clientes/add" class="btn btn-default" style="background-color:#ff0000; color:#ffffff">Adicionar Clientes</a>
+<div style="text-align:center"></br>
+<a href="<?php echo BASE; ?>clientes/add" class="btn btn-default" style="background-color:#0000ff; color:#ffffff">Adicionar Clientes</a>
 </div>
 </br></br>
 <table class="table table-striped">
@@ -10,7 +10,7 @@
 			<th>Nome</th>
 			<th>Estado</th>
 			<th>Qtde Alunos</th>
-			<th width="200">Acoes</th>
+			<th width="200">Acões</th>
 		</tr>
 	</thead>
 
