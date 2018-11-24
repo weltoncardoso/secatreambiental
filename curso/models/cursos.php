@@ -8,6 +8,7 @@
 
  	$sql = "SELECT
  				aluno_curso.id_curso,
+ 				aluno_curso.date_cadastro,
  				cursos.nome,
  				cursos.imagem,
  				cursos.descricao
@@ -60,5 +61,18 @@ public function getId()
 
 	return $sql->rowCount();	
 	}
+
+	public function getCurso($id)
+ {
+ 	$array = array();
+ 	$sql = "SELECT * FROM aluno_curso WHERE id_curso = '$id'";
+ 	$sql = $this->db->query($sql);
+
+		if ($sql->rowCount() > 0) {
+			$array = $sql->fetch();
+
+		}
+		return $array;
+}
 }
 
