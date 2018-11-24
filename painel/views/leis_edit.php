@@ -7,7 +7,7 @@
 
 
 
-<h1>Leis - Editar</h1>
+<h1>Editar - Leis</h1>
 </br>
 
 <form method="POST" enctype="multipart/form-data">

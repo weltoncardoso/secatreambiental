@@ -23,7 +23,7 @@ function c(id) {
 }
 </script>
 
-<h1>Cursos - Adicionar</h1>
+<h1>Adicionar - Curso</h1>
 <form method="POST" enctype="multipart/form-data">
 
         <table border="1" width="100%">

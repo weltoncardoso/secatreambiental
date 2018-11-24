@@ -7,7 +7,7 @@
 
 
 
-<h1>Cursos - Editar</h1>
+<h1>Editar - Curso</h1>
 </br>
 <form method="POST" enctype="multipart/form-data">
         <table border="1" width="100%">

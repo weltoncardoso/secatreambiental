@@ -8,7 +8,9 @@ body {
 	color: #fff;
 }
 h1{
-    color: #fff;
+    font-style:italic;
+    text-decoration: underline;
+    color: white;
      font-size: 60px;
       text-shadow: -1px 0 black, 0 1px black,
       1px 0 black, 0 -1px black;
@@ -30,6 +32,42 @@ tr:nth-child(odd) {background: #ccc; border-radius: 20px;}
          background: #f7f7f7;
 }
 
+.tabelavendas table{
+    font-size: 25px;
+    margin-bottom: 10%;
+     margin-right:10%;
+      margin-top: 40px;
+       margin-left: 10%;
+       text-align: center;
+         background: #f7f7f7;
+}
+.tabelavendas th{
+    color: green;
+}
+
+.tabelavenda table{
+    font-size: 25px;
+    margin-bottom: 10%;
+     margin-right:10%;
+      margin-top: 40px;
+       margin-left: 10%;
+       text-align: left;
+         background: #f7f7f7;
+}
+
+.tabelavenda strong, th{
+    color:green;
+}
+
+.tabelacursovenda table{
+    font-size: 25px;
+    margin-bottom: 10%;
+     margin-right:10%;
+      margin-top: 40px;
+       margin-left: 10%;
+       text-align: center;
+         background: #f7f7f7;
+}
 .topo a div {
 float: left;
 height: 40px;
@@ -63,7 +101,7 @@ background-color: #555;
 }
 
 .botao {
-	border: 0;
+    border: 0;
     background-color: #1E90FF;
     height: 40px;
     line-height: 40px;
@@ -74,6 +112,27 @@ background-color: #555;
     font-size: 15px;
     display: inline-block;
 }
+.botaovizualizar {
+    border: 0;
+    background-color: #1E90FF;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.botaovizualizar a{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+
 .botaodel {
     border: 0;
     background-color: #FF0000;

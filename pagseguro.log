@@ -643,3 +643,45 @@
 24/11/2018 17:29:36 PagSeguro.Session[info]: Begin
 24/11/2018 17:29:37 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
 24/11/2018 17:29:39 PagSeguro.Session[info]: Session ID: 5ae5161ed35d49629e9cb682c1346627
+24/11/2018 20:08:48 PagSeguro.Session[info]: Begin
+24/11/2018 20:08:49 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+24/11/2018 20:08:51 PagSeguro.Session[info]: Session ID: ae59a9958b1e4157934eaad9325a9abe
+24/11/2018 20:14:07 PagSeguro.Session[info]: Begin
+24/11/2018 20:14:09 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+24/11/2018 20:14:11 PagSeguro.Session[info]: Session ID: 79ed76b76a0e4d77a5d3405ca1ec8989
+24/11/2018 20:52:59 PagSeguro.Session[info]: Begin
+24/11/2018 20:52:59 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+24/11/2018 20:53:00 PagSeguro.Session[info]: Session ID: f43380e6f6a94254a840ba1d935446b9
+24/11/2018 20:54:02 PagSeguro.Session[info]: Begin
+24/11/2018 20:54:02 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+24/11/2018 20:54:03 PagSeguro.Session[info]: Session ID: 1d1b1198975f489f9f99266f350248fc
+24/11/2018 20:54:03 PagSeguro.Session[info]: Begin
+24/11/2018 20:54:03 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+24/11/2018 20:54:04 PagSeguro.Session[info]: Session ID: 0679e749bd9640d6b0ad098c88a21915
+24/11/2018 20:54:12 PagSeguro.Session[info]: Begin
+24/11/2018 20:54:12 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+24/11/2018 20:54:13 PagSeguro.Session[info]: Session ID: 15e1b6bfc8bc4461a70f3b0ea03892a5
+24/11/2018 20:54:13 PagSeguro.Session[info]: Begin
+24/11/2018 20:54:14 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+24/11/2018 20:54:14 PagSeguro.Session[info]: Session ID: 2b9bef333a53436d9ab603a9515aadbb
+24/11/2018 20:54:14 PagSeguro.Session[info]: Begin
+24/11/2018 20:54:14 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+24/11/2018 20:54:15 PagSeguro.Session[info]: Session ID: 1c6753e9492449ba8836a0879326a3ba
+24/11/2018 20:54:15 PagSeguro.Session[info]: Begin
+24/11/2018 20:54:15 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+24/11/2018 20:54:16 PagSeguro.Session[info]: Session ID: 365d3fd869b04dde9e33d43aa08e9436
+24/11/2018 20:54:16 PagSeguro.Session[info]: Begin
+24/11/2018 20:54:16 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+24/11/2018 20:54:17 PagSeguro.Session[info]: Session ID: c0c50985c5ab4a169c54fe6b98f52cbf
+24/11/2018 20:54:17 PagSeguro.Session[info]: Begin
+24/11/2018 20:54:17 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+24/11/2018 20:54:18 PagSeguro.Session[info]: Session ID: 727f742f60084fa0a4cb8902f1debf86
+24/11/2018 20:54:18 PagSeguro.Session[info]: Begin
+24/11/2018 20:54:18 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+24/11/2018 20:54:19 PagSeguro.Session[info]: Session ID: 4ca5a820190440efa5826d6b918acb51
+24/11/2018 20:54:25 PagSeguro.Session[info]: Begin
+24/11/2018 20:54:25 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+24/11/2018 20:54:26 PagSeguro.Session[info]: Session ID: 1995c185d8a14c50a9fe958812bdae34
+24/11/2018 20:54:27 PagSeguro.Session[info]: Begin
+24/11/2018 20:54:28 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+24/11/2018 20:54:29 PagSeguro.Session[info]: Session ID: cd2fa2a55595486d87de54ee0c7b5e2d

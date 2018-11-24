@@ -1,9 +1,22 @@
 <?php
 global $config;
 ?>
-<h1>Vendas</h1>
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link href="<?php echo BASE; ?>assets/css/template.css" rel="stylesheet" />
+</head>
+<body style=" background: url('<?php echo BASE; ?>assets/images/bg.jpg') no-repeat center center fixed; 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;" >
 
-<table class="table table-striped">
+<h1>Vendas</h1>
+<div class="tabelavendas">
+
+	<table border="0" width="80%">
 	<thead>
 		<tr>
 			<th width="50">ID</th>
@@ -22,8 +35,13 @@ global $config;
 			<td><?php echo $venda['pg_nome']; ?></td>
 			<td><?php echo $config['status_pgto'][$venda['payment_status']]; ?></td>
 			<td>
-				<a href="<?php echo BASE; ?>vendas/ver/<?php echo $venda['id']; ?>">Visualizar</a>
+			<div class="botaovizualizar" >
+				<a href="<?php echo BASE; ?>vendas/ver/<?php echo $venda['id']; ?>">Visualizar</a></div>
 			</td>
 		</tr>
 	<?php endforeach; ?>
 </table>
+</div>
+
+</body>
+</html>
