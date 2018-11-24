@@ -26,7 +26,7 @@ class Purchases extends model {
 
 	}
 
-	public function setPaid($id) {
+	public function setAnalyze($id) {
 
 		$sql = "UPDATE purchases SET payment_status = :status WHERE id = :id";
 		$sql = $this->db->prepare($sql);
@@ -36,7 +36,7 @@ class Purchases extends model {
 
 	}
 
-	public function setCancelled($id) {
+	public function setPaid($id) {
 
 		$sql = "UPDATE purchases SET payment_status = :status WHERE id = :id";
 		$sql = $this->db->prepare($sql);
@@ -46,8 +46,67 @@ class Purchases extends model {
 
 	}
 
+	public function setAvailable($id) {
+
+		$sql = "UPDATE purchases SET payment_status = :status WHERE id = :id";
+		$sql = $this->db->prepare($sql);
+		$sql->bindValue(":status", '4');
+		$sql->bindValue(":id", $id);
+		$sql->execute();
+
+	}
+
+	public function setDispute($id) {
+
+		$sql = "UPDATE purchases SET payment_status = :status WHERE id = :id";
+		$sql = $this->db->prepare($sql);
+		$sql->bindValue(":status", '5');
+		$sql->bindValue(":id", $id);
+		$sql->execute();
+
+	}
+
+	public function setReturned($id) {
+
+		$sql = "UPDATE purchases SET payment_status = :status WHERE id = :id";
+		$sql = $this->db->prepare($sql);
+		$sql->bindValue(":status", '6');
+		$sql->bindValue(":id", $id);
+		$sql->execute();
+
+	}
 
 
+	public function setCancelled($id) {
+
+		$sql = "UPDATE purchases SET payment_status = :status WHERE id = :id";
+		$sql = $this->db->prepare($sql);
+		$sql->bindValue(":status", '7');
+		$sql->bindValue(":id", $id);
+		$sql->execute();
+
+	}
+
+
+	public function setDebited($id) {
+
+		$sql = "UPDATE purchases SET payment_status = :status WHERE id = :id";
+		$sql = $this->db->prepare($sql);
+		$sql->bindValue(":status", '8');
+		$sql->bindValue(":id", $id);
+		$sql->execute();
+
+	}
+
+	public function setRetention($id) {
+
+		$sql = "UPDATE purchases SET payment_status = :status WHERE id = :id";
+		$sql = $this->db->prepare($sql);
+		$sql->bindValue(":status", '9');
+		$sql->bindValue(":id", $id);
+		$sql->execute();
+
+	}
 
 
 

@@ -30,11 +30,10 @@
  }
 
  public function addAluno($nome, $email, $senha) {
-<<<<<<< HEAD
  	$this->db->query("INSERT INTO alunos SET nome = '$nome', email = '$email', senha = '$senha', date_cadastro = NOW()");
-=======
+
  	$this->db->query("INSERT INTO alunos SET nome = '$nome', email = '$email', senha = '$senha'");
->>>>>>> origin/master
+
  }
 
  public function updateAluno($id, $nome, $email, $senha, $cursos) {

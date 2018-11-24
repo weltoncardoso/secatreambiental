@@ -2,9 +2,9 @@
 <html>
 <head>
 	<title></title>
-	<link href="<?php echo BASE_URL; ?>/assets/css/template.css" rel="stylesheet" />
+	<link href="<?php echo BASE; ?>assets/css/template.css" rel="stylesheet" />
 </head>
-<body style=" background: url('<?php echo BASE; ?>/assets/images/bg.jpg') no-repeat center center fixed; 
+<body style=" background: url('<?php echo BASE; ?>assets/images/bg.jpg') no-repeat center center fixed; 
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;

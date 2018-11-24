@@ -1,0 +1,642 @@
+
+16/11/2018 16:26:55 PagSeguro.Session[info]: Begin
+16/11/2018 16:26:56 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 16:26:59 PagSeguro.Session[info]: Session ID: 5fa976b886fb46dc9d0956254d61d298
+16/11/2018 16:56:05 PagSeguro.Session[info]: Begin
+16/11/2018 16:56:07 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 16:56:08 PagSeguro.Session[info]: Session ID: 96638565576c4647808553e47326c144
+16/11/2018 16:57:19 PagSeguro.Session[info]: Begin
+16/11/2018 16:57:19 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 16:57:20 PagSeguro.Session[info]: Session ID: b041e2c06e464b18bf5ec08ed29744f4
+16/11/2018 17:00:24 PagSeguro.Session[info]: Begin
+16/11/2018 17:00:24 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 17:00:25 PagSeguro.Session[info]: Session ID: 031b49762f4942e7862a6f452db43180
+16/11/2018 17:01:19 PagSeguro.Session[info]: Begin
+16/11/2018 17:01:19 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 17:01:20 PagSeguro.Session[info]: Session ID: fde7f8d13efd405399910cba519f98ce
+16/11/2018 17:01:50 PagSeguro.Session[info]: Begin
+16/11/2018 17:01:50 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 17:01:50 PagSeguro.Session[info]: Session ID: 6323a6c9dc6d4683828a9c06cd204c46
+16/11/2018 17:03:52 PagSeguro.Session[info]: Begin
+16/11/2018 17:03:52 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 17:04:00 PagSeguro.Session[info]: Session ID: e11f448caaf140368b39a848f6cbedf5
+16/11/2018 17:05:15 PagSeguro.Session[info]: Begin
+16/11/2018 17:05:15 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 17:05:17 PagSeguro.Session[info]: Session ID: 95c31f4ee9514d65968ef6482b938503
+16/11/2018 17:08:34 PagSeguro.Session[info]: Begin
+16/11/2018 17:08:34 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 17:08:36 PagSeguro.Session[info]: Session ID: a12356ff505a44b294bbf113d8d85d6e
+16/11/2018 17:09:41 PagSeguro.Session[info]: Begin
+16/11/2018 17:09:41 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 17:09:42 PagSeguro.Session[info]: Session ID: 555f2bb64bfb470d88728be2cc40cdce
+16/11/2018 17:10:31 PagSeguro.Session[info]: Begin
+16/11/2018 17:10:31 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 17:10:32 PagSeguro.Session[info]: Session ID: d1ab605e9e2f49e2aecb8ca9415f05ef
+16/11/2018 17:12:23 PagSeguro.Session[info]: Begin
+16/11/2018 17:12:23 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 17:12:24 PagSeguro.Session[info]: Session ID: c011a27ceb9d40b088535413daf3efb9
+16/11/2018 17:16:03 PagSeguro.Session[info]: Begin
+16/11/2018 17:16:03 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 17:16:04 PagSeguro.Session[info]: Session ID: 27859c667425423eb16ab19a1f8b3afd
+16/11/2018 17:16:24 PagSeguro.Session[info]: Begin
+16/11/2018 17:16:25 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 17:16:25 PagSeguro.Session[info]: Session ID: f5f7c88d608149c28f198ea29040f2b5
+16/11/2018 17:16:36 PagSeguro.Session[info]: Begin
+16/11/2018 17:16:36 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 17:16:38 PagSeguro.Session[info]: Session ID: 8a2140f7dc8c4925a29e36bc6a7bff08
+16/11/2018 17:17:08 PagSeguro.Session[info]: Begin
+16/11/2018 17:17:08 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 17:17:13 PagSeguro.Session[info]: Session ID: a2cbbe20ff9a497a8dcf660cfb81a34d
+16/11/2018 17:19:28 PagSeguro.Session[info]: Begin
+16/11/2018 17:19:28 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 17:19:30 PagSeguro.Session[info]: Session ID: 52957cb0fbe24bf3a23d8edcfaa2457e
+16/11/2018 17:21:02 PagSeguro.Session[info]: Begin
+16/11/2018 17:21:03 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 17:21:03 PagSeguro.Session[info]: Session ID: e10f698fa10d42ce9a824a991c3dac73
+16/11/2018 17:22:52 PagSeguro.Session[info]: Begin
+16/11/2018 17:22:52 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 17:22:57 PagSeguro.Session[info]: Session ID: 363defc1c26a45b1b43197d923fee3cb
+16/11/2018 17:24:22 PagSeguro.Session[info]: Begin
+16/11/2018 17:24:22 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 17:24:25 PagSeguro.Session[info]: Session ID: 88cf8897d95a483180047ee97c106f61
+16/11/2018 17:24:52 PagSeguro.Session[info]: Begin
+16/11/2018 17:24:52 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 17:24:54 PagSeguro.Session[info]: Session ID: fa2fcb35911e4786b434c0f7754e7669
+16/11/2018 17:25:09 PagSeguro.Session[info]: Begin
+16/11/2018 17:25:09 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 17:25:12 PagSeguro.Session[info]: Session ID: c37b110ab152447fa4f7fd38e3d437e5
+16/11/2018 17:25:41 PagSeguro.Session[info]: Begin
+16/11/2018 17:25:41 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 17:25:41 PagSeguro.Session[info]: Session ID: 5e1d07854a0a4d1a9108b000ede2cad5
+16/11/2018 17:26:26 PagSeguro.Session[info]: Begin
+16/11/2018 17:26:26 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 17:26:26 PagSeguro.Session[info]: Session ID: 4cd1ce15244a44a997134fdf9b498869
+16/11/2018 17:27:43 PagSeguro.Session[info]: Begin
+16/11/2018 17:27:43 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 17:27:56 PagSeguro.Session[error]: {"timestamp":"2018-11-16T16:27:59.194+0000","status":500,"error":"Internal Server Error","message":"I/O error on POST request for \"https://ws.sandbox.pagseguro.uol.com.br:443/v2/sessions\": Connect to ws.sandbox.pagseguro.uol.com.br:443 [ws.sandbox.pagseguro.uol.com.br/10.129.24.49] failed: Connection refused (Connection refused); nested exception is org.apache.http.conn.HttpHostConnectException: Connect to ws.sandbox.pagseguro.uol.com.br:443 [ws.sandbox.pagseguro.uol.com.br/10.129.24.49] failed: Connection refused (Connection refused)","path":"/v2/sessions"}
+16/11/2018 17:28:12 PagSeguro.Session[info]: Begin
+16/11/2018 17:28:12 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 17:28:23 PagSeguro.Session[info]: Session ID: e36504f338274a85bed47729e1d8c80e
+16/11/2018 17:29:09 PagSeguro.Session[info]: Begin
+16/11/2018 17:29:09 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 17:29:10 PagSeguro.Session[info]: Session ID: 3f297da3886f4beca5edbebd0d691e1c
+16/11/2018 17:29:54 PagSeguro.Session[info]: Begin
+16/11/2018 17:29:54 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 17:30:07 PagSeguro.Session[error]: {"timestamp":"2018-11-16T16:30:10.223+0000","status":500,"error":"Internal Server Error","message":"I/O error on POST request for \"https://ws.sandbox.pagseguro.uol.com.br:443/v2/sessions\": Connect to ws.sandbox.pagseguro.uol.com.br:443 [ws.sandbox.pagseguro.uol.com.br/10.129.24.49] failed: Connection refused (Connection refused); nested exception is org.apache.http.conn.HttpHostConnectException: Connect to ws.sandbox.pagseguro.uol.com.br:443 [ws.sandbox.pagseguro.uol.com.br/10.129.24.49] failed: Connection refused (Connection refused)","path":"/v2/sessions"}
+16/11/2018 17:30:11 PagSeguro.Session[info]: Begin
+16/11/2018 17:30:11 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 17:30:12 PagSeguro.Session[info]: Session ID: 3c67275b05cc45d88025e97e7632743e
+16/11/2018 17:31:39 PagSeguro.Session[info]: Begin
+16/11/2018 17:31:40 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 17:31:40 PagSeguro.Session[info]: Session ID: eef744582c4543bbbdd4554dfb6bafb8
+16/11/2018 17:32:18 PagSeguro.Session[info]: Begin
+16/11/2018 17:32:19 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 17:32:20 PagSeguro.Session[info]: Session ID: 21233781d13a4be081c5f33af608a5c4
+16/11/2018 17:33:17 PagSeguro.Session[info]: Begin
+16/11/2018 17:33:17 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 17:33:18 PagSeguro.Session[info]: Session ID: bd9b1a15fddd464bb1f1a8d5aa5321b2
+16/11/2018 17:34:00 PagSeguro.Session[info]: Begin
+16/11/2018 17:34:00 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 17:34:03 PagSeguro.Session[info]: Session ID: 584b333a1e4c4eceb0121ac8c79bdced
+16/11/2018 17:34:48 PagSeguro.Session[info]: Begin
+16/11/2018 17:34:49 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 17:34:50 PagSeguro.Session[info]: Session ID: 4b3997f5a47e4f0fbc37e87dd6626053
+16/11/2018 17:35:43 PagSeguro.Session[info]: Begin
+16/11/2018 17:35:43 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 17:35:44 PagSeguro.Session[info]: Session ID: 796f42bc049c432592f6acdbdc974aa7
+16/11/2018 17:36:04 PagSeguro.Session[info]: Begin
+16/11/2018 17:36:04 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 17:36:04 PagSeguro.Session[info]: Session ID: 2bd1d78119da473b8b601b7aed1d6d31
+16/11/2018 17:36:35 PagSeguro.Session[info]: Begin
+16/11/2018 17:36:35 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 17:36:36 PagSeguro.Session[info]: Session ID: 8771ff3f9ee442559251c4b80b85b009
+16/11/2018 17:38:20 PagSeguro.Session[info]: Begin
+16/11/2018 17:38:20 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 17:38:22 PagSeguro.Session[info]: Session ID: db1d7e8bc45a455f805fc552a52b1472
+16/11/2018 17:38:50 PagSeguro.Session[info]: Begin
+16/11/2018 17:38:50 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 17:38:51 PagSeguro.Session[info]: Session ID: d5cfbfe2b906477abdec9c0d1cb6e65d
+16/11/2018 17:39:17 PagSeguro.Session[info]: Begin
+16/11/2018 17:39:17 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 17:39:23 PagSeguro.Session[info]: Session ID: a70b9646185e4e168e137edb891dbe6a
+16/11/2018 21:47:41 PagSeguro.Session[info]: Begin
+16/11/2018 21:47:42 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 21:47:50 PagSeguro.Session[info]: Session ID: c4bdbdad6ad244fe8e351e872ec75843
+16/11/2018 22:06:49 PagSeguro.Session[info]: Begin
+16/11/2018 22:06:50 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 22:06:51 PagSeguro.Session[info]: Session ID: a7db169e82bc474fa7ea46a6c26580b8
+16/11/2018 22:12:38 PagSeguro.Session[info]: Begin
+16/11/2018 22:12:38 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 22:12:44 PagSeguro.Session[info]: Session ID: 181f0ad185824aacb64bfe3ee3b2dc40
+16/11/2018 22:16:23 PagSeguro.Session[info]: Begin
+16/11/2018 22:16:23 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 22:16:24 PagSeguro.Session[info]: Session ID: 50555ee322d04bff88787529f0fc315a
+16/11/2018 22:20:02 PagSeguro.Session[info]: Begin
+16/11/2018 22:20:02 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 22:20:06 PagSeguro.Session[info]: Session ID: 9923751946f54e2dbc722d6a4879928d
+16/11/2018 22:25:33 PagSeguro.Session[info]: Begin
+16/11/2018 22:25:33 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 22:25:34 PagSeguro.Session[info]: Session ID: 23cb38876b574a609e67d4226f14ace0
+16/11/2018 22:25:38 PagSeguro.Session[info]: Begin
+16/11/2018 22:25:38 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 22:25:43 PagSeguro.Session[info]: Session ID: 03a7936af5a843c580750357d927004c
+16/11/2018 22:25:43 PagSeguro.Session[info]: Begin
+16/11/2018 22:25:43 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 22:25:44 PagSeguro.Session[info]: Session ID: 8d37c1db39e14307ab01cf4feb11c306
+16/11/2018 22:29:21 PagSeguro.Session[info]: Begin
+16/11/2018 22:29:21 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 22:29:23 PagSeguro.Session[info]: Session ID: 256db1b6df824615a545172d74fdb52b
+16/11/2018 22:37:50 PagSeguro.Session[info]: Begin
+16/11/2018 22:37:50 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 22:37:54 PagSeguro.Session[info]: Session ID: 0427003a4bd44d5f8711c3e44fd1976c
+16/11/2018 22:40:38 PagSeguro.Session[info]: Begin
+16/11/2018 22:40:38 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 22:40:39 PagSeguro.Session[info]: Session ID: 4afd9e85e178442d96ad11fd9178e208
+16/11/2018 22:42:56 PagSeguro.Session[info]: Begin
+16/11/2018 22:42:56 PagSeguro.Session[info]: POST: https://ws.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 22:42:57 PagSeguro.Session[error]: Unauthorized
+16/11/2018 22:46:17 PagSeguro.Session[info]: Begin
+16/11/2018 22:46:17 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 22:46:18 PagSeguro.Session[info]: Session ID: e37f2690c6b04c53960d4afbe0d9ca4b
+16/11/2018 22:49:37 PagSeguro.Session[info]: Begin
+16/11/2018 22:49:37 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 22:49:38 PagSeguro.Session[info]: Session ID: bd6341c66c8d4e19bc3475a84bd214cf
+16/11/2018 22:52:08 PagSeguro.Session[info]: Begin
+16/11/2018 22:52:08 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 22:52:17 PagSeguro.Session[info]: Session ID: 644ba651e4214dab99857b003cf3d1a3
+16/11/2018 22:54:01 PagSeguro.Session[info]: Begin
+16/11/2018 22:54:01 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 22:54:02 PagSeguro.Session[info]: Session ID: 6275386472cb4ad8a4a6ef5dfc40469e
+16/11/2018 22:54:13 PagSeguro.Session[info]: Begin
+16/11/2018 22:54:13 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 22:54:16 PagSeguro.Session[info]: Session ID: a3a936e03139443db3e7a69cb01de31f
+16/11/2018 22:56:49 PagSeguro.Session[info]: Begin
+16/11/2018 22:56:49 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 22:56:56 PagSeguro.Session[info]: Session ID: 59136f0767b444cc8f9e17aec3121a3b
+16/11/2018 22:58:48 PagSeguro.Session[info]: Begin
+16/11/2018 22:58:48 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 22:58:49 PagSeguro.Session[info]: Session ID: ff81476540564cfcb0d432cc0a137d17
+16/11/2018 22:59:16 PagSeguro.Session[info]: Begin
+16/11/2018 22:59:16 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 22:59:18 PagSeguro.Session[info]: Session ID: e9673d277f3c4dd4a2507ef9e0515572
+16/11/2018 22:59:18 PagSeguro.Session[info]: Begin
+16/11/2018 22:59:18 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 22:59:25 PagSeguro.Session[info]: Session ID: 9b7b22c3dc3549a9ae2e3cd33ba55540
+16/11/2018 22:59:25 PagSeguro.Session[info]: Begin
+16/11/2018 22:59:26 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 22:59:26 PagSeguro.Session[info]: Session ID: 5d437d35dd1549f6a42d7ce698b00bf2
+16/11/2018 22:59:26 PagSeguro.Session[info]: Begin
+16/11/2018 22:59:27 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 22:59:41 PagSeguro.Session[info]: Session ID: 7d833487b2694f57a5b6bc71637ac864
+16/11/2018 23:01:23 PagSeguro.Session[info]: Begin
+16/11/2018 23:01:23 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 23:01:24 PagSeguro.Session[info]: Session ID: 5d6f0375f4f94458af3940cdb248590c
+16/11/2018 23:03:23 PagSeguro.Session[info]: Begin
+16/11/2018 23:03:24 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 23:03:28 PagSeguro.Session[info]: Session ID: 213dee9278b245d3931ddc90234ce2cc
+16/11/2018 23:05:45 PagSeguro.Session[info]: Begin
+16/11/2018 23:05:45 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 23:05:46 PagSeguro.Session[info]: Session ID: dbfb7c11e61c49bc802d2e1bca07b103
+16/11/2018 23:07:58 PagSeguro.Session[info]: Begin
+16/11/2018 23:07:58 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 23:08:00 PagSeguro.Session[info]: Session ID: 7063ebe4db524e51a1a165df458f375e
+16/11/2018 23:08:12 PagSeguro.Session[info]: Begin
+16/11/2018 23:08:12 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 23:08:17 PagSeguro.Session[info]: Session ID: 0855d75f2e934bb188a144dd0ed96f7d
+16/11/2018 23:11:46 PagSeguro.Session[info]: Begin
+16/11/2018 23:11:46 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+16/11/2018 23:11:48 PagSeguro.Session[info]: Session ID: 0049aca7f5de438a876e9497100bc6c5
+17/11/2018 00:11:53 PagSeguro.Session[info]: Begin
+17/11/2018 00:11:53 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+17/11/2018 00:11:54 PagSeguro.Session[info]: Session ID: ddb51646b1904574ac0946083cdbf91c
+17/11/2018 00:12:00 PagSeguro.Session[info]: Begin
+17/11/2018 00:12:00 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+17/11/2018 00:12:02 PagSeguro.Session[info]: Session ID: 88dfbb3d008d4f1aa037f9162e311a53
+17/11/2018 00:34:13 PagSeguro.Session[info]: Begin
+17/11/2018 00:34:13 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+17/11/2018 00:34:14 PagSeguro.Session[info]: Session ID: 6d6bc983d41d49d2a7bb5b9851527b45
+17/11/2018 00:35:31 PagSeguro.Session[info]: Begin
+17/11/2018 00:35:31 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+17/11/2018 00:35:32 PagSeguro.Session[info]: Session ID: 10172ce021a442d3a1dee9a3334f69ba
+17/11/2018 00:43:41 PagSeguro.Session[info]: Begin
+17/11/2018 00:43:42 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+17/11/2018 00:43:42 PagSeguro.Session[info]: Session ID: 3127e2033a634bbb9517d90a742502d1
+17/11/2018 00:46:43 PagSeguro.Session[info]: Begin
+17/11/2018 00:46:43 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+17/11/2018 00:46:44 PagSeguro.Session[info]: Session ID: 380f2295d9944a2283b6cdb19cf1f445
+17/11/2018 00:48:07 PagSeguro.Session[info]: Begin
+17/11/2018 00:48:07 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+17/11/2018 00:48:08 PagSeguro.Session[info]: Session ID: e0f50ef0af8349fbb6ac578bc0a7b26d
+17/11/2018 00:51:45 PagSeguro.Session[info]: Begin
+17/11/2018 00:51:45 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+17/11/2018 00:51:46 PagSeguro.Session[info]: Session ID: 9923edc2ed3f4fa7971e82dc33016b23
+17/11/2018 00:52:45 PagSeguro.Session[info]: Begin
+17/11/2018 00:52:45 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+17/11/2018 00:52:46 PagSeguro.Session[info]: Session ID: 73d976413db64a74ba98ac81060ef737
+17/11/2018 00:53:28 PagSeguro.Session[info]: Begin
+17/11/2018 00:53:28 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+17/11/2018 00:53:30 PagSeguro.Session[info]: Session ID: 4ae37a9618ee466c92488bc3a16762fc
+17/11/2018 00:55:30 PagSeguro.Session[info]: Begin
+17/11/2018 00:55:30 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+17/11/2018 00:55:31 PagSeguro.Session[info]: Session ID: e47350e660714e01bb76662cbd0946bf
+17/11/2018 00:55:53 PagSeguro.Session[info]: Begin
+17/11/2018 00:55:53 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+17/11/2018 00:55:54 PagSeguro.Session[info]: Session ID: d699cdb3500f4af0846dc1bb6174bf5f
+17/11/2018 00:57:19 PagSeguro.Session[info]: Begin
+17/11/2018 00:57:19 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+17/11/2018 00:57:20 PagSeguro.Session[info]: Session ID: 8777cc9feb114a328162200614ad95dc
+17/11/2018 00:58:40 PagSeguro.Session[info]: Begin
+17/11/2018 00:58:40 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+17/11/2018 00:58:41 PagSeguro.Session[info]: Session ID: fe15339ace9e4d4b9703cfc4fd9d377b
+17/11/2018 01:00:13 PagSeguro.Session[info]: Begin
+17/11/2018 01:00:13 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+17/11/2018 01:00:13 PagSeguro.Session[info]: Session ID: 0e47eeb4daa7472cab4c5a3703ac593f
+17/11/2018 01:03:38 PagSeguro.Session[info]: Begin
+17/11/2018 01:03:38 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+17/11/2018 01:03:39 PagSeguro.Session[info]: Session ID: 8d052a7229d644dea9825620d1e3f757
+17/11/2018 01:34:46 PagSeguro.Session[info]: Begin
+17/11/2018 01:34:46 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+17/11/2018 01:34:48 PagSeguro.Session[info]: Session ID: 0fb1ecb2356d4f9cbce898976c75257f
+17/11/2018 01:35:56 PagSeguro.Session[info]: Begin
+17/11/2018 01:35:56 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+17/11/2018 01:35:57 PagSeguro.Session[info]: Session ID: 326fa344666b4de98a34d71f177e7518
+17/11/2018 23:14:06 PagSeguro.Session[info]: Begin
+17/11/2018 23:14:06 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+17/11/2018 23:14:06 PagSeguro.Session[error]: CURL can't connect: Could not resolve host: ws.sandbox.pagseguro.uol.com.br
+17/11/2018 23:22:17 PagSeguro.Session[info]: Begin
+17/11/2018 23:22:17 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+17/11/2018 23:22:19 PagSeguro.Session[info]: Session ID: a847c716e30e4ab1b56cfda1268b7edc
+17/11/2018 23:22:39 PagSeguro.Session[info]: Begin
+17/11/2018 23:22:39 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+17/11/2018 23:22:40 PagSeguro.Session[info]: Session ID: 07231c4d6ac34317959fcaa2a3d3c86b
+17/11/2018 23:23:31 PagSeguro.Session[info]: Begin
+17/11/2018 23:23:31 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+17/11/2018 23:23:31 PagSeguro.Session[info]: Session ID: efd5ea51e0a944d39caa29e24cf5c121
+18/11/2018 01:09:08 PagSeguro.Session[info]: Begin
+18/11/2018 01:09:08 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+18/11/2018 01:09:09 PagSeguro.Session[info]: Session ID: 2355ca3df73346178c8bf6e7817d2000
+18/11/2018 01:10:33 PagSeguro.Session[info]: Begin
+18/11/2018 01:10:33 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+18/11/2018 01:10:36 PagSeguro.Session[info]: Session ID: 9f0f00b1d9324078a5a29f017e5b9a98
+18/11/2018 01:13:41 PagSeguro.Session[info]: Begin
+18/11/2018 01:13:42 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+18/11/2018 01:13:42 PagSeguro.Session[info]: Session ID: 448fa1863f854ec88810717c9c07f053
+18/11/2018 01:25:56 PagSeguro.Session[info]: Begin
+18/11/2018 01:25:56 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+18/11/2018 01:25:57 PagSeguro.Session[info]: Session ID: 803d3b1d3d2f47d3b60a38956c1289e9
+18/11/2018 01:31:22 PagSeguro.Session[info]: Begin
+18/11/2018 01:31:22 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+18/11/2018 01:31:23 PagSeguro.Session[info]: Session ID: 3b61f38dbd664e21bc0a2be97550dfa1
+18/11/2018 01:32:11 PagSeguro.Session[info]: Begin
+18/11/2018 01:32:11 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+18/11/2018 01:32:14 PagSeguro.Session[info]: Session ID: beadffc796b04809aff495bf8d6bb1fc
+18/11/2018 01:33:22 PagSeguro.Session[info]: Begin
+18/11/2018 01:33:23 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+18/11/2018 01:33:24 PagSeguro.Session[info]: Session ID: 0231bce9515142e78e6f2653fca744a9
+18/11/2018 01:46:32 PagSeguro.Session[info]: Begin
+18/11/2018 01:46:32 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+18/11/2018 01:46:32 PagSeguro.Session[error]: CURL can't connect: Could not resolve host: ws.sandbox.pagseguro.uol.com.br
+18/11/2018 01:46:43 PagSeguro.Session[info]: Begin
+18/11/2018 01:46:43 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+18/11/2018 01:46:43 PagSeguro.Session[error]: CURL can't connect: Could not resolve host: ws.sandbox.pagseguro.uol.com.br
+18/11/2018 01:46:46 PagSeguro.Session[info]: Begin
+18/11/2018 01:46:46 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+18/11/2018 01:46:46 PagSeguro.Session[error]: CURL can't connect: Could not resolve host: ws.sandbox.pagseguro.uol.com.br
+18/11/2018 10:34:14 PagSeguro.Session[info]: Begin
+18/11/2018 10:34:14 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+18/11/2018 10:34:16 PagSeguro.Session[info]: Session ID: c81dc61620784a45a613a700f4fdeb8d
+18/11/2018 10:36:22 PagSeguro.Session[info]: Begin
+18/11/2018 10:36:22 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+18/11/2018 10:36:23 PagSeguro.Session[info]: Session ID: c1bbeea4498a443b94d01c45e88dd206
+18/11/2018 10:54:11 PagSeguro.Session[info]: Begin
+18/11/2018 10:54:11 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+18/11/2018 10:54:12 PagSeguro.Session[info]: Session ID: 0a11943f5aa14d12bc9056589f4090a1
+18/11/2018 10:55:57 PagSeguro.Session[info]: Begin
+18/11/2018 10:55:57 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+18/11/2018 10:55:57 PagSeguro.Session[info]: Session ID: 772b58bb7a0c42f0987907672d2b4b4a
+18/11/2018 11:03:26 PagSeguro.Session[info]: Begin
+18/11/2018 11:03:26 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+18/11/2018 11:03:27 PagSeguro.Session[info]: Session ID: 8a092ce75c6547ab853b5a3ae97ab4b9
+18/11/2018 11:04:42 PagSeguro.Session[info]: Begin
+18/11/2018 11:04:42 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+18/11/2018 11:04:43 PagSeguro.Session[info]: Session ID: c7696b8a6a764a0783c63459ee3e416b
+18/11/2018 11:09:03 PagSeguro.Session[info]: Begin
+18/11/2018 11:09:03 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+18/11/2018 11:09:05 PagSeguro.Session[info]: Session ID: 90c39670167e4608b42510a81d8eda94
+18/11/2018 11:12:53 PagSeguro.Session[info]: Begin
+18/11/2018 11:12:53 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+18/11/2018 11:12:54 PagSeguro.Session[info]: Session ID: 0a5f0393c87b4a518d7a55229c4cb799
+18/11/2018 11:13:51 PagSeguro.Session[info]: Begin
+18/11/2018 11:13:51 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+18/11/2018 11:13:52 PagSeguro.Session[info]: Session ID: 10050d10a56a40379c4422b7d8567156
+18/11/2018 11:14:46 PagSeguro.Session[info]: Begin
+18/11/2018 11:14:46 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+18/11/2018 11:14:47 PagSeguro.Session[info]: Session ID: 8eddc0b01c81408cbac63ea612fc3509
+18/11/2018 11:36:24 PagSeguro.Session[info]: Begin
+18/11/2018 11:36:24 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+18/11/2018 11:36:25 PagSeguro.Session[info]: Session ID: 6b55fdab1dd04f79bcad4e94ffc5f82c
+18/11/2018 11:36:34 PagSeguro.Session[info]: Begin
+18/11/2018 11:36:34 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+18/11/2018 11:36:35 PagSeguro.Session[info]: Session ID: fd53774121764254af18fc320f5ea440
+18/11/2018 11:37:41 PagSeguro.Session[info]: Begin
+18/11/2018 11:37:41 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+18/11/2018 11:37:42 PagSeguro.Session[info]: Session ID: 920bbe6cbd61407099d2504a7a4772c1
+18/11/2018 11:38:41 PagSeguro.Session[info]: Begin
+18/11/2018 11:38:41 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+18/11/2018 11:38:42 PagSeguro.Session[info]: Session ID: 776b153e6d0b4a70b60b75f73f77456a
+18/11/2018 16:40:58 PagSeguro.Session[info]: Begin
+18/11/2018 16:40:59 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+18/11/2018 16:41:00 PagSeguro.Session[info]: Session ID: 1cbd8d08c32e4388947c3198206c1af4
+18/11/2018 16:42:08 PagSeguro.Session[info]: Begin
+18/11/2018 16:42:08 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+18/11/2018 16:42:08 PagSeguro.Session[info]: Session ID: c8e5169ba706434abf3fd658225eded8
+18/11/2018 16:42:37 PagSeguro.Session[info]: Begin
+18/11/2018 16:42:37 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+18/11/2018 16:42:37 PagSeguro.Session[info]: Session ID: c02934edff364395b9b39ac39ad24bb0
+18/11/2018 16:49:55 PagSeguro.Session[info]: Begin
+18/11/2018 16:49:55 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+18/11/2018 16:49:58 PagSeguro.Session[info]: Session ID: 948f662fbdf74d72bdb800e9e44588bd
+18/11/2018 17:02:45 PagSeguro.Session[info]: Begin
+18/11/2018 17:02:45 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+18/11/2018 17:02:46 PagSeguro.Session[info]: Session ID: 97cdb36decaf434daef534bce115131b
+18/11/2018 17:03:39 PagSeguro.Session[info]: Begin
+18/11/2018 17:03:39 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+18/11/2018 17:03:40 PagSeguro.Session[info]: Session ID: 14bb76e229414ea1bf876f9260ed975e
+18/11/2018 17:04:50 PagSeguro.Session[info]: Begin
+18/11/2018 17:04:50 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+18/11/2018 17:04:51 PagSeguro.Session[info]: Session ID: 83a39dbd402f46f8aac6cf2bf17a39ae
+18/11/2018 17:06:28 PagSeguro.Session[info]: Begin
+18/11/2018 17:06:28 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+18/11/2018 17:06:28 PagSeguro.Session[info]: Session ID: 1045289da54847febdd7fec324aa3d52
+18/11/2018 17:07:08 PagSeguro.Session[info]: Begin
+18/11/2018 17:07:08 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+18/11/2018 17:07:09 PagSeguro.Session[info]: Session ID: 07efc8f0999c4c83b3167c453488e75d
+18/11/2018 17:08:23 PagSeguro.Session[info]: Begin
+18/11/2018 17:08:23 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+18/11/2018 17:08:24 PagSeguro.Session[info]: Session ID: 1477f66d91e647f98faac0aa06ce33eb
+18/11/2018 17:09:03 PagSeguro.Session[info]: Begin
+18/11/2018 17:09:03 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+18/11/2018 17:09:04 PagSeguro.Session[info]: Session ID: 9a432973a0bc4936b0a491657b80eea8
+18/11/2018 17:09:13 PagSeguro.Session[info]: Begin
+18/11/2018 17:09:13 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+18/11/2018 17:09:14 PagSeguro.Session[info]: Session ID: b4214b058f7f4abaa767c8a8120f6b60
+18/11/2018 17:09:24 PagSeguro.Session[info]: Begin
+18/11/2018 17:09:24 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+18/11/2018 17:09:25 PagSeguro.Session[info]: Session ID: cf4bc66702374ace83abea6f015ebe12
+18/11/2018 17:10:27 PagSeguro.Session[info]: Begin
+18/11/2018 17:10:27 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+18/11/2018 17:10:27 PagSeguro.Session[info]: Session ID: 3ebd8abff7b34bb5a77a78cdbb262250
+18/11/2018 17:10:59 PagSeguro.Session[info]: Begin
+18/11/2018 17:10:59 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+18/11/2018 17:11:00 PagSeguro.Session[info]: Session ID: ae9557b78b8045f0a37ac6c38250b509
+18/11/2018 17:11:55 PagSeguro.Session[info]: Begin
+18/11/2018 17:11:55 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+18/11/2018 17:11:56 PagSeguro.Session[info]: Session ID: 497502c4c02042a9aa773e14164db3b2
+18/11/2018 17:13:08 PagSeguro.Session[info]: Begin
+18/11/2018 17:13:08 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+18/11/2018 17:13:09 PagSeguro.Session[info]: Session ID: a7a9372f90ca4edb999f617a7d801f6e
+18/11/2018 17:19:43 PagSeguro.Session[info]: Begin
+18/11/2018 17:19:43 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+18/11/2018 17:19:44 PagSeguro.Session[info]: Session ID: 06b5136321774696a7129490d914b1b8
+18/11/2018 17:20:47 PagSeguro.DirectPayment.CreditCard[info]: Begin
+18/11/2018 17:20:47 PagSeguro.DirectPayment.CreditCard[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/transactions/?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+18/11/2018 17:20:47 PagSeguro.Checkout[info]: Params: {"reference":"11","notificationURL":"http:\/\/localhost\/secatre1.0\/psckttransparente\/notification","billingAddressStreet":"Rua Vig\u00e1rio Calixto","billingAddressNumber":"1400","billingAddressComplement":"","billingAddressCity":"Campina Grande","billingAddressState":"PB","billingAddressDistrict":"Catol\u00e9","billingAddressPostalCode":"58410340","billingAddressCountry":"BRA","currency":"BRL","creditCardHolderName":"Bonieky Lacerda Leal","creditCardHolderCPF":"05347965401","installmentQuantity":"1","installmentValue":"100.00","itemId1":7,"itemDescription1":"HTML","itemQuantity1":1,"itemAmount1":"100.00","paymentMethod":"creditCard","paymentMode":"DEFAULT","receiverEmail":"weltonvcardoso@gmail.com","senderName":"Bonieky Lacerda Leal","senderEmail":"c75128610136929672058@sandbox.pagseguro.com.br","senderAreaCode":"83","senderPhone":"(**) 9999-****","senderCPF":"053.***.***-**","senderIp":"127.0.0.1","senderHash":"8c267e288be9cba141de2a1b1b8adc8d010853bf781ec9ac1aa0389776c72fec","shippingCost":"0.00","shippingAddressStreet":"Rua Vig\u00e1rio Calixto","shippingAddressNumber":"1400","shippingAddressComplement":"","shippingAddressCity":"Campina Grande","shippingAddressState":"PB","shippingAddressDistrict":"Catol\u00e9","shippingAddressPostalCode":"58410340","shippingAddressCountry":"BRA","creditCardToken":"cbddfca6cc50415da1a624c40f0e3a12"}
+18/11/2018 17:20:50 PagSeguro.DirectPayment.CreditCard[info]: Credit Card Payment Code: 8EDF4D55-D880-4F7D-ACAE-1EB3B8E4B3E1
+18/11/2018 17:20:50 PagSeguro.DirectPayment.CreditCard[info]: Begin
+18/11/2018 17:20:50 PagSeguro.DirectPayment.CreditCard[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/transactions/?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+18/11/2018 17:20:50 PagSeguro.Checkout[info]: Params: {"reference":"12","notificationURL":"http:\/\/localhost\/secatre1.0\/psckttransparente\/notification","billingAddressStreet":"Rua Vig\u00e1rio Calixto","billingAddressNumber":"1400","billingAddressComplement":"","billingAddressCity":"Campina Grande","billingAddressState":"PB","billingAddressDistrict":"Catol\u00e9","billingAddressPostalCode":"58410340","billingAddressCountry":"BRA","currency":"BRL","creditCardHolderName":"Bonieky Lacerda Leal","creditCardHolderCPF":"05347965401","installmentQuantity":"1","installmentValue":"100.00","itemId1":7,"itemDescription1":"HTML","itemQuantity1":1,"itemAmount1":"100.00","paymentMethod":"creditCard","paymentMode":"DEFAULT","receiverEmail":"weltonvcardoso@gmail.com","senderName":"Bonieky Lacerda Leal","senderEmail":"c75128610136929672058@sandbox.pagseguro.com.br","senderAreaCode":"83","senderPhone":"(**) 9999-****","senderCPF":"053.***.***-**","senderIp":"127.0.0.1","senderHash":"8c267e288be9cba141de2a1b1b8adc8d010853bf781ec9ac1aa0389776c72fec","shippingCost":"0.00","shippingAddressStreet":"Rua Vig\u00e1rio Calixto","shippingAddressNumber":"1400","shippingAddressComplement":"","shippingAddressCity":"Campina Grande","shippingAddressState":"PB","shippingAddressDistrict":"Catol\u00e9","shippingAddressPostalCode":"58410340","shippingAddressCountry":"BRA","creditCardToken":"232539b7eecc47e7b736aabbd69fe54c"}
+18/11/2018 17:20:55 PagSeguro.DirectPayment.CreditCard[info]: Credit Card Payment Code: A97F60D7-5790-40A7-82CA-39892810D1A6
+18/11/2018 17:36:17 PagSeguro.Session[info]: Begin
+18/11/2018 17:36:17 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+18/11/2018 17:36:18 PagSeguro.Session[info]: Session ID: cfcf56078f8148ebad04f31e06d4bd24
+18/11/2018 17:36:51 PagSeguro.DirectPayment.CreditCard[info]: Begin
+18/11/2018 17:36:51 PagSeguro.DirectPayment.CreditCard[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/transactions/?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+18/11/2018 17:36:51 PagSeguro.Checkout[info]: Params: {"reference":"13","notificationURL":"http:\/\/localhost\/secatre1.0\/psckttransparente\/notification","billingAddressStreet":"Rua Vig\u00e1rio Calixto","billingAddressNumber":"1400","billingAddressComplement":"","billingAddressCity":"Campina Grande","billingAddressState":"PB","billingAddressDistrict":"Catol\u00e9","billingAddressPostalCode":"58410340","billingAddressCountry":"BRA","currency":"BRL","creditCardHolderName":"Bonieky Lacerda Leal","creditCardHolderCPF":"05347965401","installmentQuantity":"1","installmentValue":"100.00","itemId1":7,"itemDescription1":"HTML","itemQuantity1":1,"itemAmount1":"100.00","paymentMethod":"creditCard","paymentMode":"DEFAULT","receiverEmail":"weltonvcardoso@gmail.com","senderName":"Bonieky Lacerda Leal","senderEmail":"c75128610136929672058@sandbox.pagseguro.com.br","senderAreaCode":"83","senderPhone":"(**) 9999-****","senderCPF":"053.***.***-**","senderIp":"127.0.0.1","senderHash":"ad13bfdc42cdfb6bfe078e1be059e6da2b5e7e9f44d51231c3ab98f2e537358f","shippingCost":"0.00","shippingAddressStreet":"Rua Vig\u00e1rio Calixto","shippingAddressNumber":"1400","shippingAddressComplement":"","shippingAddressCity":"Campina Grande","shippingAddressState":"PB","shippingAddressDistrict":"Catol\u00e9","shippingAddressPostalCode":"58410340","shippingAddressCountry":"BRA","creditCardToken":"9a8b4e29f6084f79b8d9d21ab0a33990"}
+18/11/2018 17:36:53 PagSeguro.DirectPayment.CreditCard[info]: Credit Card Payment Code: 88DB8B68-A678-45A0-8BD8-3F647F36C238
+18/11/2018 17:36:53 PagSeguro.DirectPayment.CreditCard[info]: Begin
+18/11/2018 17:36:53 PagSeguro.DirectPayment.CreditCard[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/transactions/?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+18/11/2018 17:36:53 PagSeguro.Checkout[info]: Params: {"reference":"14","notificationURL":"http:\/\/localhost\/secatre1.0\/psckttransparente\/notification","billingAddressStreet":"Rua Vig\u00e1rio Calixto","billingAddressNumber":"1400","billingAddressComplement":"","billingAddressCity":"Campina Grande","billingAddressState":"PB","billingAddressDistrict":"Catol\u00e9","billingAddressPostalCode":"58410340","billingAddressCountry":"BRA","currency":"BRL","creditCardHolderName":"Bonieky Lacerda Leal","creditCardHolderCPF":"05347965401","installmentQuantity":"1","installmentValue":"100.00","itemId1":7,"itemDescription1":"HTML","itemQuantity1":1,"itemAmount1":"100.00","paymentMethod":"creditCard","paymentMode":"DEFAULT","receiverEmail":"weltonvcardoso@gmail.com","senderName":"Bonieky Lacerda Leal","senderEmail":"c75128610136929672058@sandbox.pagseguro.com.br","senderAreaCode":"83","senderPhone":"(**) 9999-****","senderCPF":"053.***.***-**","senderIp":"127.0.0.1","senderHash":"ad13bfdc42cdfb6bfe078e1be059e6da2b5e7e9f44d51231c3ab98f2e537358f","shippingCost":"0.00","shippingAddressStreet":"Rua Vig\u00e1rio Calixto","shippingAddressNumber":"1400","shippingAddressComplement":"","shippingAddressCity":"Campina Grande","shippingAddressState":"PB","shippingAddressDistrict":"Catol\u00e9","shippingAddressPostalCode":"58410340","shippingAddressCountry":"BRA","creditCardToken":"04c135e3bb964b3eaecb4bbe1bf39cd8"}
+18/11/2018 17:36:56 PagSeguro.DirectPayment.CreditCard[info]: Credit Card Payment Code: 16F455FC-A465-4110-9859-A785C7BF215C
+18/11/2018 17:41:41 PagSeguro.Session[info]: Begin
+18/11/2018 17:41:41 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+18/11/2018 17:41:42 PagSeguro.Session[info]: Session ID: 5a5b5f4af3d749f2b26e1686d2bf5d0a
+18/11/2018 17:42:36 PagSeguro.DirectPayment.CreditCard[info]: Begin
+18/11/2018 17:42:36 PagSeguro.DirectPayment.CreditCard[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/transactions/?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+18/11/2018 17:42:36 PagSeguro.Checkout[info]: Params: {"reference":"15","notificationURL":"http:\/\/localhost\/secatre1.0\/psckttransparente\/notification","billingAddressStreet":"Rua Vig\u00e1rio Calixto","billingAddressNumber":"1400","billingAddressComplement":"","billingAddressCity":"Campina Grande","billingAddressState":"PB","billingAddressDistrict":"Catol\u00e9","billingAddressPostalCode":"58410340","billingAddressCountry":"BRA","currency":"BRL","creditCardHolderName":"Bonieky Lacerda Leal","creditCardHolderCPF":"05347965401","installmentQuantity":"1","installmentValue":"100.00","itemId1":7,"itemDescription1":"HTML","itemQuantity1":1,"itemAmount1":"100.00","paymentMethod":"creditCard","paymentMode":"DEFAULT","receiverEmail":"weltonvcardoso@gmail.com","senderName":"Bonieky Lacerda Leal","senderEmail":"c75128610136929672058@sandbox.pagseguro.com.br","senderAreaCode":"83","senderPhone":"(**) 9999-****","senderCPF":"053.***.***-**","senderIp":"127.0.0.1","senderHash":"d74d3552642bbe3b67b275b554a2afd54859a9ee4b386e254d11dd385bb66f77","shippingCost":"0.00","shippingAddressStreet":"Rua Vig\u00e1rio Calixto","shippingAddressNumber":"1400","shippingAddressComplement":"","shippingAddressCity":"Campina Grande","shippingAddressState":"PB","shippingAddressDistrict":"Catol\u00e9","shippingAddressPostalCode":"58410340","shippingAddressCountry":"BRA","creditCardToken":"1bcf53a82a7f4110bf2b0b46b52279b7"}
+18/11/2018 17:42:38 PagSeguro.DirectPayment.CreditCard[info]: Credit Card Payment Code: C5E9DF8B-9733-43A1-BD1C-E4331C68F020
+18/11/2018 17:42:39 PagSeguro.DirectPayment.CreditCard[info]: Begin
+18/11/2018 17:42:39 PagSeguro.DirectPayment.CreditCard[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/transactions/?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+18/11/2018 17:42:39 PagSeguro.Checkout[info]: Params: {"reference":"16","notificationURL":"http:\/\/localhost\/secatre1.0\/psckttransparente\/notification","billingAddressStreet":"Rua Vig\u00e1rio Calixto","billingAddressNumber":"1400","billingAddressComplement":"","billingAddressCity":"Campina Grande","billingAddressState":"PB","billingAddressDistrict":"Catol\u00e9","billingAddressPostalCode":"58410340","billingAddressCountry":"BRA","currency":"BRL","creditCardHolderName":"Bonieky Lacerda Leal","creditCardHolderCPF":"05347965401","installmentQuantity":"1","installmentValue":"100.00","itemId1":7,"itemDescription1":"HTML","itemQuantity1":1,"itemAmount1":"100.00","paymentMethod":"creditCard","paymentMode":"DEFAULT","receiverEmail":"weltonvcardoso@gmail.com","senderName":"Bonieky Lacerda Leal","senderEmail":"c75128610136929672058@sandbox.pagseguro.com.br","senderAreaCode":"83","senderPhone":"(**) 9999-****","senderCPF":"053.***.***-**","senderIp":"127.0.0.1","senderHash":"d74d3552642bbe3b67b275b554a2afd54859a9ee4b386e254d11dd385bb66f77","shippingCost":"0.00","shippingAddressStreet":"Rua Vig\u00e1rio Calixto","shippingAddressNumber":"1400","shippingAddressComplement":"","shippingAddressCity":"Campina Grande","shippingAddressState":"PB","shippingAddressDistrict":"Catol\u00e9","shippingAddressPostalCode":"58410340","shippingAddressCountry":"BRA","creditCardToken":"812f4f3006f14a28a1f34de5b82c3f6b"}
+18/11/2018 17:42:44 PagSeguro.DirectPayment.CreditCard[info]: Credit Card Payment Code: E112645F-5DC2-4D87-9A99-933E4D927447
+18/11/2018 17:44:19 PagSeguro.Session[info]: Begin
+18/11/2018 17:44:19 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+18/11/2018 17:44:20 PagSeguro.Session[info]: Session ID: 1cbbd0db08cd408a99ba50fe04aeddfb
+18/11/2018 17:47:10 PagSeguro.DirectPayment.CreditCard[info]: Begin
+18/11/2018 17:47:10 PagSeguro.DirectPayment.CreditCard[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/transactions/?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+18/11/2018 17:47:10 PagSeguro.Checkout[info]: Params: {"reference":"17","notificationURL":"http:\/\/localhost\/secatre1.0\/psckttransparente\/notification","billingAddressStreet":"","billingAddressNumber":"","billingAddressComplement":"","billingAddressCity":"","billingAddressState":"","billingAddressDistrict":"","billingAddressPostalCode":"","billingAddressCountry":"BRA","currency":"BRL","creditCardHolderName":"","creditCardHolderCPF":"","installmentQuantity":"","itemId1":7,"itemDescription1":"HTML","itemQuantity1":1,"itemAmount1":"100.00","paymentMethod":"creditCard","paymentMode":"DEFAULT","receiverEmail":"weltonvcardoso@gmail.com","senderName":"","senderEmail":"","senderAreaCode":false,"senderPhone":false,"senderCPF":false,"senderIp":"127.0.0.1","senderHash":"","shippingCost":"0.00","shippingAddressStreet":"","shippingAddressNumber":"","shippingAddressComplement":"","shippingAddressCity":"","shippingAddressState":"","shippingAddressDistrict":"","shippingAddressPostalCode":"","shippingAddressCountry":"BRA","creditCardToken":""}
+18/11/2018 17:47:12 PagSeguro.DirectPayment.CreditCard[error]: <?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?><errors><error><code>53118</code><message>sender cpf or sender cnpj is required.</message></error><error><code>53010</code><message>sender email is required.</message></error><error><code>53013</code><message>sender name is required.</message></error><error><code>53021</code><message>sender phone invalid value: 0</message></error><error><code>53019</code><message>sender area code invalid value: 0</message></error><error><code>53024</code><message>shipping address street is required.</message></error><error><code>53026</code><message>shipping address number is required.</message></error><error><code>53029</code><message>shipping address district is required.</message></error><error><code>53033</code><message>shipping address state is required.</message></error><error><code>53022</code><message>shipping address postal code is required.</message></error><error><code>53031</code><message>shipping address city is required.</message></error><error><code>53037</code><message>credit card token is required.</message></error><error><code>53040</code><message>installment value is required.</message></error><error><code>53055</code><message>billing address street is required.</message></error><error><code>53062</code><message>billing address city is required.</message></error><error><code>53064</code><message>billing address state is required.</message></error><error><code>53053</code><message>billing address postal code is required.</message></error><error><code>53042</code><message>credit card holder name is required.</message></error><error><code>53057</code><message>billing address number is required.</message></error><error><code>53060</code><message>billing address district is required.</message></error><error><code>53038</code><message>installment quantity is required.</message></error><error><code>53045</code><message>credit card holder cpf is required.</message></error></errors>
+18/11/2018 17:47:50 PagSeguro.Session[info]: Begin
+18/11/2018 17:47:50 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+18/11/2018 17:47:51 PagSeguro.Session[info]: Session ID: bb8947d8d2214d65ad237249cd30a51f
+18/11/2018 17:48:42 PagSeguro.DirectPayment.CreditCard[info]: Begin
+18/11/2018 17:48:42 PagSeguro.DirectPayment.CreditCard[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/transactions/?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+18/11/2018 17:48:42 PagSeguro.Checkout[info]: Params: {"reference":"18","notificationURL":"http:\/\/localhost\/secatre1.0\/psckttransparente\/notification","billingAddressStreet":"Rua Vig\u00e1rio Calixto","billingAddressNumber":"1400","billingAddressComplement":"","billingAddressCity":"Campina Grande","billingAddressState":"PB","billingAddressDistrict":"Catol\u00e9","billingAddressPostalCode":"58410340","billingAddressCountry":"BRA","currency":"BRL","creditCardHolderName":"Bonieky Lacerda Leal","creditCardHolderCPF":"05347965401","installmentQuantity":"2","installmentValue":"52.26","itemId1":7,"itemDescription1":"HTML","itemQuantity1":1,"itemAmount1":"100.00","paymentMethod":"creditCard","paymentMode":"DEFAULT","receiverEmail":"weltonvcardoso@gmail.com","senderName":"Bonieky Lacerda Leal","senderEmail":"c75128610136929672058@sandbox.pagseguro.com.br","senderAreaCode":"83","senderPhone":"(**) 9999-****","senderCPF":"053.***.***-**","senderIp":"127.0.0.1","senderHash":"9678541f30b7f81baebef7c818d0c85aea9dc329f53ba667db892412f78752b9","shippingCost":"0.00","shippingAddressStreet":"Rua Vig\u00e1rio Calixto","shippingAddressNumber":"1400","shippingAddressComplement":"","shippingAddressCity":"Campina Grande","shippingAddressState":"PB","shippingAddressDistrict":"Catol\u00e9","shippingAddressPostalCode":"58410340","shippingAddressCountry":"BRA","creditCardToken":"396df137e3ce4257a070b5df1b33ba24"}
+18/11/2018 17:48:45 PagSeguro.DirectPayment.CreditCard[info]: Credit Card Payment Code: BA606A27-F2FB-49B7-9118-D75596ED5847
+18/11/2018 17:48:45 PagSeguro.DirectPayment.CreditCard[info]: Begin
+18/11/2018 17:48:45 PagSeguro.DirectPayment.CreditCard[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/transactions/?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+18/11/2018 17:48:45 PagSeguro.Checkout[info]: Params: {"reference":"19","notificationURL":"http:\/\/localhost\/secatre1.0\/psckttransparente\/notification","billingAddressStreet":"Rua Vig\u00e1rio Calixto","billingAddressNumber":"1400","billingAddressComplement":"","billingAddressCity":"Campina Grande","billingAddressState":"PB","billingAddressDistrict":"Catol\u00e9","billingAddressPostalCode":"58410340","billingAddressCountry":"BRA","currency":"BRL","creditCardHolderName":"Bonieky Lacerda Leal","creditCardHolderCPF":"05347965401","installmentQuantity":"2","installmentValue":"52.26","itemId1":7,"itemDescription1":"HTML","itemQuantity1":1,"itemAmount1":"100.00","paymentMethod":"creditCard","paymentMode":"DEFAULT","receiverEmail":"weltonvcardoso@gmail.com","senderName":"Bonieky Lacerda Leal","senderEmail":"c75128610136929672058@sandbox.pagseguro.com.br","senderAreaCode":"83","senderPhone":"(**) 9999-****","senderCPF":"053.***.***-**","senderIp":"127.0.0.1","senderHash":"9678541f30b7f81baebef7c818d0c85aea9dc329f53ba667db892412f78752b9","shippingCost":"0.00","shippingAddressStreet":"Rua Vig\u00e1rio Calixto","shippingAddressNumber":"1400","shippingAddressComplement":"","shippingAddressCity":"Campina Grande","shippingAddressState":"PB","shippingAddressDistrict":"Catol\u00e9","shippingAddressPostalCode":"58410340","shippingAddressCountry":"BRA","creditCardToken":"118d2ebf5940493e8940e4590f586f53"}
+18/11/2018 17:48:47 PagSeguro.DirectPayment.CreditCard[info]: Credit Card Payment Code: D7A7BE33-A5A1-469F-919C-948C2E1D2E39
+18/11/2018 17:48:55 PagSeguro.DirectPayment.CreditCard[info]: Begin
+18/11/2018 17:48:55 PagSeguro.DirectPayment.CreditCard[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/transactions/?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+18/11/2018 17:48:55 PagSeguro.Checkout[info]: Params: {"reference":"20","notificationURL":"http:\/\/localhost\/secatre1.0\/psckttransparente\/notification","billingAddressStreet":"","billingAddressNumber":"","billingAddressComplement":"","billingAddressCity":"","billingAddressState":"","billingAddressDistrict":"","billingAddressPostalCode":"","billingAddressCountry":"BRA","currency":"BRL","creditCardHolderName":"","creditCardHolderCPF":"","installmentQuantity":"","itemId1":7,"itemDescription1":"HTML","itemQuantity1":1,"itemAmount1":"100.00","paymentMethod":"creditCard","paymentMode":"DEFAULT","receiverEmail":"weltonvcardoso@gmail.com","senderName":"","senderEmail":"","senderAreaCode":false,"senderPhone":false,"senderCPF":false,"senderIp":"127.0.0.1","senderHash":"","shippingCost":"0.00","shippingAddressStreet":"","shippingAddressNumber":"","shippingAddressComplement":"","shippingAddressCity":"","shippingAddressState":"","shippingAddressDistrict":"","shippingAddressPostalCode":"","shippingAddressCountry":"BRA","creditCardToken":""}
+18/11/2018 17:48:56 PagSeguro.DirectPayment.CreditCard[error]: <?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?><errors><error><code>53118</code><message>sender cpf or sender cnpj is required.</message></error><error><code>53010</code><message>sender email is required.</message></error><error><code>53013</code><message>sender name is required.</message></error><error><code>53021</code><message>sender phone invalid value: 0</message></error><error><code>53019</code><message>sender area code invalid value: 0</message></error><error><code>53029</code><message>shipping address district is required.</message></error><error><code>53033</code><message>shipping address state is required.</message></error><error><code>53031</code><message>shipping address city is required.</message></error><error><code>53026</code><message>shipping address number is required.</message></error><error><code>53024</code><message>shipping address street is required.</message></error><error><code>53022</code><message>shipping address postal code is required.</message></error><error><code>53037</code><message>credit card token is required.</message></error><error><code>53040</code><message>installment value is required.</message></error><error><code>53042</code><message>credit card holder name is required.</message></error><error><code>53062</code><message>billing address city is required.</message></error><error><code>53064</code><message>billing address state is required.</message></error><error><code>53053</code><message>billing address postal code is required.</message></error><error><code>53060</code><message>billing address district is required.</message></error><error><code>53055</code><message>billing address street is required.</message></error><error><code>53057</code><message>billing address number is required.</message></error><error><code>53045</code><message>credit card holder cpf is required.</message></error><error><code>53038</code><message>installment quantity is required.</message></error></errors>
+18/11/2018 18:01:13 PagSeguro.Session[info]: Begin
+18/11/2018 18:01:13 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+18/11/2018 18:01:14 PagSeguro.Session[info]: Session ID: f80b7449424e494cb0f955fd432fa276
+18/11/2018 18:02:22 PagSeguro.DirectPayment.CreditCard[info]: Begin
+18/11/2018 18:02:22 PagSeguro.DirectPayment.CreditCard[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/transactions/?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+18/11/2018 18:02:22 PagSeguro.Checkout[info]: Params: {"reference":"21","notificationURL":"http:\/\/localhost\/secatre1.0\/psckttransparente\/notification","billingAddressStreet":"Rua Vig\u00e1rio Calixto","billingAddressNumber":"1400","billingAddressComplement":"","billingAddressCity":"Campina Grande","billingAddressState":"PB","billingAddressDistrict":"Catol\u00e9","billingAddressPostalCode":"58410340","billingAddressCountry":"BRA","currency":"BRL","creditCardHolderName":"Bonieky Lacerda Leal","creditCardHolderCPF":"05347965401","installmentQuantity":"3","installmentValue":"35.35","itemId1":7,"itemDescription1":"HTML","itemQuantity1":1,"itemAmount1":"100.00","paymentMethod":"creditCard","paymentMode":"DEFAULT","receiverEmail":"weltonvcardoso@gmail.com","senderName":"Bonieky Lacerda Leal","senderEmail":"c75128610136929672058@sandbox.pagseguro.com.br","senderAreaCode":"83","senderPhone":"(**) 9999-****","senderCPF":"053.***.***-**","senderIp":"127.0.0.1","senderHash":"38ef2d0eb4600f3a3799b4ffd2536e351d0b396b67f30cd9affe625ec85df914","creditCardToken":"d4cfd4f9ee0341ca98624bcc17aa6c33"}
+18/11/2018 18:02:23 PagSeguro.DirectPayment.CreditCard[error]: <?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?><errors><error><code>53033</code><message>shipping address state is required.</message></error><error><code>53026</code><message>shipping address number is required.</message></error><error><code>53029</code><message>shipping address district is required.</message></error><error><code>53031</code><message>shipping address city is required.</message></error><error><code>53024</code><message>shipping address street is required.</message></error><error><code>53022</code><message>shipping address postal code is required.</message></error><error><code>53035</code><message>shipping address country is required.</message></error></errors>
+18/11/2018 18:02:23 PagSeguro.DirectPayment.CreditCard[info]: Begin
+18/11/2018 18:02:23 PagSeguro.DirectPayment.CreditCard[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/transactions/?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+18/11/2018 18:02:23 PagSeguro.Checkout[info]: Params: {"reference":"22","notificationURL":"http:\/\/localhost\/secatre1.0\/psckttransparente\/notification","billingAddressStreet":"Rua Vig\u00e1rio Calixto","billingAddressNumber":"1400","billingAddressComplement":"","billingAddressCity":"Campina Grande","billingAddressState":"PB","billingAddressDistrict":"Catol\u00e9","billingAddressPostalCode":"58410340","billingAddressCountry":"BRA","currency":"BRL","creditCardHolderName":"Bonieky Lacerda Leal","creditCardHolderCPF":"05347965401","installmentQuantity":"3","installmentValue":"35.35","itemId1":7,"itemDescription1":"HTML","itemQuantity1":1,"itemAmount1":"100.00","paymentMethod":"creditCard","paymentMode":"DEFAULT","receiverEmail":"weltonvcardoso@gmail.com","senderName":"Bonieky Lacerda Leal","senderEmail":"c75128610136929672058@sandbox.pagseguro.com.br","senderAreaCode":"83","senderPhone":"(**) 9999-****","senderCPF":"053.***.***-**","senderIp":"127.0.0.1","senderHash":"38ef2d0eb4600f3a3799b4ffd2536e351d0b396b67f30cd9affe625ec85df914","creditCardToken":"2135562f17c148feb12fb06257d2ce71"}
+18/11/2018 18:02:24 PagSeguro.DirectPayment.CreditCard[error]: <?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?><errors><error><code>53035</code><message>shipping address country is required.</message></error><error><code>53022</code><message>shipping address postal code is required.</message></error><error><code>53029</code><message>shipping address district is required.</message></error><error><code>53031</code><message>shipping address city is required.</message></error><error><code>53026</code><message>shipping address number is required.</message></error><error><code>53033</code><message>shipping address state is required.</message></error><error><code>53024</code><message>shipping address street is required.</message></error></errors>
+19/11/2018 14:10:31 PagSeguro.Session[info]: Begin
+19/11/2018 14:10:31 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+19/11/2018 14:10:33 PagSeguro.Session[info]: Session ID: df271d441591497299fb15b34337d989
+19/11/2018 14:10:54 PagSeguro.Session[info]: Begin
+19/11/2018 14:10:54 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+19/11/2018 14:10:55 PagSeguro.Session[info]: Session ID: 7cdd2a9659be4002a99119e85d17ce93
+19/11/2018 14:16:18 PagSeguro.Session[info]: Begin
+19/11/2018 14:16:18 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+19/11/2018 14:16:20 PagSeguro.Session[info]: Session ID: 6d7bb70fbce843438d3eb1f868e3250b
+19/11/2018 14:18:21 PagSeguro.Session[info]: Begin
+19/11/2018 14:18:21 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+19/11/2018 14:18:23 PagSeguro.Session[info]: Session ID: 3399d810951b43c8bdfbce5c909b6865
+19/11/2018 14:32:20 PagSeguro.Session[info]: Begin
+19/11/2018 14:32:20 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+19/11/2018 14:32:33 PagSeguro.Session[info]: Session ID: 46a75f0e9edc40ed9a79ce1e678e663d
+19/11/2018 14:32:39 PagSeguro.Session[info]: Begin
+19/11/2018 14:32:39 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+19/11/2018 14:32:40 PagSeguro.Session[info]: Session ID: 28b99dd0c47f401580b8e70905f68059
+19/11/2018 14:32:42 PagSeguro.Session[info]: Begin
+19/11/2018 14:32:42 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+19/11/2018 14:32:42 PagSeguro.Session[info]: Session ID: 42555db1424e40d5b45df6d163216f24
+19/11/2018 14:32:42 PagSeguro.Session[info]: Begin
+19/11/2018 14:32:42 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+19/11/2018 14:32:43 PagSeguro.Session[info]: Session ID: 73f11cbb73264b44ae250b5c9b217d39
+19/11/2018 14:32:43 PagSeguro.Session[info]: Begin
+19/11/2018 14:32:43 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+19/11/2018 14:32:44 PagSeguro.Session[info]: Session ID: f7dd8268e041445db32a13efb5c1c874
+19/11/2018 14:32:44 PagSeguro.Session[info]: Begin
+19/11/2018 14:32:44 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+19/11/2018 14:32:45 PagSeguro.Session[info]: Session ID: d6dd560221804fe5880f438abb3c7eed
+19/11/2018 14:32:45 PagSeguro.Session[info]: Begin
+19/11/2018 14:32:45 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+19/11/2018 14:32:46 PagSeguro.Session[info]: Session ID: 0c9999d47c9a42b5a7ba9aab18631784
+19/11/2018 14:43:30 PagSeguro.Session[info]: Begin
+19/11/2018 14:43:30 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+19/11/2018 14:43:31 PagSeguro.Session[info]: Session ID: 1ad5d97dbd6941059d78333f8a9493c5
+19/11/2018 15:08:28 PagSeguro.Session[info]: Begin
+19/11/2018 15:08:28 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+19/11/2018 15:08:29 PagSeguro.Session[info]: Session ID: 287db60a295e489aadc3021855bde065
+19/11/2018 15:08:42 PagSeguro.Session[info]: Begin
+19/11/2018 15:08:43 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+19/11/2018 15:08:43 PagSeguro.Session[info]: Session ID: f6cbe95e495b48c49d7063f9f6d69bd3
+19/11/2018 15:25:40 PagSeguro.Session[info]: Begin
+19/11/2018 15:25:40 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+19/11/2018 15:25:41 PagSeguro.Session[info]: Session ID: ffa957e76c6e400aa540cbb361595e43
+19/11/2018 15:26:33 PagSeguro.DirectPayment.CreditCard[info]: Begin
+19/11/2018 15:26:33 PagSeguro.DirectPayment.CreditCard[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/transactions/?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+19/11/2018 15:26:33 PagSeguro.Checkout[info]: Params: {"reference":"28","notificationURL":"http:\/\/localhost\/secatre1.0\/psckttransparente\/notification","billingAddressStreet":"Rua Vig\u00e1rio Calixto","billingAddressNumber":"1400","billingAddressComplement":"","billingAddressCity":"Campina Grande","billingAddressState":"PB","billingAddressDistrict":"Catol\u00e9","billingAddressPostalCode":"58410340","billingAddressCountry":"BRA","currency":"BRL","creditCardHolderName":"Bonieky Lacerda Leal","creditCardHolderCPF":"05347965401","installmentQuantity":"4","installmentValue":"26.90","itemId1":7,"itemDescription1":"HTML","itemQuantity1":1,"itemAmount1":"100.00","paymentMethod":"creditCard","paymentMode":"DEFAULT","receiverEmail":"weltonvcardoso@gmail.com","senderName":"Bonieky Lacerda Leal","senderEmail":"c75128610136929672058@sandbox.pagseguro.com.br","senderAreaCode":"83","senderPhone":"(**) 9999-****","senderCPF":"053.***.***-**","senderIp":"127.0.0.1","senderHash":"fedb713feea7c61ce8dbe802162fd667a55ba6fdbdf575396f7b5e39b773837c","creditCardToken":"46af15d6544347a8a13d7f71a185c13c"}
+19/11/2018 15:26:35 PagSeguro.DirectPayment.CreditCard[error]: <?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?><errors><error><code>53029</code><message>shipping address district is required.</message></error><error><code>53024</code><message>shipping address street is required.</message></error><error><code>53033</code><message>shipping address state is required.</message></error><error><code>53035</code><message>shipping address country is required.</message></error><error><code>53022</code><message>shipping address postal code is required.</message></error><error><code>53026</code><message>shipping address number is required.</message></error><error><code>53031</code><message>shipping address city is required.</message></error></errors>
+19/11/2018 15:26:35 PagSeguro.DirectPayment.CreditCard[info]: Begin
+19/11/2018 15:26:35 PagSeguro.DirectPayment.CreditCard[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/transactions/?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+19/11/2018 15:26:35 PagSeguro.Checkout[info]: Params: {"reference":"29","notificationURL":"http:\/\/localhost\/secatre1.0\/psckttransparente\/notification","billingAddressStreet":"Rua Vig\u00e1rio Calixto","billingAddressNumber":"1400","billingAddressComplement":"","billingAddressCity":"Campina Grande","billingAddressState":"PB","billingAddressDistrict":"Catol\u00e9","billingAddressPostalCode":"58410340","billingAddressCountry":"BRA","currency":"BRL","creditCardHolderName":"Bonieky Lacerda Leal","creditCardHolderCPF":"05347965401","installmentQuantity":"4","installmentValue":"26.90","itemId1":7,"itemDescription1":"HTML","itemQuantity1":1,"itemAmount1":"100.00","paymentMethod":"creditCard","paymentMode":"DEFAULT","receiverEmail":"weltonvcardoso@gmail.com","senderName":"Bonieky Lacerda Leal","senderEmail":"c75128610136929672058@sandbox.pagseguro.com.br","senderAreaCode":"83","senderPhone":"(**) 9999-****","senderCPF":"053.***.***-**","senderIp":"127.0.0.1","senderHash":"fedb713feea7c61ce8dbe802162fd667a55ba6fdbdf575396f7b5e39b773837c","creditCardToken":"d695f05b76bb4aacb83bf6d3d31b5d05"}
+19/11/2018 15:26:36 PagSeguro.DirectPayment.CreditCard[error]: <?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?><errors><error><code>53029</code><message>shipping address district is required.</message></error><error><code>53024</code><message>shipping address street is required.</message></error><error><code>53031</code><message>shipping address city is required.</message></error><error><code>53035</code><message>shipping address country is required.</message></error><error><code>53022</code><message>shipping address postal code is required.</message></error><error><code>53026</code><message>shipping address number is required.</message></error><error><code>53033</code><message>shipping address state is required.</message></error></errors>
+19/11/2018 20:59:16 PagSeguro.Session[info]: Begin
+19/11/2018 20:59:16 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+19/11/2018 20:59:18 PagSeguro.Session[info]: Session ID: 52a1bc44ad3446019acfa2ba919e13c2
+19/11/2018 21:00:08 PagSeguro.DirectPayment.CreditCard[info]: Begin
+19/11/2018 21:00:08 PagSeguro.DirectPayment.CreditCard[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/transactions/?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+19/11/2018 21:00:08 PagSeguro.Checkout[info]: Params: {"reference":"30","billingAddressStreet":"Rua Vig\u00e1rio Calixto","billingAddressNumber":"1400","billingAddressComplement":"","billingAddressCity":"Campina Grande","billingAddressState":"PB","billingAddressDistrict":"Catol\u00e9","billingAddressPostalCode":"58410340","billingAddressCountry":"BRA","currency":"BRL","creditCardHolderName":"Bonieky Lacerda Leal","creditCardHolderCPF":"05347965401","installmentQuantity":"6","installmentValue":"18.45","itemId1":7,"itemDescription1":"HTML","itemQuantity1":1,"itemAmount1":"100.00","paymentMethod":"creditCard","paymentMode":"DEFAULT","receiverEmail":"weltonvcardoso@gmail.com","senderName":"Bonieky Lacerda Leal","senderEmail":"c75128610136929672058@sandbox.pagseguro.com.br","senderAreaCode":"83","senderPhone":"(**) 9999-****","senderCPF":"053.***.***-**","senderIp":"127.0.0.1","senderHash":"6785a4d7b190f31e0a721b208821490b3ce08a989c5cb47a23ea1e437c6f9cd5","shippingAddressStreet":"Rua Vig\u00e1rio Calixto","shippingAddressNumber":"1400","shippingAddressComplement":"","shippingAddressCity":"Campina Grande","shippingAddressState":"PB","shippingAddressDistrict":"Catol\u00e9","shippingAddressPostalCode":"58410340","shippingAddressCountry":"BRA","creditCardToken":"d7d5a1661a024751921a4a4a7360d2f6"}
+19/11/2018 21:00:11 PagSeguro.DirectPayment.CreditCard[info]: Credit Card Payment Code: C19D2D4A-351A-415E-B782-88021FB131F1
+19/11/2018 21:00:12 PagSeguro.DirectPayment.CreditCard[info]: Begin
+19/11/2018 21:00:12 PagSeguro.DirectPayment.CreditCard[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/transactions/?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+19/11/2018 21:00:12 PagSeguro.Checkout[info]: Params: {"reference":"31","billingAddressStreet":"Rua Vig\u00e1rio Calixto","billingAddressNumber":"1400","billingAddressComplement":"","billingAddressCity":"Campina Grande","billingAddressState":"PB","billingAddressDistrict":"Catol\u00e9","billingAddressPostalCode":"58410340","billingAddressCountry":"BRA","currency":"BRL","creditCardHolderName":"Bonieky Lacerda Leal","creditCardHolderCPF":"05347965401","installmentQuantity":"6","installmentValue":"18.45","itemId1":7,"itemDescription1":"HTML","itemQuantity1":1,"itemAmount1":"100.00","paymentMethod":"creditCard","paymentMode":"DEFAULT","receiverEmail":"weltonvcardoso@gmail.com","senderName":"Bonieky Lacerda Leal","senderEmail":"c75128610136929672058@sandbox.pagseguro.com.br","senderAreaCode":"83","senderPhone":"(**) 9999-****","senderCPF":"053.***.***-**","senderIp":"127.0.0.1","senderHash":"6785a4d7b190f31e0a721b208821490b3ce08a989c5cb47a23ea1e437c6f9cd5","shippingAddressStreet":"Rua Vig\u00e1rio Calixto","shippingAddressNumber":"1400","shippingAddressComplement":"","shippingAddressCity":"Campina Grande","shippingAddressState":"PB","shippingAddressDistrict":"Catol\u00e9","shippingAddressPostalCode":"58410340","shippingAddressCountry":"BRA","creditCardToken":"7b25ed4ab35849f8822f9eef910473ac"}
+19/11/2018 21:00:14 PagSeguro.DirectPayment.CreditCard[info]: Credit Card Payment Code: F8FC15C4-6519-48E9-AA9A-DF713A784122
+19/11/2018 21:00:14 PagSeguro.Session[info]: Begin
+19/11/2018 21:00:14 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+19/11/2018 21:00:15 PagSeguro.Session[info]: Session ID: 2b3d256b700640318cd581246d6e6bc8
+19/11/2018 21:00:15 PagSeguro.Session[info]: Begin
+19/11/2018 21:00:15 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+19/11/2018 21:00:27 PagSeguro.Session[info]: Session ID: 7ef3fec227c64d2986caa44bdf6d3fd4
+19/11/2018 21:29:08 PagSeguro.Session[info]: Begin
+19/11/2018 21:29:09 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+19/11/2018 21:29:11 PagSeguro.Session[info]: Session ID: 0d6558f415364317ae943b7241f282fe
+19/11/2018 21:29:23 PagSeguro.Session[info]: Begin
+19/11/2018 21:29:23 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+19/11/2018 21:29:24 PagSeguro.Session[info]: Session ID: 09dbe6228e1c44a8bc71edcf01a1c239
+19/11/2018 21:29:32 PagSeguro.Session[info]: Begin
+19/11/2018 21:29:32 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+19/11/2018 21:29:33 PagSeguro.Session[info]: Session ID: 51c7fc85cd1942918e20c3b6b7c63f72
+19/11/2018 21:29:37 PagSeguro.Session[info]: Begin
+19/11/2018 21:29:38 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+19/11/2018 21:29:38 PagSeguro.Session[info]: Session ID: ccbfecf49e2544fba41bede7ce0b9193
+19/11/2018 21:30:44 PagSeguro.Session[info]: Begin
+19/11/2018 21:30:44 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+19/11/2018 21:30:45 PagSeguro.Session[info]: Session ID: 73c1fcbebfd24dcf9e4e5aa380e75b13
+19/11/2018 21:32:44 PagSeguro.Session[info]: Begin
+19/11/2018 21:32:44 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+19/11/2018 21:32:45 PagSeguro.Session[info]: Session ID: 82971f85b1bb44e1877a95b78e6eacc0
+19/11/2018 21:32:46 PagSeguro.DirectPayment.CreditCard[info]: Begin
+19/11/2018 21:32:47 PagSeguro.DirectPayment.CreditCard[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/transactions/?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+19/11/2018 21:32:47 PagSeguro.Checkout[info]: Params: {"reference":"32","billingAddressStreet":"Qr 111, conjunto 07, lote","billingAddressNumber":"14","billingAddressComplement":"","billingAddressCity":"Samambaia","billingAddressState":"DF","billingAddressDistrict":"Samambaia sul","billingAddressPostalCode":"72301407","billingAddressCountry":"BRA","currency":"BRL","creditCardHolderName":"welton viana cardoso","creditCardHolderCPF":"93346557120","installmentQuantity":"3","installmentValue":"35.35","itemId1":7,"itemDescription1":"HTML","itemQuantity1":1,"itemAmount1":"100.00","paymentMethod":"creditCard","paymentMode":"DEFAULT","receiverEmail":"weltonvcardoso@gmail.com","senderName":"Comprador de teste welton ","senderEmail":"75128610136929672058@sandbox.pagseguro.com.br","senderAreaCode":"61","senderPhone":"(**) 99410-****","senderCPF":"933.***.***-**","senderIp":"127.0.0.1","senderHash":"2dbc8483e8698176970d36c1633d0f93fbb6d398e775b8f60eac5a154b28fc57","shippingAddressStreet":"Qr 111, conjunto 07, lote","shippingAddressNumber":"14","shippingAddressComplement":"","shippingAddressCity":"Samambaia","shippingAddressState":"DF","shippingAddressDistrict":"Samambaia sul","shippingAddressPostalCode":"72301407","shippingAddressCountry":"BRA","creditCardToken":"3555c013623d4124b16806df4371c4cf"}
+19/11/2018 21:32:50 PagSeguro.DirectPayment.CreditCard[info]: Credit Card Payment Code: 90D86893-82E4-4843-B660-E0C30E5AA42F
+19/11/2018 22:15:51 PagSeguro.Session[info]: Begin
+19/11/2018 22:15:51 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+19/11/2018 22:15:52 PagSeguro.Session[info]: Session ID: 708be09952114e4f8c887aed68615dc5
+19/11/2018 22:17:21 PagSeguro.Session[info]: Begin
+19/11/2018 22:17:21 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+19/11/2018 22:17:22 PagSeguro.Session[info]: Session ID: 44572a48f0314f149b85c06828da10be
+19/11/2018 22:17:51 PagSeguro.Session[info]: Begin
+19/11/2018 22:17:51 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+19/11/2018 22:17:52 PagSeguro.Session[info]: Session ID: e393c2e614a34da7b52cb4dde36c2d24
+19/11/2018 22:19:11 PagSeguro.Session[info]: Begin
+19/11/2018 22:19:11 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+19/11/2018 22:19:12 PagSeguro.Session[info]: Session ID: 063185f63f614f71a02c694d4d63a961
+19/11/2018 22:19:14 PagSeguro.Session[info]: Begin
+19/11/2018 22:19:14 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+19/11/2018 22:19:15 PagSeguro.Session[info]: Session ID: d40db1666ee447b1b412a1cf41d90766
+19/11/2018 22:20:04 PagSeguro.Session[info]: Begin
+19/11/2018 22:20:04 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+19/11/2018 22:20:05 PagSeguro.Session[info]: Session ID: a1ef59beb58147f7960aeeb806bdc5f1
+19/11/2018 22:22:15 PagSeguro.Session[info]: Begin
+19/11/2018 22:22:15 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+19/11/2018 22:22:16 PagSeguro.Session[info]: Session ID: 450fd7b0e58a488792a6a15fb06bac70
+19/11/2018 22:22:56 PagSeguro.Session[info]: Begin
+19/11/2018 22:22:56 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+19/11/2018 22:22:56 PagSeguro.Session[info]: Session ID: 6a0b331dd4404446b88678f957070962
+19/11/2018 22:23:16 PagSeguro.Session[info]: Begin
+19/11/2018 22:23:16 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+19/11/2018 22:23:17 PagSeguro.Session[info]: Session ID: 7e4ff66cc30141409b58a8a2f6d6d517
+19/11/2018 23:50:28 PagSeguro.Session[info]: Begin
+19/11/2018 23:50:28 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+19/11/2018 23:50:29 PagSeguro.Session[info]: Session ID: 22e9c963bbca4b43a67b5517949359c7
+20/11/2018 00:01:58 PagSeguro.Session[info]: Begin
+20/11/2018 00:01:58 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+20/11/2018 00:01:59 PagSeguro.Session[info]: Session ID: b9f924f8ff4042359debfc3daca7130f
+20/11/2018 00:03:07 PagSeguro.Session[info]: Begin
+20/11/2018 00:03:07 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+20/11/2018 00:03:11 PagSeguro.Session[info]: Session ID: a815a29d278343078c9c5f7836a7d452
+20/11/2018 00:04:49 PagSeguro.Session[info]: Begin
+20/11/2018 00:04:49 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+20/11/2018 00:04:50 PagSeguro.Session[info]: Session ID: 127d69a361104341a0ceaf4826d7b94d
+20/11/2018 00:04:57 PagSeguro.Session[info]: Begin
+20/11/2018 00:04:57 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+20/11/2018 00:04:58 PagSeguro.Session[info]: Session ID: 274b548ab144439d97464165ddd2441a
+20/11/2018 00:08:25 PagSeguro.Session[info]: Begin
+20/11/2018 00:08:25 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+20/11/2018 00:08:26 PagSeguro.Session[info]: Session ID: 5915adaa1cd54af1b1614248da70e4f1
+20/11/2018 00:08:57 PagSeguro.Session[info]: Begin
+20/11/2018 00:08:57 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+20/11/2018 00:08:57 PagSeguro.Session[info]: Session ID: 515bcdaa8dcb44609f7a9886884bd62e
+20/11/2018 00:09:01 PagSeguro.Session[info]: Begin
+20/11/2018 00:09:01 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+20/11/2018 00:09:03 PagSeguro.Session[info]: Session ID: e03b99e089b846b5850ddfa141a74cb2
+20/11/2018 00:12:25 PagSeguro.Session[info]: Begin
+20/11/2018 00:12:25 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+20/11/2018 00:12:26 PagSeguro.Session[info]: Session ID: 946bd6495ce24651868acceaa1b61320
+20/11/2018 00:12:31 PagSeguro.Session[info]: Begin
+20/11/2018 00:12:31 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+20/11/2018 00:12:31 PagSeguro.Session[info]: Session ID: 7c5fbe85595f4535b23d55777546a031
+20/11/2018 00:15:16 PagSeguro.Session[info]: Begin
+20/11/2018 00:15:16 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+20/11/2018 00:15:17 PagSeguro.Session[info]: Session ID: 029df7d3c9e745918f761ade8e25f622
+20/11/2018 00:17:34 PagSeguro.Session[info]: Begin
+20/11/2018 00:17:34 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+20/11/2018 00:17:36 PagSeguro.Session[info]: Session ID: cc591ab3eba046f9a4af046702543457
+20/11/2018 00:19:51 PagSeguro.Session[info]: Begin
+20/11/2018 00:19:51 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+20/11/2018 00:19:52 PagSeguro.Session[info]: Session ID: 5e273d10d0b44f07813d04fc463d953e
+24/11/2018 00:43:58 PagSeguro.Session[info]: Begin
+24/11/2018 00:43:58 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+24/11/2018 00:44:01 PagSeguro.Session[info]: Session ID: 88f3c654350a4402a4eb96d5eba59ddc
+24/11/2018 00:45:35 PagSeguro.Session[info]: Begin
+24/11/2018 00:45:35 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+24/11/2018 00:45:36 PagSeguro.Session[info]: Session ID: 63e9c0f5275746f8b9287727392deabf
+24/11/2018 00:47:54 PagSeguro.Session[info]: Begin
+24/11/2018 00:47:54 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+24/11/2018 00:47:55 PagSeguro.Session[info]: Session ID: 0f270960920e4f3081e76b00b1d4db80
+24/11/2018 00:50:02 PagSeguro.Session[info]: Begin
+24/11/2018 00:50:02 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+24/11/2018 00:50:03 PagSeguro.Session[info]: Session ID: 5965330984be401aadcfe8c5cbbc6cf3
+24/11/2018 00:53:44 PagSeguro.Session[info]: Begin
+24/11/2018 00:53:44 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+24/11/2018 00:53:50 PagSeguro.Session[info]: Session ID: 53c92c39cd2740f28c3fd0bf134a60c7
+24/11/2018 00:56:38 PagSeguro.Session[info]: Begin
+24/11/2018 00:56:38 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+24/11/2018 00:56:39 PagSeguro.Session[info]: Session ID: f7193f98d7cc40aea784fc6d3c5d0ed7
+24/11/2018 00:56:45 PagSeguro.Session[info]: Begin
+24/11/2018 00:56:45 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+24/11/2018 00:56:46 PagSeguro.Session[info]: Session ID: 3099ab46d1364e8b98b06727aca5ac55

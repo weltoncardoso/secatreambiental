@@ -17,4 +17,16 @@ if(ENVIRONMENT == 'development') {
 	$config['dbuser'] = 'root';
 	$config['dbpass'] = '';
 }
+
+$config['status_pgto'] = array(
+	'1' => 'Aguardando Pgto.',
+	'2' => 'Em análise',
+	'3' => 'Pago',
+	'4' => 'Disponível',
+	'5' => 'Em disputa',
+	'6' => 'Devolvida',
+	'7' => 'Cancelada',
+	'8' => 'Debitado',
+	'9' => 'Retenção Temporária'
+);
 ?>

@@ -1,50 +1,83 @@
-<h1>Checkout Mercado Pago</h1>
+<head>
+  <meta charset="UTF-8" />
+  <title>Checkout Transparente - Pagseguro</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" type="text/css" href="<?php echo BASE; ?>assets/css/cadastro.css" />
 
-<?php if(!empty($error)): ?>
+</head>
+<body style=" background: url('<?php echo BASE; ?>/assets/img/bg.jpg') no-repeat center center fixed; 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;" >
+   <?php if(!empty($error)): ?>
 <div class="warn">
-	<?php echo $error; ?>
+  <?php echo $error; ?>
 </div>
 <?php endif; ?>
+  <div class="container" style="width: 100%; height: 100%">
 
-<h3>Dados Pessoais</h3>
+<div id="cadastro">
+        <form method="POST"> 
+          <h1>Dados Pessoais</h1> 
+           
+          <p> 
+            <label for="nome_cad">Nome</label>
+            <input name="name" required="required" type="text" value="welton viana cardoso" />
+          </p>
+          <p> 
+            <label for="nome_cad">CPF</label>
+            <input  name="cpf" required="required" type="text" value="93346557120" />
+          </p>
+          <p> 
+            <label for="nome_cad">Telefone</label>
+            <input  name="telefone" required="required" type="text" value="61994107525" />
+          </p>
+          <p> 
+            <label for="nome_cad">E-mail</label>
+            <input  name="email" required="required" type="email" value="testempsecatre@gmail.com" />
+          </p>
+          <p> 
+            <label for="nome_cad">Senha</label>
+            <input  name="password" required="required" type="password" value="12345"/>
+          </p>
 
-<form method="POST">
-	<strong>Nome:</strong><br/>
-<input type="text" name="name" value="Welton cardoso" /><br/><br/>
 
-<strong>CPF:</strong><br/>
-<input type="text" name="cpf" value="93346557120" /><br/><br/>
 
-<strong>Telefone:</strong><br/>
-<input type="text" name="telefone" value="61994107525" /><br/><br/>
+ <h1>Informações de Endereço</h1>
 
-<strong>E-mail:</strong><br/>
-<input type="email" name="email" value="testemp@hotmail.com" /><br/><br/>
+ <p> 
+            <label for="nome_cad">CEP</label>
+            <input  name="cep" required="required"  type="text" value="72301407" />
+          </p><p> 
+            <label for="nome_cad">Rua</label>
+            <input  name="rua" required="required"  type="text" value="Qr 111, conjunto 07, lote" />
+          </p><p> 
+            <label for="nome_cad">Numero</label>
+            <input  name="numero" required="required"  type="text" value="14" />
+          </p><p> 
+            <label for="nome_cad">Complemento</label>
+            <input  name="complemento"  type="text" value="" />
+          </p><p> 
+            <label for="nome_cad">Bairro</label>
+            <input  name="bairro" required="required"  type="text" value="Samambaia sul" />
+          </p><p> 
+            <label for="nome_cad">Cidade</label>
+            <input  name="cidade" required="required"  type="text" value="Samambaia" />
+          </p><p> 
+            <label for="nome_cad">Estado</label>
+            <input  name="estado" required="required"  type="text" value="DF" />
+          </p>
 
-<strong>Senha:</strong><br/>
-<input type="password" name="password" value="123" /><br/><br/>
 
-<h3>Informações de Endereço</h3>
+            <input class="efetuarCompra" type="submit" value="Efetuar Pagamento"/> 
+          </p>
+          </form> 
+</div>
+</div>
+<div class="parceiro-div2">
+ <img src="<?php echo BASE; ?>assets/img/mercadopago.png" border="0">        
+</div>
 
-<strong>CEP:</strong><br/>
-<input type="text" name="cep" value="72301407" /><br/><br/>
-
-<strong>Rua:</strong><br/>
-<input type="text" name="rua" value="Rua sn" /><br/><br/>
-
-<strong>Número:</strong><br/>
-<input type="text" name="numero" value="00" /><br/><br/>
-
-<strong>Complemento:</strong><br/>
-<input type="text" name="complemento" /><br/><br/>
-
-<strong>Bairro:</strong><br/>
-<input type="text" name="bairro" value="Samambaia sul" /><br/><br/>
-
-<strong>Cidade:</strong><br/>
-<input type="text" name="cidade" value="Distrito Federal" /><br/><br/>
-
-<strong>Estado:</strong><br/>
-<input type="text" name="estado" value="DF" /><br/><br/>
-<input type="submit" value="Efetuar Compra" class="button efetuarCompra" />
-</form>
+</body>
+</html>

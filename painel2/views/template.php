@@ -16,6 +16,9 @@
 		<a href="<?php echo BASE; ?>alunos">
 		<div>Alunos</div>
 	</a>
+		<a href="<?php echo BASE; ?>vendas">
+		<div>Vendas</div>
+	</a>
 		<a href="<?php echo BASE; ?>login/logout">
 		<div style="float: right;">Sair</div>
 	</a>		

@@ -18,7 +18,7 @@ class psckttransparenteController extends controller {
             $total += (floatval($item['price']) * intval($item['qt']));
         }
 
-        $dados['total'] = number_format($total, 2);
+        $dados['total'] = number_format($total, 2);;
 
         try {
             $sessionCode = \PagSeguro\Services\Session::create(
@@ -26,12 +26,11 @@ class psckttransparenteController extends controller {
             );
 
             $dados['sessionCode'] = $sessionCode->getResult();
+
         } catch(Exception $e) {
             echo "ERRO: ".$e->getMessage();
             exit;
         }
-
-
 
         $this->loadTemplate('cart_psckttransparente', $dados);
     }
@@ -39,14 +38,14 @@ class psckttransparenteController extends controller {
     public function checkout() {
         $users = new Users();
         $cart = new Cart();
-        //$purchases = new Purchases();
+        $purchases = new Purchases();
 
         $id = addslashes($_POST['id']);
         $name = addslashes($_POST['name']);
         $cpf = addslashes($_POST['cpf']);
         $telefone = addslashes($_POST['telefone']);
         $email = addslashes($_POST['email']);
-        $pass = addslashes($_POST['pass']);
+        $password = addslashes($_POST['password']);
         $cep = addslashes($_POST['cep']);
         $rua = addslashes($_POST['rua']);
         $numero = addslashes($_POST['numero']);
@@ -62,17 +61,16 @@ class psckttransparenteController extends controller {
         $v_ano = addslashes($_POST['v_ano']);
         $cartao_token = addslashes($_POST['cartao_token']);
         $parc = explode(';', $_POST['parc']);
-
         if($users->emailExists($email)) {
-            $uid = $users->validate($email, $pass);
+            $uid = $users->validate($email, $password);
 
             if(empty($uid)) {
-                $array = array('error'=>true, 'msg'=>'E-mail e/ou senha invalidos!');
+                $array = array('error'=>true, 'msg'=>'E-mail e/ou senha invalidos.');
                 echo json_encode($array);
                 exit;
             }
         } else {
-            $uid = $users->createUser($email, $pass);
+            $uid = $users->createUser($email, $password, $name, $cep, $rua, $numero, $complemento, $bairro, $cidade, $estado);
         }
 
         $list = $cart->getList();
@@ -80,18 +78,6 @@ class psckttransparenteController extends controller {
 
         foreach($list as $item) {
             $total += (floatval($item['price']) * intval($item['qt']));
-        }
-
-        if(!empty($_SESSION['shipping'])) {
-            $shipping = $_SESSION['shipping'];
-
-            if(isset($shipping['price'])) {
-                $frete = floatval(str_replace(',', '.', $shipping['price']));
-            } else {
-                $frete = 0;
-            }
-
-            $total += $frete;
         }
 
         $id_purchase = $purchases->createPurchase($uid, $total, 'psckttransparente');
@@ -146,9 +132,6 @@ class psckttransparenteController extends controller {
             'BRA',
             $complemento
         );
-
-        $creditCard->setShipping()->setCost()->withParameters($frete);
-
         $creditCard->setBilling()->setAddress()->withParameters(
             $rua,
             $numero,
@@ -167,7 +150,7 @@ class psckttransparenteController extends controller {
 
         $creditCard->setMode('DEFAULT');
 
-        $creditCard->setNotificationUrl(BASE_URL."psckttransparente/notification");
+        $creditCard->setNotificationUrl(BASE."psckttransparente/notification");
 
         try {
             $result = $creditCard->register(
@@ -183,14 +166,10 @@ class psckttransparenteController extends controller {
 
 
     }
-
     public function obrigado() {
         unset($_SESSION['cart']);
 
-        $store = new Store();
-        $dados = $store->getTemplateData();
-
-        $this->loadTemplate("psckttransparente_obrigado", $dados);
+        $this->loadTemplate("psckttransparente_obrigado");
     }
     
     public function notification() {
@@ -217,11 +196,29 @@ class psckttransparenteController extends controller {
                 9 = Retenção Temporária = Chargeback
                 */
 
-                if($status == 3) {
+                if($status == 2) {
+                    $purchases->setAnalyze($ref);
+                }
+                elseif($status == 3) {
                     $purchases->setPaid($ref);
+                }
+                elseif($status == 4) {
+                    $purchases->setAvailable($ref);
+                }
+                elseif($status == 5) {
+                    $purchases->setDispute($ref);
+                }
+                elseif($status == 6) {
+                    $purchases->setReturned($ref);
                 }
                 elseif($status == 7) {
                     $purchases->setCancelled($ref);
+                }
+                elseif($status == 8) {
+                    $purchases->setDebited($ref);
+                }
+                elseif($status == 9) {
+                    $purchases->setRetention($ref);
                 }
 
             }
@@ -232,24 +229,4 @@ class psckttransparenteController extends controller {
 
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
+    }
