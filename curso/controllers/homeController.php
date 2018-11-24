@@ -28,7 +28,7 @@ public function index() {
 
 			$dados['aluno'] = $alunos->getAluno($alunos->getId());
 			$horaBanco = $dados['aluno']['date_cadastro']; 
-			$horaADD = date('Y/m/d', strtotime("+15 days",strtotime($horaBanco))); 
+			$horaADD = date('Y/m/d', strtotime("+90 days",strtotime($horaBanco))); 
 			$horaAtual =  date("Y/m/d");
 			if($horaAtual >= $horaADD){
         	$this->loadTemplate('home', $dados);

@@ -11,7 +11,7 @@
 
  	}
 
-<<<<<<< HEAD
+
  public function getAluno($id) {
  	$array = array();
 
@@ -25,8 +25,7 @@
 
  }
 
-=======
->>>>>>> origin/master
+r
  public function fazerLogin($email, $senha) {
 		$sql = "SELECT * FROM alunos WHERE email = '$email' AND senha = '$senha'";
 		$sql = $this->db->query($sql);
