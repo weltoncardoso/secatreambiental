@@ -112,6 +112,25 @@ background-color: #555;
     font-size: 15px;
     display: inline-block;
 }
+
+.botaoExc {
+    border: 0;
+    background-color: #ff0000;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    font-size: 15px;
+    display: inline-block;
+}
+
+.botaoExc a{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
 .botaovizualizar {
     border: 0;
     background-color: #1E90FF;
@@ -170,6 +189,7 @@ background-color: #555;
     display: inline-block;
     float: right;
 }
+
 .botaoExcMod a {
    text-decoration: none;
     color: #fff; 

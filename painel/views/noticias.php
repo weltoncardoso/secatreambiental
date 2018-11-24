@@ -25,8 +25,8 @@
 		<td><?php echo $not['titulo']; ?></td>
 	    <td><?php echo $not['descricao']; ?></td>
 		<td>
-			<a href="<?php echo BASE; ?>noticias/edit/<?php echo $not['id']; ?>" class="btn btn-default">Editar</a>
-			<a href="<?php echo BASE; ?>noticias/remove/<?php echo $not['id']; ?>" class="btn btn-default">Excluir</a>
+			<a href="<?php echo BASE; ?>noticias/edit/<?php echo $not['id']; ?>" style="background-color:#0000FF; color:#FFFFFF" class="btn btn-default">Editar</a>
+			<a href="<?php echo BASE; ?>noticias/remove/<?php echo $not['id']; ?>" style="background-color:#FF0000; color:#FFFFFF" class="btn btn-default">Excluir</a>
 		</td>
 	</tr>
         <?php  endif ?>

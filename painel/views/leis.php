@@ -21,9 +21,9 @@
 		<td><?php echo $not['nome']; ?></td>
 		<td><?php echo $not['categoria']; ?></td>
 		<td width="300">
-		    <a target="_blank" href="<?php echo BASE; ?>leis/view/<?php echo $not['id']; ?>" style="background-color:#0000FF; color:#FFFFFF" class="btn btn-default">Ver PDF</a>
-			<a href="<?php echo BASE; ?>leis/edit/<?php echo $not['id']; ?>" class="btn btn-default">Editar</a>
-			<a href="<?php echo BASE; ?>leis/remove/<?php echo $not['id']; ?>" class="btn btn-default">Excluir</a>
+		    <a target="_blank" href="<?php echo BASE; ?>leis/view/<?php echo $not['id']; ?>" style="background-color:green; color:#FFFFFF" class="btn btn-default">Ver PDF</a>
+			<a href="<?php echo BASE; ?>leis/edit/<?php echo $not['id']; ?>" style="background-color:#0000FF; color:#FFFFFF" class="btn btn-default">Editar</a>
+			<a href="<?php echo BASE; ?>leis/remove/<?php echo $not['id']; ?>" style="background-color:#FF0000; color:#FFFFFF" class="btn btn-default">Excluir</a>
 		</td>
 	</tr>
 	<?php endforeach; ?>
