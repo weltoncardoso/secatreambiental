@@ -40,7 +40,7 @@
  	$this->db->query("UPDATE alunos SET nome = '$nome', email = '$email', senha = '$senha' WHERE id = '$id'");
 	$this->db->query("DELETE FROM aluno_curso WHERE id_aluno = '$id'");
 	foreach ($cursos as $curso) {
-	$this->db->query("INSERT INTO aluno_curso SET id_aluno = '$id', id_curso = '$curso'");
+	$this->db->query("INSERT INTO aluno_curso SET id_aluno = '$id', id_curso = '$curso', date_cadastro = NOW()");
 		}
  	
  }
