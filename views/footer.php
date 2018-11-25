@@ -42,7 +42,7 @@
   </div>  
 </footer>
 <div class="ass">
-  Copyright © 2018. Secatre Ambiental | Todos os Direitos Reservados
+  Copyright © 2018. Secatre Ambiental | Todos os Direitos Reservados | Desenvolvido por Welton Cardoso
 </div> 
 
 

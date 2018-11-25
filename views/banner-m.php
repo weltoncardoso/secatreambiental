@@ -1,4 +1,3 @@
-<?php define("BASE", "http://localhost/secatre/") ?>
 <div id="carouselExampleControls" class="m-banner carousel slide d-flex align-items-center" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">

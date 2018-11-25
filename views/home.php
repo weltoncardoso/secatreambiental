@@ -9,7 +9,7 @@
 		<script type="text/javascript" src="<?php echo BASE; ?>assets/js/script.js"></script>
    		<link href="https://fonts.googleapis.com/css?family=Poppins:400,800,900" rel="stylesheet">
 
-	    <link rel="shortcut icon" href="<?php echo BASE; ?>assets/img/thor.ico">
+	    <link rel="shortcut icon" href="<?php echo BASE; ?>assets/img/ico.ico">
 	    <link rel="stylesheet" href="<?php echo BASE; ?>assets/fonts/font-awesome/css/all.css" />
 	    <link rel="stylesheet" href="<?php echo BASE; ?>assets/css/bootstrap.min.css">
 	    <link rel="stylesheet" href="<?php echo BASE; ?>owlcarousel/assets/owl.carousel.min.css">
@@ -30,38 +30,18 @@
   
       <div class="container">
         <div class="row">
-          <span>Parceiros</span>
+          <span>Colaboradores</span>
         </div>
         <div class="row">
           <div class="owl-carousel owl-theme">
-            <div class="item"><a href=""><img src="<?php echo BASE; ?>assets/img/cocamar.jpg" alt="Cocamar"></a></div>
-            <div class="item"><a href=""><img src="<?php echo BASE; ?>assets/img/sicredi.jpg" alt="Sicredi"></a></div>
-            <div class="item"><a href=""><img src="<?php echo BASE; ?>assets/img/faep.jpg" alt="Faep"></a></div>
-            <div class="item"><a href=""><img src="<?php echo BASE; ?>assets/img/cocamar.jpg" alt="Cocamar"></a></div>
-            <div class="item"><a href=""><img src="<?php echo BASE; ?>assets/img/sicredi.jpg" alt="Sicredi"></a></div>
-            <div class="item"><a href=""><img src="<?php echo BASE; ?>assets/img/faep.jpg" alt="Faep"></a></div>
-            <div class="item"><a href=""><img src="<?php echo BASE; ?>assets/img/cocamar.jpg" alt="Cocamar"></a></div>
-            <div class="item"><a href=""><img src="<?php echo BASE; ?>assets/img/sicredi.jpg" alt="Sicredi"></a></div>
-            <div class="item"><a href=""><img src="<?php echo BASE; ?>assets/img/faep.jpg" alt="Faep"></a></div>
+            <div class="item"><a href="https://www.creadf.org.br/"><img src="<?php echo BASE; ?>assets/img/creadf.jpg" alt="CREADF"></a></div>
+            <div class="item"><a href="https://www.creadf.org.br/"><img src="<?php echo BASE; ?>assets/img/creadf.jpg" alt="CREADF"></a></div>
+            <div class="item"><a href="https://www.creadf.org.br/"><img src="<?php echo BASE; ?>assets/img/creadf.jpg" alt="CREADF"></a></div>
+            <div class="item"><a href="https://www.creadf.org.br/"><img src="<?php echo BASE; ?>assets/img/creadf.jpg" alt="CREADF"></a></div>
+            <div class="item"><a href="https://www.creadf.org.br/"><img src="<?php echo BASE; ?>assets/img/creadf.jpg" alt="CREADF"></a></div>
+            <div class="item"><a href="https://www.creadf.org.br/"><img src="<?php echo BASE; ?>assets/img/creadf.jpg" alt="CREADF"></a></div>
+            <div class="item"><a href="https://www.creadf.org.br/"><img src="<?php echo BASE; ?>assets/img/creadf.jpg" alt="CREADF"></a></div>
           </div>
-          <!-- <div class="col-md-2 col-sm-6 col-6 mt-5">
-            <a href=""><img src="img/cocamar.jpg" alt="Cocamar"></a>
-          </div>
-          <div class="col-md-2 col-sm-6 col-6 mt-5">
-            <a href=""><img src="img/sicredi.jpg" alt="Sicredi"></a>
-          </div>
-          <div class="col-md-2 col-sm-6 col-6 mt-5">
-            <a href=""><img src="img/faep.jpg" alt="Faep"></a>
-          </div>
-          <div class="col-md-2 col-sm-6 col-6 mt-5">
-            <a href=""><img src="img/cocamar.jpg" alt="Cocamar"></a>
-          </div>
-          <div class="col-md-2 col-sm-6 col-6 mt-5">
-            <a href=""><img src="img/sicredi.jpg" alt="Sicredi"></a>
-          </div>
-          <div class="col-md-2 col-sm-6 col-6 mt-5">
-            <a href=""><img src="img/faep.jpg" alt="Faep"></a>
-          </div> -->
         </div>
       </div>
     </section>   
@@ -167,10 +147,10 @@
                   items:1
               },
               600:{
-                  items:3
+                  items:2
               },
               1000:{
-                  items:5
+                  items:3
               }
           }
       })
