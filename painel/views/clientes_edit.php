@@ -7,7 +7,7 @@
 
 
 
-<h1>Clientes - Editar</h1>
+<h1>Editar - Clientes</h1>
 </br>
 
 <form method="POST" enctype="multipart/form-data">

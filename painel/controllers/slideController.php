@@ -1,31 +1,37 @@
 <?php
-class cursosController extends controller {
+class slideController extends controller {
 
     public function __construct() {
         parent::__construct();
+  
+        $adm = new Usuarios();
+        if(!$adm->isLogged()) {
+            header("Location: ".BASE."login");
+        }
+        
     }
 
     public function index() {
         $dados = array();
-        $not = new cursos();
-                $limit = 3;
+        $cli = new slide();
+                $limit = 5;
                 $offset = 0;
-                $data['p'] = 1;
+                $dados['p'] = 1;
                 if(isset($_GET['p']) && !empty($_GET['p'])){
-                    $data['p'] = intval($_GET['p']);
-                    if($data['p'] == 0){
-                        $data['p'] = 1;
+                    $dados['p'] = intval($_GET['p']);
+                    if($dados['p'] == 0){
+                        $dados['p'] = 1;
                     }
                 }
 
-        $offset = (3 * ($data['p']-1));
-        $dados['limit_cursos'] = $limit;
-        $dados['total_cursos'] = $not->getTotalCursos();
-        $dados['images'] = $not->getImagem($offset, $limit);
-        $dados['cursos'] = $not->getCursos($offset, $limit);
+        $offset = (5 * ($dados['p']-1));
+        $dados['limit_slide'] = $limit;
+        $dados['total_slide'] = $cli->getTotalSlide();
+        $dados['images'] = $cli->getImagem($offset, $limit);
+        $dados['slides'] = $cli->getSlides($offset, $limit);
+    
 
-
-        $this->loadTemplate('cursos', $dados);
+        $this->loadTemplate('slide', $dados);
     }
 
 
@@ -35,8 +41,6 @@ class cursosController extends controller {
 
         if(isset($_POST['nome']) && !empty($_POST['nome'])) {
             $nome = addslashes($_POST['nome']);
-            $descricao = addslashes($_POST['descricao']);
-            $preco = addslashes($_POST['preco']);
             $imagem = $_FILES['imagem'];
 
             if(in_array($imagem['type'], array('image/jpeg', 'image/jpg', 'image/png'))) {
@@ -45,45 +49,42 @@ class cursosController extends controller {
                     $ext = 'png';
                 }
 
-
                 $md5imagem = md5(time().rand(0,9999)).'.'.$ext;
                 //so faz um por vez
                 move_uploaded_file($imagem['tmp_name'], '../painel/assets/images/prods/'.$md5imagem);
                // move_uploaded_file($imagem['tmp_name'], '../painel/assets/images/prods/'.$md5imagem);
 
-                $not = new cursos();
-                $id = $not->inserir($nome, $descricao, $preco);
+                $cli = new slide();
+                $id = $cli->inserir($nome);
 
-                $not->inserirImagem($id, $md5imagem);
+                $cli->inserirImagem($id, $md5imagem);
 
-                header("Location: ".BASE."cursos");
+                header("Location: ".BASE."slide");
             }
         }
 
-        $this->loadTemplate('cursos_add', $dados);
+        $this->loadTemplate('slide_add', $dados);
     }
 
     public function edit($id) {
         $dados = array(
-            'cursos' => array(),
+            'slide' => array(),
             'imagem' =>array()
         );
 
         $offset = 0;
-        $limit = 500;
+        $limit = 5;
         
-        $not = new cursos();
-        $dados['imagem'] = $not->getImagem($offset, $limit);
-        $dados['cursos'] = $not->getCurso($id);
+        $cli = new slide();
+        $dados['imagem'] = $cli->getImagem($offset, $limit);
+        $dados['slide'] = $cli->getSlide($id);
 
 
         if(isset($_POST['nome']) && !empty($_POST['nome'])) {
             $nome = addslashes($_POST['nome']);
-            $descricao = addslashes($_POST['descricao']);
-            $preco = addslashes($_POST['preco']);
 
 
-            $not->updateCurso($id, $nome, $descricao, $preco);
+            $cli->updateSlide($id, $nome);
 
             if(isset($_FILES['imagem']) && !empty($_FILES['imagem']['tmp_name'])) {
                 $imagem = $_FILES['imagem'];
@@ -96,26 +97,26 @@ class cursosController extends controller {
                     $md5imagem = md5(time().rand(0,9999)).'.'.$ext;
                 move_uploaded_file($imagem['tmp_name'], '../painel/assets/images/prods/'.$md5imagem);
                     
-                    $not->updateImagem($id, $md5imagem);
+                    $cli->updateImagem($id, $md5imagem);
                 }
             }
 
 
-            header("Location: ".BASE."cursos");
+            header("Location: ".BASE."slide");
             
         }
 
-        $this->loadTemplate('cursos_edit', $dados);
+        $this->loadTemplate('slide_edit', $dados);
     }
 
     public function remove($id) {
 
         if(!empty($id)) {
 
-            $not = new cursos();
-            $not->removerCurso($id);
+            $cli = new slide();
+            $cli->removerSlide($id);
 
-            header("Location: ".BASE."cursos");
+            header("Location: ".BASE."slide");
 
         }
 

@@ -1,7 +1,7 @@
 <h1>Leis e Normas</h1>
 
-<div style="text-align:center">
-<a href="<?php echo BASE; ?>leis/add" class="btn btn-default" style="background-color:#ff0000; color:#ffffff">Adicionar Leis e Normas</a>
+<div style="text-align:center"></br>
+<a href="<?php echo BASE; ?>leis/add" class="btn btn-default" style="background-color:#0000ff; color:#ffffff">Adicionar Leis e Normas</a>
 </div>
 </br>
 <table class="table table-striped">
@@ -9,7 +9,7 @@
 		<tr>
 			<th>Nome</th>
 			<th>Categoria</th>
-			<th width="200">Acoes</th>
+			<th width="200">Acões</th>
 		</tr>
 	</thead>
 
@@ -21,9 +21,9 @@
 		<td><?php echo $not['nome']; ?></td>
 		<td><?php echo $not['categoria']; ?></td>
 		<td width="300">
-		    <a target="_blank" href="<?php echo BASE; ?>leis/view/<?php echo $not['id']; ?>" style="background-color:#0000FF; color:#FFFFFF" class="btn btn-default">Ver PDF</a>
-			<a href="<?php echo BASE; ?>leis/edit/<?php echo $not['id']; ?>" class="btn btn-default">Editar</a>
-			<a href="<?php echo BASE; ?>leis/remove/<?php echo $not['id']; ?>" class="btn btn-default">Excluir</a>
+		    <a target="_blank" href="<?php echo BASE; ?>leis/view/<?php echo $not['id']; ?>" style="background-color:green; color:#FFFFFF" class="btn btn-default">Ver PDF</a>
+			<a href="<?php echo BASE; ?>leis/edit/<?php echo $not['id']; ?>" style="background-color:#0000FF; color:#FFFFFF" class="btn btn-default">Editar</a>
+			<a href="<?php echo BASE; ?>leis/remove/<?php echo $not['id']; ?>" style="background-color:#FF0000; color:#FFFFFF" class="btn btn-default">Excluir</a>
 		</td>
 	</tr>
 	<?php endforeach; ?>

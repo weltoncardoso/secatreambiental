@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div id="carouselExampleControls" class="m-banner carousel slide d-flex align-items-center" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -19,3 +20,5 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
+=======
+>>>>>>> 9e32a47f0168e98da2f2e5e5dfde70ed07a3c5e9

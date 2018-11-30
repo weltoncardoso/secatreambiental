@@ -23,7 +23,7 @@ function c(id) {
 }
 </script>
 
-<h1>Clientes - Adicionar</h1>
+<h1>Adicionar - Clientes</h1>
 </br>
 <form method="POST" enctype="multipart/form-data">
 

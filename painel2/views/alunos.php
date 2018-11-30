@@ -28,7 +28,7 @@
 				<td align="center">
 				<div class="botao" align="center">
 				<a href="<?php echo BASE; ?>alunos/editar/<?php echo $aluno['id']; ?>">Editar</a> </div>
-				<div class="botao" align="center">
+				<div class="botaoExc" align="center">
 				<a href="<?php echo BASE; ?>alunos/excluir/<?php echo $aluno['id']; ?>">Excluir</a>
 			    </div>
 				</td>

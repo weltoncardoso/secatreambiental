@@ -14,7 +14,9 @@ body h1, h2, h3,h4, h5{
 }
 
 h1{
-    color: #fff;
+    font-style:italic;
+    text-decoration: underline;
+    color: white;
      font-size: 60px;
       text-shadow: -1px 0 black, 0 1px black,
       1px 0 black, 0 -1px black;
@@ -100,19 +102,22 @@ button,
 	background-size: cover;
 }
 
-tr:nth-child(even) {background: #eee}
-tr:nth-child(odd) {background: #ccc}
+tr:nth-child(even) {background: #eee; border-radius: 20px;}
+tr:nth-child(odd) {background: #ccc; border-radius: 20px;}
+
 
 
 table{
 	margin-top: 10px;
 }
 table th{
+    color: green;
 	height: 40px;
 	line-height: 40px;
 	text-align: left;
 	padding-left: 10px;
 	padding-right: 10px;
+	font-size: 20px;
 
 }
 table td{

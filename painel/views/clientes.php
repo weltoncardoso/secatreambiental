@@ -1,6 +1,6 @@
 <h1>Clientes</h1>
-<div style="text-align:center">
-<a href="<?php echo BASE; ?>clientes/add" class="btn btn-default" style="background-color:#ff0000; color:#ffffff">Adicionar Clientes</a>
+<div style="text-align:center"></br>
+<a href="<?php echo BASE; ?>clientes/add" class="btn btn-default" style="background-color:#0000ff; color:#ffffff">Adicionar Clientes</a>
 </div>
 </br></br>
 <table class="table table-striped">
@@ -10,7 +10,7 @@
 			<th>Nome</th>
 			<th>Estado</th>
 			<th>Qtde Alunos</th>
-			<th width="200">Acoes</th>
+			<th width="200">Acões</th>
 		</tr>
 	</thead>
 
@@ -26,8 +26,8 @@
 		<td><?php echo $not['estado']; ?></td>
 	    <td><?php echo $not['alunos']; ?></td>
 		<td>
-			<a href="<?php echo BASE; ?>clientes/edit/<?php echo $not['id']; ?>" class="btn btn-default">Editar</a>
-			<a href="<?php echo BASE; ?>clientes/remove/<?php echo $not['id']; ?>" class="btn btn-default">Excluir</a>
+			<a href="<?php echo BASE; ?>clientes/edit/<?php echo $not['id']; ?>" class="btn btn-default" style="background-color:blue; color:#fff;">Editar</a>
+			<a href="<?php echo BASE; ?>clientes/remove/<?php echo $not['id']; ?>" style="background-color:#FF0000; color:#FFFFFF" class="btn btn-default">Excluir</a>
 		</td>
 	</tr>
         <?php  endif ?>
@@ -35,7 +35,7 @@
 	<?php endforeach; ?>
 </table>
 
-<
+
 <div style="text-align: center">
  <div class="pagination">
 <div class="pag_item" ><a href="<?php echo BASE; ?>clientes?p=<?php echo $p-1; ?>" aria-label="Previous">

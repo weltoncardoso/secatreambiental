@@ -23,39 +23,28 @@ function c(id) {
 }
 </script>
 
-<h1>Cursos - Adicionar</h1>
+<h1>Adicionar Slide</h1>
+</br>
 <form method="POST" enctype="multipart/form-data">
 
         <table border="1" width="100%">
 <tr>
     <td>
-    <label form="titulo">Nome</label><br/>
+    <label form="nome">nome</label><br/>
 	<input onkeyup="c('input-1')"  placeholder="nome"  class="form-control" required class="inp_editar" type="text" name="nome" id="input-1"/><br/>
 </td>
-<td>
-        <label form="descricao">Descrição</label><br/>
-
-    <textarea name="descricao"  maxlength="500" placeholder="Descrição da Noticia" class="form-control"></textarea><br/>
-</td>
-</tr>
-<tr>
     <td>
 
          <label form="image">Imagem</label><br/>
     <input type="file" name="imagem" /><br/>
 
 	</td>
-    <td>
-   
-
-            <label form="preco">Preço</label><br/>
-
-    <input name="preco" placeholder="Preço" class="form-control"/><br/>
-</td>
+ </tr>
 
 </table>
 </br>
-	<input type="submit" value="Salvar" class="btn btn-default" />
+<div style="text-align:center">
+    <input type="submit" value="Adicionar" class="btn btn-default" /></div>
 
 </form>
 </body>

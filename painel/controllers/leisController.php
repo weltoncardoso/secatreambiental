@@ -3,6 +3,13 @@ class leisController extends controller {
 
     public function __construct() {
         parent::__construct();
+         $usuarios = new Usuarios();
+
+        $adm = new Usuarios();
+        if(!$adm->isLogged()) {
+            header("Location: ".BASE."login");
+        }
+        
     }
 
     public function index() {

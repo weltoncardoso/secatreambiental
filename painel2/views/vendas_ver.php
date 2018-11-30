@@ -1,9 +1,20 @@
 <?php global $config; ?>
-<h1>Venda </h1>
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link href="<?php echo BASE; ?>assets/css/template.css" rel="stylesheet" />
+</head>
+<body style=" background: url('<?php echo BASE; ?>assets/images/bg.jpg') no-repeat center center fixed; 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;" >
 
-<fieldset>
-	<legend>Informações da venda</legend>
-	<table border="0" width="100%">
+<h1>Venda </h1>
+<div class="tabelavenda">
+
+	<table border="0" width="80%">
 		<tr>
 			<td valign="top" width="50%">
 				<strong>ID da venda:</strong> <?php echo $venda['id']; ?><br/>
@@ -13,7 +24,7 @@
 				<strong>Tipo de pagamento:</strong> <?php echo $venda['pg_nome']; ?><br/>
 				<strong>Status de pagamento:</strong> <?php echo $config['status_pgto'][$venda['payment_status']]; ?><br/><br/>
 
-				<form method="POST">
+				<form method="POST" style="text-align:center;">
 					<select name="status">
 						<option></option>
 						<?php foreach($config['status_pgto'] as $stid => $st): ?>
@@ -27,19 +38,20 @@
 				<strong>Endereço do Cliente:</strong><br/>
 				
 			 <strong>CEP: </strong><?php echo utf8_encode($venda['cep']); ?><br/>
-			 <strong>RUA: </strong><?php echo utf8_encode($venda['rua']); ?><br/>
-			 <strong>NUMERO: </strong><?php echo utf8_encode($venda['numero']); ?><br/>
-			 <strong>COMPLEMENTO: </strong><?php echo utf8_encode($venda['complemento']); ?><br/>
-			 <strong>BAIRRO: </strong><?php echo utf8_encode($venda['bairro']); ?><br/>
-			 <strong>CIDADE: </strong><?php echo utf8_encode($venda['cidade']); ?><br/>
-			 <strong>ESTADO: </strong><?php echo utf8_encode($venda['estado']); ?>
+			 <strong>Rua: </strong><?php echo utf8_encode($venda['rua']); ?><br/>
+			 <strong>Número: </strong><?php echo utf8_encode($venda['numero']); ?><br/>
+			 <strong>Complemento: </strong><?php echo utf8_encode($venda['complemento']); ?><br/>
+			 <strong>Bairro: </strong><?php echo utf8_encode($venda['bairro']); ?><br/>
+			 <strong>Cidade: </strong><?php echo utf8_encode($venda['cidade']); ?><br/>
+			 <strong>Estado: </strong><?php echo utf8_encode($venda['estado']); ?>
 			</td>
 		</tr>
 	</table>
-</fieldset>
+	<div>
+<div class="tabelacursovenda">
 
-<h3>Curso da venda</h3>
-<table class="table table-striped">
+<h1>Curso da venda</h1>
+	<table border="0" width="80%">
 	<thead>
 		<tr>
 			<th>Imagem</th>
@@ -58,3 +70,8 @@
 	</tr>
 	<?php endforeach; ?>
 </table>
+
+</div>
+
+</body>
+</html>

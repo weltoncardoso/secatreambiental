@@ -1,16 +1,16 @@
-<h1>Noticias</h1>
+<h1>Notícias</h1>
 
-<div style="text-align:center">
-<a href="<?php echo BASE; ?>noticias/add" class="btn btn-default" style="background-color:#ff0000; color:#ffffff">Adicionar Noticias</a>
+<div style="text-align:center"></br>
+<a href="<?php echo BASE; ?>noticias/add" class="btn btn-default" style="background-color:#0000ff; color:#ffffff">Adicionar Notícias</a>
 </div>
 </br></br>
 <table class="table table-striped">
 	<thead>
 		<tr>
 			<th>Imagem</th>
-			<th>Titulo</th>
-			<th>Descricao</th>
-			<th width="200">Acoes</th>
+			<th>Título</th>
+			<th>Descricão</th>
+			<th width="200">Acões</th>
 		</tr>
 	</thead>
 
@@ -25,8 +25,8 @@
 		<td><?php echo $not['titulo']; ?></td>
 	    <td><?php echo $not['descricao']; ?></td>
 		<td>
-			<a href="<?php echo BASE; ?>noticias/edit/<?php echo $not['id']; ?>" class="btn btn-default">Editar</a>
-			<a href="<?php echo BASE; ?>noticias/remove/<?php echo $not['id']; ?>" class="btn btn-default">Excluir</a>
+			<a href="<?php echo BASE; ?>noticias/edit/<?php echo $not['id']; ?>" style="background-color:#0000FF; color:#FFFFFF" class="btn btn-default">Editar</a>
+			<a href="<?php echo BASE; ?>noticias/remove/<?php echo $not['id']; ?>" style="background-color:#FF0000; color:#FFFFFF" class="btn btn-default">Excluir</a>
 		</td>
 	</tr>
         <?php  endif ?>

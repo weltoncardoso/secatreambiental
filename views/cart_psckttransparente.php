@@ -44,7 +44,7 @@
             <label for="nome_cad">CEP</label>
             <input  name="cep" required="required"  type="text" value="72301407" />
           </p><p> 
-            <label for="nome_cad">Rua</label>
+            <label for="nome_cad">Rua</label></br>
             <input  name="rua" required="required"  type="text" value="Qr 111, conjunto 07, lote" />
           </p><p> 
             <label for="nome_cad">Numero</label>
