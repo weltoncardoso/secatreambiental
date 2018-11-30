@@ -10,7 +10,7 @@ if (isset($_POST['email']) && !empty($_POST['email'])) {
         $usuarios = new Usuarios();
 
         if ($usuarios->fazerLogin($email, $senha)) {
-            header("Location: ".BASE."cursos");
+            header("Location: ".BASE."home");
         }
     }
 

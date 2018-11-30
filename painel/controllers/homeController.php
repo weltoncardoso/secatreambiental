@@ -5,7 +5,7 @@ Class homeController extends controller {
         parent::__construct();
 
         $adm = new Usuarios();
-        if($adm->isLogged() == false) {
+        if(!$adm->isLogged()) {
         	header("Location: ".BASE."login");
         }
     }

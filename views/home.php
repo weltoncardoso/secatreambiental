@@ -22,7 +22,144 @@
 
       <?php include('header.php'); ?> 
 
-      <?php include('banner.php'); ?> 
+<div class="v-banner">
+  <div id="carouselExampleControls" class="carousel slide d-flex align-items-center" data-ride="carousel">
+    <div class="carousel-inner">
+         <div class="carousel-item active">
+    <?php foreach($images1 as $img): ?>
+    <?php foreach($slides1 as $not):?>
+    <?php if ($not['id']== $img['id_slide']): ?>
+              <img class="d-block" src="<?php echo BASE; ?>./painel/assets/images/prods/<?php echo $img['url']?>"
+               alt="<?php echo $not['nome']; ?>"/>
+    <?php  endif ?>
+    <?php endforeach; ?>
+    <?php endforeach; ?>
+
+      </div>
+      <div class="carousel-item">
+    <?php foreach($images2 as $img): ?>
+    <?php foreach($slides2 as $not):?>
+    <?php if ($not['id']== $img['id_slide']): ?>
+              <img class="d-block" src="<?php echo BASE; ?>./painel/assets/images/prods/<?php echo $img['url']?>"
+               alt="<?php echo $not['nome']; ?>"/>
+    <?php  endif ?>
+    <?php endforeach; ?>
+    <?php endforeach; ?>
+
+      </div>
+      <div class="carousel-item">
+    <?php foreach($images3 as $img): ?>
+    <?php foreach($slides3 as $not):?>
+    <?php if ($not['id']== $img['id_slide']): ?>
+              <img class="d-block" src="<?php echo BASE; ?>./painel/assets/images/prods/<?php echo $img['url']?>"
+               alt="<?php echo $not['nome']; ?>"/>
+    <?php  endif ?>
+    <?php endforeach; ?>
+    <?php endforeach; ?>
+
+      </div>
+  <div class="carousel-item">
+    <?php foreach($images4 as $img): ?>
+    <?php foreach($slides4 as $not):?>
+    <?php if ($not['id']== $img['id_slide']): ?>
+              <img class="d-block" src="<?php echo BASE; ?>./painel/assets/images/prods/<?php echo $img['url']?>"
+               alt="<?php echo $not['nome']; ?>"/>
+    <?php  endif ?>
+    <?php endforeach; ?>
+    <?php endforeach; ?>
+
+      </div>
+       <div class="carousel-item">
+    <?php foreach($images5 as $img): ?>
+    <?php foreach($slides5 as $not):?>
+    <?php if ($not['id']== $img['id_slide']): ?>
+              <img class="d-block" src="<?php echo BASE; ?>./painel/assets/images/prods/<?php echo $img['url']?>"
+               alt="<?php echo $not['nome']; ?>"/>
+    <?php  endif ?>
+    <?php endforeach; ?>
+    <?php endforeach; ?>
+
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+<div class="m-banner">
+  <div id="carouselExampleControls2" class="carousel slide d-flex align-items-center" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+    <?php foreach($images1 as $img): ?>
+    <?php foreach($slides1 as $not):?>
+    <?php if ($not['id']== $img['id_slide']): ?>
+              <img class="d-block" src="<?php echo BASE; ?>./painel/assets/images/prods/<?php echo $img['url']?>"
+               alt="<?php echo $not['nome']; ?>"/>
+    <?php  endif ?>
+    <?php endforeach; ?>
+    <?php endforeach; ?>
+
+      </div>
+      <div class="carousel-item">
+    <?php foreach($images2 as $img): ?>
+    <?php foreach($slides2 as $not):?>
+    <?php if ($not['id']== $img['id_slide']): ?>
+              <img class="d-block" src="<?php echo BASE; ?>./painel/assets/images/prods/<?php echo $img['url']?>"
+               alt="<?php echo $not['nome']; ?>"/>
+    <?php  endif ?>
+    <?php endforeach; ?>
+    <?php endforeach; ?>
+
+      </div>
+      <div class="carousel-item">
+    <?php foreach($images3 as $img): ?>
+    <?php foreach($slides3 as $not):?>
+    <?php if ($not['id']== $img['id_slide']): ?>
+              <img class="d-block" src="<?php echo BASE; ?>./painel/assets/images/prods/<?php echo $img['url']?>"
+               alt="<?php echo $not['nome']; ?>"/>
+    <?php  endif ?>
+    <?php endforeach; ?>
+    <?php endforeach; ?>
+
+      </div>
+  <div class="carousel-item">
+    <?php foreach($images4 as $img): ?>
+    <?php foreach($slides4 as $not):?>
+    <?php if ($not['id']== $img['id_slide']): ?>
+              <img class="d-block" src="<?php echo BASE; ?>./painel/assets/images/prods/<?php echo $img['url']?>"
+               alt="<?php echo $not['nome']; ?>"/>
+    <?php  endif ?>
+    <?php endforeach; ?>
+    <?php endforeach; ?>
+
+      </div>
+       <div class="carousel-item">
+    <?php foreach($images5 as $img): ?>
+    <?php foreach($slides5 as $not):?>
+    <?php if ($not['id']== $img['id_slide']): ?>
+              <img class="d-block" src="<?php echo BASE; ?>./painel/assets/images/prods/<?php echo $img['url']?>"
+               alt="<?php echo $not['nome']; ?>"/>
+    <?php  endif ?>
+    <?php endforeach; ?>
+    <?php endforeach; ?>
+
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls2" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls2" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
 
     </section> 
 

@@ -304,13 +304,41 @@ text-decoration: none;
   height: 805px;
   background: url(../img/bg.jpg);
 }
+
 .v-banner{
-	height: 100%;
+    background-color: rgba(100, 100, 100, 0.3);
+	margin-top:120px;
+	margin-left:140px;
+	height: 50%;
+	width: 80%;
 }
+
+.v-banner img{
+	margin-top:60px;
+	margin-left:-30px;
+	height: 320px;
+	width: 900px;
+}
+
+
+
 .m-banner{
-	height: 90%;
+    background-color: rgba(100, 100, 100, 0.3);
+	margin-top:150px;
+	margin-left:10px;
+	height: 30%;
+	width: 95%;
 	display: none;
+
 }
+
+.m-banner img{
+	margin-top:30px;
+	margin-left:0px;
+	height: 115px;
+	width: 270px;
+}
+
 
 .partners {
 	position: relative;
@@ -549,7 +577,18 @@ width: 400px;
 	font-size: 0.75em;
 	text-transform: uppercase;
 }
-
+.col-md-6 img {
+    -ms-flex: 0 0 *0%;
+    flex: 0 0 50%;
+    text-align: center;
+    max-width: 80%;
+  }
+  .col-md-6 h2 {
+    -ms-flex: 0 0 *0%;
+    flex: 0 0 50%;
+    text-align: center;
+    max-width: 80%;
+  }
 
  h1{
  	margin-top: 50px;
@@ -573,6 +612,7 @@ width: 400px;
 .pagination{
 	margin-left: 35%;
 }
+
 .area_aluno a{
     cursor:pointer;
 	outline: none;

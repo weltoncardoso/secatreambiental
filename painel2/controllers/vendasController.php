@@ -3,6 +3,10 @@ class vendasController extends controller {
 
     public function __construct() {
         parent::__construct();
+                $usuarios = new Usuarios();
+        if(!$usuarios->isLogged()) {
+            header("Location: ".BASE."login");
+
     }
 
     public function index() {
