@@ -1,15 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.7.4
--- https://www.phpmyadmin.net/
+-- version 4.5.1
+-- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: 30-Nov-2018 às 00:20
--- Versão do servidor: 10.1.30-MariaDB
--- PHP Version: 5.6.33
+-- Generation Time: 30-Nov-2018 às 22:24
+-- Versão do servidor: 5.7.19
+-- PHP Version: 5.6.15
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
-START TRANSACTION;
 SET time_zone = "+00:00";
 
 
@@ -39,7 +37,7 @@ CREATE TABLE `admins` (
 --
 
 INSERT INTO `admins` (`id`, `usuario`, `senha`) VALUES
-(1, 'admin@admin.com', '202cb962ac59075b964b07152d234b70');
+(1, 'weltonvcardoso@gmail.com', '827ccb0eea8a706c4c34a16891f84e7b');
 
 -- --------------------------------------------------------
 
@@ -60,7 +58,7 @@ CREATE TABLE `alunos` (
 --
 
 INSERT INTO `alunos` (`id`, `nome`, `email`, `senha`, `date_cadastro`) VALUES
-(1, 'Welton', 'admin@admin.com', '202cb962ac59075b964b07152d234b70', '2018-11-10');
+(1, 'Welton', 'weltonvcardoso@gmail.com', '827ccb0eea8a706c4c34a16891f84e7b', '2018-11-10');
 
 -- --------------------------------------------------------
 
@@ -107,7 +105,8 @@ INSERT INTO `aulas` (`id`, `id_modulo`, `id_curso`, `ordem`, `tipo`) VALUES
 (2, 21, 5, 2, 'video'),
 (3, 22, 5, 1, 'video'),
 (4, 22, 5, 2, 'poll'),
-(5, 35, 5, 1, 'video');
+(5, 35, 5, 1, 'video'),
+(6, 36, 1, 1, 'video');
 
 -- --------------------------------------------------------
 
@@ -474,6 +473,32 @@ INSERT INTO `duvidas` (`id`, `data_duvida`, `respondida`, `duvida`, `id_aluno`) 
 -- --------------------------------------------------------
 
 --
+-- Estrutura da tabela `eventos`
+--
+
+CREATE TABLE `eventos` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `title` varchar(150) COLLATE utf8_spanish_ci DEFAULT NULL,
+  `body` text COLLATE utf8_spanish_ci NOT NULL,
+  `url` varchar(150) COLLATE utf8_spanish_ci NOT NULL,
+  `class` varchar(45) COLLATE utf8_spanish_ci NOT NULL DEFAULT 'event-important',
+  `start` varchar(15) COLLATE utf8_spanish_ci NOT NULL,
+  `end` varchar(15) COLLATE utf8_spanish_ci NOT NULL,
+  `inicio_normal` varchar(50) COLLATE utf8_spanish_ci NOT NULL,
+  `final_normal` varchar(50) COLLATE utf8_spanish_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
+
+--
+-- Extraindo dados da tabela `eventos`
+--
+
+INSERT INTO `eventos` (`id`, `title`, `body`, `url`, `class`, `start`, `end`, `inicio_normal`, `final_normal`) VALUES
+(10, 'ghcdfhgdhg', 'hgdfhdhg', 'http://localhost/calendario/descripcion_evento.php?id=10', 'event-info', '1543614840000', '1543701240000', '30/11/2018 19:54', '01/12/2018 19:54'),
+(11, 'teste2', 'teste2', 'http://localhost/calendario/descripcion_evento.php?id=11', 'event-info', '1543677900000', '1543677900000', '01/12/2018 13:25', '01/12/2018 13:25');
+
+-- --------------------------------------------------------
+
+--
 -- Estrutura da tabela `historico`
 --
 
@@ -636,7 +661,8 @@ CREATE TABLE `modulos` (
 INSERT INTO `modulos` (`id`, `id_curso`, `nome`) VALUES
 (21, 5, 'Basico'),
 (22, 5, 'Intermediario'),
-(35, 5, 'Avancado');
+(35, 5, 'Avancado'),
+(36, 1, 'Nível I');
 
 -- --------------------------------------------------------
 
@@ -661,18 +687,18 @@ INSERT INTO `noticias` (`id`, `titulo`, `descricao`, `date_noticia`, `texto`) VA
 (2, 'Titulo2', 'descricao 2', '2018-10-30 01:10:16', 'texto 2'),
 (3, 'Tirulo 3', 'descricao 3', '2018-10-30 01:10:38', 'texto 3'),
 (4, 'Titulo 4', 'descricao 4', '2018-10-30 01:11:02', 'texto 4'),
-(5, 'Lorem Ipsun', 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\r\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\r\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\r\naaaaaaaa\r\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\r\naaaaaaaaaaaaaaaaa\r\naaaaaaaaaaaaaaaaaaaaaaaaaaaaa\r\naaaaaaaaaaaaaaaaaaaaaaaa\r\naaaaaaaaaaaaaaaaaaaaaaaaaaaaa\r\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\r\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa', '2018-10-30 01:16:15', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.'),
+(5, 'Lorem Ipsun', 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\r\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\r\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\r\naaaaaaaa\r\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\r\naaaaaaaaaaaaaaaaa\r\naaaaaaaaaaaaaaaaaaaaaaaaaaaaa\r\naaaaaaaaaaaaaaaaaaaaaaaa\r\naaaaaaaaaaaaaaaaaaaaaaaaaaaaa\r\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\r\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa', '2018-10-30 01:16:15', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry''s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.'),
 (6, 'Aaaaaaaaa', 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa', '2018-10-30 17:54:09', 'aaaaaaaaaaaaaaaa'),
 (7, 'Nnnnn', 'asdnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn', '2018-10-30 17:55:29', 'asd'),
 (8, 'Teste E Assim', 'asdassssssssssssssssssssssssssssssssssssssssssssssssssssssssaaaaaaaaaaaaaaaaaaaaaaaaassssssssssssssssssssssssssssssss', '2018-10-30 17:59:08', ''),
 (9, 'Ola', 'Sabe aquele tÃ­tulo que deveria ficar numa linha sÃ³ e nÃ£o fica? Hoje vou dar uma dica rÃ¡pida de como configurar quebras de linha com css. White-space Ã© a propriedade que define o comportamento das quebras de linha.	\r\n', '2018-10-30 18:02:31', 'asdaaaaaaaaaaaaa'),
-(10, 'Asdsad', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.', '2018-10-30 18:03:45', 'asdasd'),
-(11, 'Lorem', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the ', '2018-10-30 18:09:17', 'asdasd'),
-(12, 'Lorem 2', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also theL', '2018-10-30 18:10:33', 'DSASDA'),
-(13, 'Asdasd', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also theL', '2018-10-30 18:11:31', 'asdasd'),
-(14, 'Aaaaaaaa', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the ', '2018-10-30 18:12:28', 'aaaaa'),
-(15, 'Asdhasd', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the ', '2018-10-30 18:13:36', 'asdasdasdasdada'),
-(16, 'Aiuygfda guiojPSIDH', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the ', '2018-10-30 18:17:42', 'AOIYTAIOPSILorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.'),
+(10, 'Asdsad', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry''s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.', '2018-10-30 18:03:45', 'asdasd'),
+(11, 'Lorem', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry''s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the ', '2018-10-30 18:09:17', 'asdasd'),
+(12, 'Lorem 2', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry''s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also theL', '2018-10-30 18:10:33', 'DSASDA'),
+(13, 'Asdasd', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry''s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also theL', '2018-10-30 18:11:31', 'asdasd'),
+(14, 'Aaaaaaaa', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry''s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the ', '2018-10-30 18:12:28', 'aaaaa'),
+(15, 'Asdhasd', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry''s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the ', '2018-10-30 18:13:36', 'asdasdasdasdada'),
+(16, 'AiuygfdaguiojPSIDH', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry''s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the ', '2018-10-30 18:17:42', 'AOIYTAIOPSILorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry''s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry''s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry''s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry''s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.'),
 (19, 'Agronomia Teste De  Painel', 'terstetstets', '2018-11-14 20:57:23', 'ago e pop');
 
 -- --------------------------------------------------------
@@ -736,7 +762,7 @@ INSERT INTO `purchases` (`id`, `id_user`, `id_coupon`, `total_amount`, `payment_
 (34, 13, NULL, 197, 'mp', 1, NULL),
 (35, 13, NULL, 197, 'mp', 1, NULL),
 (36, 13, NULL, 100, 'mp', 1, NULL),
-(37, 13, NULL, 297, 'mp', 1, NULL);
+(37, 13, NULL, 100, 'mp', 1, NULL);
 
 -- --------------------------------------------------------
 
@@ -761,8 +787,7 @@ INSERT INTO `purchases_products` (`id`, `id_purchase`, `id_product`, `quantity`,
 (29, 34, 1, 1, 197),
 (30, 35, 1, 1, 197),
 (31, 36, 7, 1, 100),
-(32, 37, 7, 1, 100),
-(33, 37, 1, 1, 197);
+(32, 37, 7, 1, 100);
 
 -- --------------------------------------------------------
 
@@ -892,7 +917,7 @@ CREATE TABLE `usuarios` (
 --
 
 INSERT INTO `usuarios` (`id`, `email`, `senha`) VALUES
-(1, 'admin@admin.com', '202cb962ac59075b964b07152d234b70');
+(1, 'weltonvcardoso@gmail.com', '827ccb0eea8a706c4c34a16891f84e7b');
 
 -- --------------------------------------------------------
 
@@ -916,7 +941,8 @@ INSERT INTO `videos` (`id`, `id_aula`, `nome`, `descricao`, `url`) VALUES
 (1, 1, 'video 1', 'Descricao do video aqui', '297431567'),
 (2, 2, 'video 2', 'Descricao do video aqui', '297431567'),
 (3, 3, 'video 3', 'Descricao do video aqui', '297431567'),
-(4, 5, 'video 5', 'Descricao do video aqui', '297431567');
+(4, 5, 'video 5', 'Descricao do video aqui', '297431567'),
+(5, 6, 'aula teste', '', '297431567');
 
 --
 -- Indexes for dumped tables
@@ -968,6 +994,12 @@ ALTER TABLE `cursos`
 -- Indexes for table `duvidas`
 --
 ALTER TABLE `duvidas`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `eventos`
+--
+ALTER TABLE `eventos`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -1031,18 +1063,6 @@ ALTER TABLE `questionarios`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `slide`
---
-ALTER TABLE `slide`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `slide_img`
---
-ALTER TABLE `slide_img`
-  ADD PRIMARY KEY (`id`);
-
---
 -- Indexes for table `users`
 --
 ALTER TABLE `users`
@@ -1069,140 +1089,111 @@ ALTER TABLE `videos`
 --
 ALTER TABLE `admins`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
-
 --
 -- AUTO_INCREMENT for table `alunos`
 --
 ALTER TABLE `alunos`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
-
 --
 -- AUTO_INCREMENT for table `aluno_curso`
 --
 ALTER TABLE `aluno_curso`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
-
 --
 -- AUTO_INCREMENT for table `aulas`
 --
 ALTER TABLE `aulas`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
-
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 --
 -- AUTO_INCREMENT for table `clientes`
 --
 ALTER TABLE `clientes`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=136;
-
 --
 -- AUTO_INCREMENT for table `clientes_img`
 --
 ALTER TABLE `clientes_img`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=136;
-
 --
 -- AUTO_INCREMENT for table `cursos`
 --
 ALTER TABLE `cursos`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
-
 --
 -- AUTO_INCREMENT for table `duvidas`
 --
 ALTER TABLE `duvidas`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
-
+--
+-- AUTO_INCREMENT for table `eventos`
+--
+ALTER TABLE `eventos`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 --
 -- AUTO_INCREMENT for table `historico`
 --
 ALTER TABLE `historico`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
-
 --
 -- AUTO_INCREMENT for table `leis`
 --
 ALTER TABLE `leis`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=44;
-
 --
 -- AUTO_INCREMENT for table `leis_pdf`
 --
 ALTER TABLE `leis_pdf`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=44;
-
 --
 -- AUTO_INCREMENT for table `modulos`
 --
 ALTER TABLE `modulos`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=36;
-
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=37;
 --
 -- AUTO_INCREMENT for table `noticias`
 --
 ALTER TABLE `noticias`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
-
 --
 -- AUTO_INCREMENT for table `noticias_img`
 --
 ALTER TABLE `noticias_img`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
-
 --
 -- AUTO_INCREMENT for table `purchases`
 --
 ALTER TABLE `purchases`
   MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=38;
-
 --
 -- AUTO_INCREMENT for table `purchases_products`
 --
 ALTER TABLE `purchases_products`
-  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=34;
-
+  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=33;
 --
 -- AUTO_INCREMENT for table `purchases_transactions`
 --
 ALTER TABLE `purchases_transactions`
   MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT;
-
 --
 -- AUTO_INCREMENT for table `questionarios`
 --
 ALTER TABLE `questionarios`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
-
---
--- AUTO_INCREMENT for table `slide`
---
-ALTER TABLE `slide`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
-
---
--- AUTO_INCREMENT for table `slide_img`
---
-ALTER TABLE `slide_img`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
-
 --
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
   MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
-
 --
 -- AUTO_INCREMENT for table `usuarios`
 --
 ALTER TABLE `usuarios`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
-
 --
 -- AUTO_INCREMENT for table `videos`
 --
 ALTER TABLE `videos`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
-COMMIT;
-
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
