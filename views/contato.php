@@ -12,7 +12,7 @@
 
     <title>Secatre Ambiental</title>
   </head>
-  <body>    
+  <body>
 
     <?php include('header.php'); ?>
 
@@ -38,7 +38,7 @@
                   <label for="exampleInputEmail1"><img src="./assets/img/whats.png" width="15px" height="15px">&nbsp;<b>WhatsApp</b></label></br>
                 61 99984-7102
                 </div>
-                
+
                 <div class="form-group">
                   <label for="exampleInputEmail1"><i class="fas fa-map-marker-alt"></i>&nbsp;<b>Endereço</b></label></br>
                     SQS 312 BLOCO J - ASA SUL /BRASILIA - DF
@@ -57,11 +57,3 @@
 
   </body>
 </html>
-
-
-
-
-
-
-
-

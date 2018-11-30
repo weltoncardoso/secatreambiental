@@ -6,7 +6,7 @@ tr:nth-child(odd) {background: #ccc}
 table{margin-top: 20px;margin-bottom: 60px;margin-left: 25%;}
 table th{height: 40px;line-height: 40px;text-align: left;padding-left: 10px;padding-right: 10px;}
 table td{height: 40px;line-height: 40px;text-align: left;padding-left: 10px;padding-right: 10px;}</style>
- 
+
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -18,7 +18,7 @@ table td{height: 40px;line-height: 40px;text-align: left;padding-left: 10px;padd
 
     <title>Secatre Ambiental</title>
   </head>
-  <body>    
+  <body>
 
     <?php include('header.php'); ?>
     <div style="margin-left: 25%; margin-right: 25%; margin-top: 10px; margin-bottom: 10%">
@@ -29,11 +29,3 @@ table td{height: 40px;line-height: 40px;text-align: left;padding-left: 10px;padd
 
   </body>
 </html>
-
-
-
-
-
-
-
-

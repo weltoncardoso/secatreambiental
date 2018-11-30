@@ -11,7 +11,7 @@
 
     <title>Secatre Ambiental</title>
   </head>
-  <body>    
+  <body>
 
     <?php include('header.php'); ?>
 
@@ -35,9 +35,9 @@
   </thead>
   <?php foreach($images as $img): ?>
   <?php foreach($clientes as $not):?>
-    <tr> 
+    <tr>
     <?php if ($not['id']== $img['id_cliente']): ?>
-      <td width="110"><img src="./painel/assets/images/prods/<?php echo $img['url']?>" border="0" height="80" width="160" /></td> 
+      <td width="110"><img src="./painel/assets/images/prods/<?php echo $img['url']?>" border="0" height="80" width="160" /></td>
     <td width="290"><?php echo $not['nome']; ?></td>
     <td width="80"><?php echo $not['estado']; ?></td>
       <td width="50"><?php echo $not['alunos']; ?></td>
@@ -70,7 +70,7 @@
 
 </div>
 <div class="mapa">
-    
+
     <?php include('mapa.php'); ?>
 </div>
 <div style="clear:both"></div>
@@ -80,11 +80,3 @@
 
   </body>
 </html>
-
-
-
-
-
-
-
-

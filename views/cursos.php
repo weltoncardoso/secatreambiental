@@ -4,7 +4,7 @@
 <style type="text/css">
 table{margin-top: 60px;margin-bottom: 60px; margin-left: 120px}
 </style>
- 
+
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -16,7 +16,7 @@ table{margin-top: 60px;margin-bottom: 60px; margin-left: 120px}
 
     <title>Secatre Ambiental</title>
   </head>
-  <body>    
+  <body>
 
     <?php include('header.php'); ?>
     <div>
@@ -36,7 +36,7 @@ table{margin-top: 60px;margin-bottom: 60px; margin-left: 120px}
 					</div>
       </div>
 		</div>
-		
+
 	   <div class="table-responsive">
 <div style="min-height: 550px">
 <table width="80%"  >
@@ -53,8 +53,8 @@ table{margin-top: 60px;margin-bottom: 60px; margin-left: 120px}
 
 	<?php foreach($cursos as $not):?>
 
-		<tr> 
-		<td width="110"><img src="<?php echo BASE; ?>curso/assets/images/cursos/<?php echo $not['imagem']?>" border="0" height="80" /></td> 
+		<tr>
+		<td width="110"><img src="<?php echo BASE; ?>curso/assets/images/cursos/<?php echo $not['imagem']?>" border="0" height="80" /></td>
 		<td><?php echo $not['nome']; ?></td>
 	    <td width="500"><?php echo $not['descricao']; ?></td>
 	    <td><?php echo $not['preco']; ?></td>
@@ -86,11 +86,3 @@ for($q=1;$q <= $conta;$q++): ?>
 
   </body>
 </html>
-
-
-
-
-
-
-
-

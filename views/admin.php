@@ -12,7 +12,7 @@
 
     <title>Secatre Ambiental</title>
   </head>
-  <body>    
+  <body>
 
     <?php include('header.php'); ?>
 
@@ -49,11 +49,3 @@ function openWinCurso() {
 
   </body>
 </html>
-
-
-
-
-
-
-
-

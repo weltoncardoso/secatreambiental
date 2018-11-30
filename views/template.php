@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="<?php echo BASE; ?>assets/css/style.css">
 </head>
 <body>
-	
+
 <?php $this->loadViewInTemplate($viewName, $viewData); ?>
 </body>
 </html>

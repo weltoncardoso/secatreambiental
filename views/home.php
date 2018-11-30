@@ -13,45 +13,43 @@
 	    <link rel="stylesheet" href="<?php echo BASE; ?>assets/fonts/font-awesome/css/all.css" />
 	    <link rel="stylesheet" href="<?php echo BASE; ?>assets/css/bootstrap.min.css">
 	    <link rel="stylesheet" href="<?php echo BASE; ?>owlcarousel/assets/owl.carousel.min.css">
-	    <link rel="stylesheet" href="<?php echo BASE; ?>owlcarousel/assets/owl.theme.default.min.css"> 
+	    <link rel="stylesheet" href="<?php echo BASE; ?>owlcarousel/assets/owl.theme.default.min.css">
 	    <link rel="stylesheet" href="<?php echo BASE; ?>assets/css/style.css">
 	</head>
-	<body>    
+	<body>
 
     <section class="banner">
 
-      <?php include('header.php'); ?> 
+      <?php include('header.php'); ?>
 
-      <?php include('banner.php'); ?> 
+      <?php include('banner.php'); ?>
 
-    </section> 
+    </section>
 
     <section class="partners py-5 my-5">
-  
+
       <div class="container">
         <div class="row">
           <span>Colaboradores</span>
         </div>
         <div class="row">
           <div class="owl-carousel owl-theme">
-            <div class="item"><a href="https://www.creadf.org.br/"><img src="<?php echo BASE; ?>assets/img/creadf.jpg" alt="CREADF"></a></div>
-            <div class="item"><a href="https://www.creadf.org.br/"><img src="<?php echo BASE; ?>assets/img/creadf.jpg" alt="CREADF"></a></div>
-            <div class="item"><a href="https://www.creadf.org.br/"><img src="<?php echo BASE; ?>assets/img/creadf.jpg" alt="CREADF"></a></div>
-            <div class="item"><a href="https://www.creadf.org.br/"><img src="<?php echo BASE; ?>assets/img/creadf.jpg" alt="CREADF"></a></div>
-            <div class="item"><a href="https://www.creadf.org.br/"><img src="<?php echo BASE; ?>assets/img/creadf.jpg" alt="CREADF"></a></div>
-            <div class="item"><a href="https://www.creadf.org.br/"><img src="<?php echo BASE; ?>assets/img/creadf.jpg" alt="CREADF"></a></div>
-            <div class="item"><a href="https://www.creadf.org.br/"><img src="<?php echo BASE; ?>assets/img/creadf.jpg" alt="CREADF"></a></div>
+
+						<div class="item"><a href="http://www.confea.org.br/"><img src="<?php echo BASE; ?>assets/img/confea.png" alt="CONFEA"></a></div>
+						<div class="item"><a href="https://www.creadf.org.br/"><img src="<?php echo BASE; ?>assets/img/creadf.jpg" alt="CREADF"></a></div>
+						<div class="item"><a href="http://www.mutua.com.br/"><img src="<?php echo BASE; ?>assets/img/mutua.png" alt="MUTUA"></a></div>
+
           </div>
         </div>
       </div>
-    </section>   
+    </section>
 
     <section class="about py-5 my-5">
     	<div class="container">
     		<h1>Secatre Ambiental</h1>
         <p class="mt-4">Foi a primeira empresa institu&iacute;da em Bras&iacute;lia/DF com atua&ccedil;&atilde;o em engenharia de seguran&ccedil;a do trabalho. Atuando h&aacute; mais de vinte anos no mercado de trabalho, em especial  com a &aacute;rea de seguran&ccedil;a, sa&uacute;de e meio ambiente; A Secatre desenvolveu v&aacute;rias per&iacute;cias t&eacute;cnicas em assuntos trabalhistas, v&aacute;rios semin&aacute;rios de repercuss&atilde;o nacional onde s&atilde;o destacados a &quot;Seguran&ccedil;a em Esteriliza&ccedil;&atilde;o a G&aacute;s &Oacute;xido de Etileno e Seguran&ccedil;a em Radia&ccedil;&atilde;o Ionizante, ambos com n&uacute;mero de participantes superior a trezentos, oriundos de v&aacute;rios pontos do Pa&iacute;s. Mais recentemente desenvolveu Semin&aacute;rio sobre Tratamento de Res&iacute;duos de Servi&ccedil;os de Sa&uacute;de e o Workshop sobre Novas Diretrizes para o Tratamento de Res&iacute;duos de Servi&ccedil;os de Sa&uacute;de.</p>
     	</div>
-    </section>    
+    </section>
 
     <section class="differential py-4 mt-5">
       <div class="container">
@@ -120,7 +118,7 @@
               <?php endforeach; ?>
               <?php endforeach; ?>
 
-        </div>     
+        </div>
            <div style="clear:both"></div>
               <div style="text-align:center; ">
         <div class="noticias-button">
@@ -134,9 +132,9 @@
       <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d61418.74155764689!2d-47.95201305230152!3d-15.82127421209615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x935a3a9b57957e05%3A0x12037641d60f6974!2sSQS+312+Bl+J+-+s%2Fn+PA%2C+Asa+Sul+Superquadra+Sul+312+Cond+do+Bloco+J+da+Sqs+312+-+Bras%C3%ADlia%2C+DF%2C+70365-100!3m2!1d-15.8213596!2d-47.9169935!4m5!1s0x935a3a9b57957e05%3A0x12037641d60f6974!2sCond+do+Bloco+J+da+Sqs+312+-+Bras%C3%ADlia%2C+DF!3m2!1d-15.8213596!2d-47.9169935!5e0!3m2!1spt-BR!2sbr!4v1542155200915" width="100%" height="550" frameborder="0" style="border:0" allowfullscreen></iframe>
     </section>
 
-    <?php include('footer.php'); ?>  
+    <?php include('footer.php'); ?>
 
-    <script src="<?php echo BASE; ?>owlcarousel/owl.carousel.min.js"></script>  
+    <script src="<?php echo BASE; ?>owlcarousel/owl.carousel.min.js"></script>
     <script type="text/javascript">
       $('.owl-carousel').owlCarousel({
           loop:true,
@@ -154,7 +152,7 @@
               }
           }
       })
-    </script> 
+    </script>
 
   </body>
 </html>

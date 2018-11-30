@@ -6,7 +6,7 @@ tr:nth-child(odd) {background: #ccc}
 table{margin-top: 20px;margin-bottom: 60px;margin-left: 25%;}
 table th{height: 40px;line-height: 40px;text-align: left;padding-left: 10px;padding-right: 10px;}
 table td{height: 40px;line-height: 40px;text-align: left;padding-left: 10px;padding-right: 10px;}</style>
- 
+
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -18,7 +18,7 @@ table td{height: 40px;line-height: 40px;text-align: left;padding-left: 10px;padd
 
     <title>Secatre Ambiental</title>
   </head>
-  <body>    
+  <body>
 
     <?php include('header.php'); ?>
 
@@ -46,11 +46,11 @@ table td{height: 40px;line-height: 40px;text-align: left;padding-left: 10px;padd
           <th width="100" >Qtd</th>
           <th colspan="2" width="150">Preço</th>
         </tr>
-        <?php  
+        <?php
           $Subtotal = 0;
         ?>
         <?php foreach ($list as $item): ?>
-          <?php  
+          <?php
           $Subtotal += (floatval($item['price']) * intval($item['qt']));
         ?>
           <tr>
@@ -76,7 +76,7 @@ table td{height: 40px;line-height: 40px;text-align: left;padding-left: 10px;padd
   </select>
 
  <input type="submit" value="Finalizar Compra" class="btn btn-default" />
-      </form> 
+      </form>
      <?php endif ?>
   </div>
 
@@ -85,11 +85,3 @@ table td{height: 40px;line-height: 40px;text-align: left;padding-left: 10px;padd
 
   </body>
 </html>
-
-
-
-
-
-
-
-

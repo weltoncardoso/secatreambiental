@@ -38,7 +38,7 @@ public function entrar($id) {
 		$dados['aluno'] = $curso->getCurso($idAcesso);
 		
 			$dataBanco = $dados['aluno']['date_cadastro'];		
-			$dataADD = date('Y/m/d', strtotime("+90 days",strtotime($dataBanco)));
+			$dataADD = date('Y/m/d', strtotime("+60 days",strtotime($dataBanco)));
 			$dataAtual =  date("Y/m/d");
  			if($dataAtual < $dataADD){
 				$this->loadTemplate('curso_entrar', $dados);  

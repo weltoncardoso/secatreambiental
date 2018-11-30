@@ -13,7 +13,7 @@
 
     <title>Estratégia Ambiental</title>
   </head>
-  <body>    
+  <body>
 
     <?php include('header.php'); ?>
 
@@ -43,10 +43,10 @@
           </div>
           <div class="col-md-2 col-sm-6 col-6 mt-5">
             <a href=""><img src="<?php echo BASE; ?>assets/img/faep.jpg" alt="Faep"></a>
-          </div>          
+          </div>
         </div>
       </div>
-    </section>  
+    </section>
 
     <section class="agronomos py-5 my-5">
 
@@ -56,9 +56,9 @@
           <h4>Agronomos Parceiros</h4>
         </div>
 
-        <div class="row">          
+        <div class="row">
           <div class="col-md-3 hidden-xs">
-            <div class="list-group">              
+            <div class="list-group">
               <a href="#" class="list-group-item active">Grupo Agronomia</a>
               <a href="#" class="list-group-item">Grupo Agronomia</a>
               <a href="#" class="list-group-item">Grupo Agronomia</a>
@@ -67,7 +67,7 @@
               <a href="#" class="list-group-item">Grupo Agronomia</a>
               <a href="#" class="list-group-item">Grupo Agronomia</a>
               <a href="#" class="list-group-item">Grupo Agronomia</a>
-              <a href="#" class="list-group-item">Grupo Agronomia</a>            
+              <a href="#" class="list-group-item">Grupo Agronomia</a>
             </div>
           </div>
 
@@ -76,7 +76,7 @@
               <div class="col-sm-12 col-md-4">
                 <div class="thumbnail">
                   <img src="img/agronomo.jpg" alt="Nome Agronomo" class="img-fluid">
-                  <div class="caption">              
+                  <div class="caption">
                     <p>Empresa Agronomo</p>
                     <h3>Nome Agronomo</h3>
                     <p>email@email.com.br</p>
@@ -86,7 +86,7 @@
               <div class="col-sm-12 col-md-4">
                 <div class="thumbnail">
                   <img src="<?php echo BASE; ?>assets/img/agronomo.jpg" alt="Nome Agronomo" class="img-fluid">
-                  <div class="caption">              
+                  <div class="caption">
                     <p>Empresa Agronomo</p>
                     <h3>Nome Agronomo</h3>
                     <p>email@email.com.br</p>
@@ -96,7 +96,7 @@
               <div class="col-sm-12 col-md-4">
                 <div class="thumbnail">
                   <img src="<?php echo BASE; ?>assets/<?php echo BASE; ?>assets/img/agronomo.jpg" alt="Nome Agronomo" class="img-fluid">
-                  <div class="caption">              
+                  <div class="caption">
                     <p>Empresa Agronomo</p>
                     <h3>Nome Agronomo</h3>
                     <p>email@email.com.br</p>
@@ -106,7 +106,7 @@
               <div class="col-sm-12 col-md-4">
                 <div class="thumbnail">
                   <img src="<?php echo BASE; ?>assets/img/agronomo.jpg" alt="Nome Agronomo" class="img-fluid">
-                  <div class="caption">              
+                  <div class="caption">
                     <p>Empresa Agronomo</p>
                     <h3>Nome Agronomo</h3>
                     <p>email@email.com.br</p>
@@ -116,7 +116,7 @@
               <div class="col-sm-12 col-md-4">
                 <div class="thumbnail">
                   <img src="<?php echo BASE; ?>assets/img/agronomo.jpg" alt="Nome Agronomo" class="img-fluid">
-                  <div class="caption">              
+                  <div class="caption">
                     <p>Empresa Agronomo</p>
                     <h3>Nome Agronomo</h3>
                     <p>email@email.com.br</p>
@@ -126,7 +126,7 @@
               <div class="col-sm-12 col-md-4">
                 <div class="thumbnail">
                   <img src="<?php echo BASE; ?>assets/<?php echo BASE; ?>assets/<?php echo BASE; ?>assets/img/agronomo.jpg" alt="Nome Agronomo" class="img-fluid">
-                  <div class="caption">              
+                  <div class="caption">
                     <p>Empresa Agronomo</p>
                     <h3>Nome Agronomo</h3>
                     <p>email@email.com.br</p>
@@ -136,7 +136,7 @@
               <div class="col-sm-12 col-md-4">
                 <div class="thumbnail">
                   <img src="<?php echo BASE; ?>assets/<?php echo BASE; ?>assets/img/agronomo.jpg" alt="Nome Agronomo" class="img-fluid">
-                  <div class="caption">              
+                  <div class="caption">
                     <p>Empresa Agronomo</p>
                     <h3>Nome Agronomo</h3>
                     <p>email@email.com.br</p>
@@ -146,7 +146,7 @@
               <div class="col-sm-12 col-md-4">
                 <div class="thumbnail">
                   <img src="<?php echo BASE; ?>assets/img/agronomo.jpg" alt="Nome Agronomo" class="img-fluid">
-                  <div class="caption">              
+                  <div class="caption">
                     <p>Empresa Agronomo</p>
                     <h3>Nome Agronomo</h3>
                     <p>email@email.com.br</p>
@@ -156,7 +156,7 @@
               <div class="col-sm-12 col-md-4">
                 <div class="thumbnail">
                   <img src="<?php echo BASE; ?>assets/img/agronomo.jpg" alt="Nome Agronomo" class="img-fluid">
-                  <div class="caption">              
+                  <div class="caption">
                     <p>Empresa Agronomo</p>
                     <h3>Nome Agronomo</h3>
                     <p>email@email.com.br</p>
@@ -166,7 +166,7 @@
               <div class="col-sm-12 col-md-4">
                 <div class="thumbnail">
                   <img src="<?php echo BASE; ?>assets/img/agronomo.jpg" alt="Nome Agronomo" class="img-fluid">
-                  <div class="caption">              
+                  <div class="caption">
                     <p>Empresa Agronomo</p>
                     <h3>Nome Agronomo</h3>
                     <p>email@email.com.br</p>
@@ -176,7 +176,7 @@
               <div class="col-sm-12 col-md-4">
                 <div class="thumbnail">
                   <img src="<?php echo BASE; ?>assets/img/agronomo.jpg" alt="Nome Agronomo" class="img-fluid">
-                  <div class="caption">              
+                  <div class="caption">
                     <p>Empresa Agronomo</p>
                     <h3>Nome Agronomo</h3>
                     <p>email@email.com.br</p>
@@ -186,7 +186,7 @@
               <div class="col-sm-12 col-md-4">
                 <div class="thumbnail">
                   <img src="<?php echo BASE; ?>assets/img/agronomo.jpg" alt="Nome Agronomo" class="img-fluid">
-                  <div class="caption">              
+                  <div class="caption">
                     <p>Empresa Agronomo</p>
                     <h3>Nome Agronomo</h3>
                     <p>email@email.com.br</p>
@@ -196,7 +196,7 @@
               <div class="col-sm-12 col-md-4">
                 <div class="thumbnail">
                   <img src="<?php echo BASE; ?>assets/img/agronomo.jpg" alt="Nome Agronomo" class="img-fluid">
-                  <div class="caption">              
+                  <div class="caption">
                     <p>Empresa Agronomo</p>
                     <h3>Nome Agronomo</h3>
                     <p>email@email.com.br</p>
@@ -206,7 +206,7 @@
               <div class="col-sm-12 col-md-4">
                 <div class="thumbnail">
                   <img src="<?php echo BASE; ?>assets/img/agronomo.jpg" alt="Nome Agronomo" class="img-fluid">
-                  <div class="caption">              
+                  <div class="caption">
                     <p>Empresa Agronomo</p>
                     <h3>Nome Agronomo</h3>
                     <p>email@email.com.br</p>
@@ -216,7 +216,7 @@
               <div class="col-sm-12 col-md-4">
                 <div class="thumbnail">
                   <img src="<?php echo BASE; ?>assets/img/agronomo.jpg" alt="Nome Agronomo" class="img-fluid">
-                  <div class="caption">              
+                  <div class="caption">
                     <p>Empresa Agronomo</p>
                     <h3>Nome Agronomo</h3>
                     <p>email@email.com.br</p>
@@ -226,7 +226,7 @@
               <div class="col-sm-12 col-md-4">
                 <div class="thumbnail">
                   <img src="img/agronomo.jpg" alt="Nome Agronomo" class="img-fluid">
-                  <div class="caption">              
+                  <div class="caption">
                     <p>Empresa Agronomo</p>
                     <h3>Nome Agronomo</h3>
                     <p>email@email.com.br</p>
@@ -236,7 +236,7 @@
               <div class="col-sm-12 col-md-4">
                 <div class="thumbnail">
                   <img src="<?php echo BASE; ?>assets/img/agronomo.jpg" alt="Nome Agronomo" class="img-fluid">
-                  <div class="caption">              
+                  <div class="caption">
                     <p>Empresa Agronomo</p>
                     <h3>Nome Agronomo</h3>
                     <p>email@email.com.br</p>
@@ -246,7 +246,7 @@
               <div class="col-sm-12 col-md-4">
                 <div class="thumbnail">
                   <img src="<?php echo BASE; ?>assets/img/agronomo.jpg" alt="Nome Agronomo" class="img-fluid">
-                  <div class="caption">              
+                  <div class="caption">
                     <p>Empresa Agronomo</p>
                     <h3>Nome Agronomo</h3>
                     <p>email@email.com.br</p>
@@ -256,7 +256,7 @@
               <div class="col-sm-12 col-md-4">
                 <div class="thumbnail">
                   <img src="<?php echo BASE; ?>assets/img/agronomo.jpg" alt="Nome Agronomo" class="img-fluid">
-                  <div class="caption">              
+                  <div class="caption">
                     <p>Empresa Agronomo</p>
                     <h3>Nome Agronomo</h3>
                     <p>email@email.com.br</p>
@@ -266,7 +266,7 @@
               <div class="col-sm-12 col-md-4">
                 <div class="thumbnail">
                   <img src="<?php echo BASE; ?>assets/img/agronomo.jpg" alt="Nome Agronomo" class="img-fluid">
-                  <div class="caption">              
+                  <div class="caption">
                     <p>Empresa Agronomo</p>
                     <h3>Nome Agronomo</h3>
                     <p>email@email.com.br</p>
@@ -279,19 +279,11 @@
         </div>
       </div>
 
-      
-      
+
+
     </section>
 
     <?php include('footer.php'); ?>
 
   </body>
 </html>
-
-
-
-
-
-
-
-

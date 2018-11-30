@@ -11,7 +11,7 @@
 
     <title>Secatre Ambiental</title>
   </head>
-  <body>    
+  <body>
 
     <?php include('header.php'); ?>
 
@@ -20,8 +20,8 @@
           Notícias
       </div>
     </div>
-  
-        
+
+
            <?php foreach($images as $img): ?>
             <?php foreach($noticias as $not):?>
 
@@ -65,11 +65,3 @@
 
   </body>
 </html>
-
-
-
-
-
-
-
-

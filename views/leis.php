@@ -6,7 +6,7 @@ tr:nth-child(odd) {background: #ccc}
 table{margin-top: 20px;margin-bottom: 60px;margin-left: 25%;}
 table th{height: 40px;line-height: 40px;text-align: left;padding-left: 10px;padding-right: 10px;}
 table td{height: 40px;line-height: 40px;text-align: left;padding-left: 10px;padding-right: 10px;}</style>
- 
+
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -18,7 +18,7 @@ table td{height: 40px;line-height: 40px;text-align: left;padding-left: 10px;padd
 
     <title>Secatre Ambiental</title>
   </head>
-  <body>    
+  <body>
 
     <?php include('header.php'); ?>
 
@@ -39,7 +39,7 @@ table td{height: 40px;line-height: 40px;text-align: left;padding-left: 10px;padd
 
 
 	<?php foreach($leisdistritais as $not):?>
-		<tr> 
+		<tr>
 		<td><?php echo $not['nome']; ?></td>
 		<td width="50">
 		    <a target="_blank" href="<?php echo BASE; ?>painel/leis/view/<?php echo $not['id']; ?>" style="background-color:#1E90FF; color:#FFFFFF" class="btn btn-default">Ver PDF</a>
@@ -84,7 +84,7 @@ table td{height: 40px;line-height: 40px;text-align: left;padding-left: 10px;padd
 
 
 	<?php foreach($leisfederais as $not):?>
-		<tr> 
+		<tr>
 		<td><?php echo $not['nome']; ?></td>
 		<td width="50">
 		    <a target="_blank" href="<?php echo BASE; ?>painel/leis/view/<?php echo $not['id']; ?>" style="background-color:#1E90FF; color:#FFFFFF" class="btn btn-default">Ver PDF</a>
@@ -126,7 +126,7 @@ table td{height: 40px;line-height: 40px;text-align: left;padding-left: 10px;padd
 
 
 	<?php foreach($leisbiografias as $not):?>
-		<tr> 
+		<tr>
 		<td><?php echo $not['nome']; ?></td>
 		<td width="50">
 		    <a target="_blank" href="<?php echo BASE; ?>painel/leis/view/<?php echo $not['id']; ?>" style="background-color:#1E90FF; color:#FFFFFF" class="btn btn-default">Ver PDF</a>
@@ -168,7 +168,7 @@ table td{height: 40px;line-height: 40px;text-align: left;padding-left: 10px;padd
 
 
 	<?php foreach($leisoutras as $not):?>
-		<tr> 
+		<tr>
 		<td><?php echo $not['nome']; ?></td>
 		<td width="50">
 		    <a target="_blank" href="<?php echo BASE; ?>painel/leis/view/<?php echo $not['id']; ?>" style="background-color:#1E90FF; color:#FFFFFF" class="btn btn-default">Ver PDF</a>
@@ -206,11 +206,3 @@ table td{height: 40px;line-height: 40px;text-align: left;padding-left: 10px;padd
 
   </body>
 </html>
-
-
-
-
-
-
-
-

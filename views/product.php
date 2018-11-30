@@ -6,7 +6,7 @@ tr:nth-child(odd) {background: #ccc}
 table{margin-top: 20px;margin-bottom: 60px;margin-left: 25%;}
 table th{height: 40px;line-height: 40px;text-align: left;padding-left: 10px;padding-right: 10px;}
 table td{height: 40px;line-height: 40px;text-align: left;padding-left: 10px;padding-right: 10px;}</style>
- 
+
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -18,7 +18,7 @@ table td{height: 40px;line-height: 40px;text-align: left;padding-left: 10px;padd
 
     <title>Secatre Ambiental</title>
   </head>
-  <body>    
+  <body>
 
     <?php include('header.php'); ?>
 
@@ -33,7 +33,7 @@ table td{height: 40px;line-height: 40px;text-align: left;padding-left: 10px;padd
 		<div class="mainphoto">
 			<img src="<?php echo BASE; ?>curso/assets/images/cursos/<?php echo $product_info['imagem']; ?>" />
 		</div>
-		
+
 	</div>
 	<div class="col-sm-5">
 		<h2><?php echo $product_info['nome']; ?></h2>
@@ -41,7 +41,7 @@ table td{height: 40px;line-height: 40px;text-align: left;padding-left: 10px;padd
 		<p><?php echo utf8_encode($product_info['descricao']); ?></p>
 		<hr/>
 		Preco: <span class="original_price">R$ <?php echo number_format($product_info['preco'], 2,',','.'); ?></span>
-		
+
 		<form method="POST" class="addtocartform" action="<?php echo BASE; ?>cart/add">
 			<input type="hidden" name="id_product" value="<?php echo $product_info['id']; ?>" />
 			<input type="hidden" name="qt_product" value="1" />

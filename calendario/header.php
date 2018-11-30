@@ -1,3 +1,18 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="shortcut icon" href="<?php echo BASE; ?>assets/img/thor.ico">
+    <link rel="stylesheet" href="<?php echo BASE; ?>assets/fonts/font-awesome/css/all.css" />
+    <link rel="stylesheet" href="<?php echo BASE; ?>assets/css/bootstrap.min123.css">
+    <link rel="stylesheet" href="<?php echo BASE; ?>assets/css/style.css">
+
+    <title>Secatre Ambiental</title>
+  </head>
+  <body>
 <header>
 <div class="whatsapp">
   <i class="fab fa-whatsapp"></i> <span>61</span> 99984-7102
@@ -28,3 +43,5 @@
   </div>
 </nav>
 </header>
+</body>
+</html>

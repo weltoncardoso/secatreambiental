@@ -11,7 +11,7 @@
 
     <title>Secatre Ambiental</title>
   </head>
-  <body>    
+  <body>
 
     <?php include('header.php'); ?>
 
@@ -28,7 +28,7 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at turpis nec arcu vestibulum rutrum. Aliquam erat volutpat. Ut in nulla quis est feugiat rutrum. Praesent pulvinar congue nisl, quis molestie metus cursus ut. Sed malesuada blandit leo, et pretium sapien.
         </p>
       </div>
-    </section>  
+    </section>
 
     <section class="differential py-4 mt-5">
       <div class="container">
@@ -73,7 +73,7 @@
                 </div>
               </div>
             </div>
-           
+
               </div>
             </div>
           </div>
@@ -84,11 +84,3 @@
 
   </body>
 </html>
-
-
-
-
-
-
-
-

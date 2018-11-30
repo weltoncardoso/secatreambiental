@@ -13,7 +13,7 @@
 
     <title>Estratégia Ambiental</title>
   </head>
-  <body>    
+  <body>
 
     <?php include('header.php'); ?>
 
@@ -26,14 +26,14 @@
     <section class="depoimentos-page py-5 my-5">
       <div class="container">
           <div class="row">
-            
+
             <ul class="list-unstyled">
               <li class="media">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/vXMxacWohk0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 <div class="media-body">
                   <h5 class="mt-0 mb-1">Vídeo Referência</h5>
                   <hr>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eleifend eros neque, id congue orci tincidunt vel. Fusce tincidunt dictum aliquet. 
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eleifend eros neque, id congue orci tincidunt vel. Fusce tincidunt dictum aliquet.
                 </div>
               </li>
               <li class="media my-4">
@@ -41,7 +41,7 @@
                 <div class="media-body">
                   <h5 class="mt-0 mb-1">Vídeo Referência</h5>
                   <hr>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eleifend eros neque, id congue orci tincidunt vel. Fusce tincidunt dictum aliquet. 
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eleifend eros neque, id congue orci tincidunt vel. Fusce tincidunt dictum aliquet.
                 </div>
               </li>
               <li class="media">
@@ -49,7 +49,7 @@
                 <div class="media-body">
                   <h5 class="mt-0 mb-1">Vídeo Referência</h5>
                   <hr>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eleifend eros neque, id congue orci tincidunt vel. Fusce tincidunt dictum aliquet. 
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eleifend eros neque, id congue orci tincidunt vel. Fusce tincidunt dictum aliquet.
                 </div>
               </li>
             </ul>
@@ -62,11 +62,3 @@
 
   </body>
 </html>
-
-
-
-
-
-
-
-
