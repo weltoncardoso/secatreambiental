@@ -2,7 +2,7 @@
 /**
 * 
 */
-class leisController extends controller
+class curiosidadesController extends controller
 {
 
 	public function __construct() {
@@ -24,21 +24,17 @@ class leisController extends controller
                     }
                 }
 
-        $offset = (5 * ($dados['p']-1));
+        $offset = (10 * ($dados['p']-1));
         
         $dados['limit_leis'] = $limit;
-        $dados['total_leis_distritais'] = $lei->getTotalLeisDistritais();
-        $dados['total_leis_federais'] = $lei->getTotalLeisFederais();
         $dados['total_leis_biografias'] = $lei->getTotalLeisBiografias();
         $dados['total_leis_outras'] = $lei->getTotalLeisOutras();
 
         $dados['pdfs'] = $lei->getPdfs($offset, $limit);
-        $dados['leisdistritais'] = $lei->getLeisDistritais($offset, $limit);
-        $dados['leisfederais'] = $lei->getLeisFederais($offset, $limit);
         $dados['leisbiografias'] = $lei->getLeisBiografias($offset, $limit);
         $dados['leisoutras'] = $lei->getLeisOutras($offset, $limit);
 
-		$this->loadTemplate('leis', $dados);
+		$this->loadTemplate('curiosidades', $dados);
 
 		}
       public function view($id) {
