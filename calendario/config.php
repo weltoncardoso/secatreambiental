@@ -4,7 +4,7 @@
 $servidor='localhost';
 $usuario='root';
 $pass='';
-$bd='eventos';
+$bd='ead';
 
 // Nos conectamos a la base de datos
 $conexion = new mysqli($servidor, $usuario, $pass, $bd);

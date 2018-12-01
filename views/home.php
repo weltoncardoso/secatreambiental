@@ -22,9 +22,6 @@
 
       <?php include('header.php'); ?>
 
-<<<<<<< HEAD
-      <?php include('banner.php'); ?>
-=======
 <div class="v-banner">
   <div id="carouselExampleControls" class="carousel slide d-flex align-items-center" data-ride="carousel">
     <div class="carousel-inner">

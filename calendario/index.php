@@ -84,37 +84,50 @@ if (isset($_POST['from']))
         <link rel="stylesheet" href="<?=$base_url?>css/bootstrap-datetimepicker.min.css" />
        <script src="<?=$base_url?>js/bootstrap-datetimepicker.es.js"></script>
            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+             <link rel="shortcut icon" type="image/x-icon" href="<?php echo BASE; ?>assets/img/ico.ico" />
+        <link href="<?php echo BASE; ?>assets/css/style.css" rel="stylesheet" />
+        <script type="text/javascript" src="<?php echo BASE; ?>assets/js/script.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Poppins:400,800,900" rel="stylesheet">
+
+        <link rel="shortcut icon" href="<?php echo BASE; ?>assets/img/ico.ico">
+        <link rel="stylesheet" href="<?php echo BASE; ?>assets/fonts/font-awesome/css/all.css" />
+        <link rel="stylesheet" href="<?php echo BASE; ?>assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="<?php echo BASE; ?>owlcarousel/assets/owl.carousel.min.css">
+        <link rel="stylesheet" href="<?php echo BASE; ?>owlcarousel/assets/owl.theme.default.min.css">
+        <link rel="stylesheet" href="<?php echo BASE; ?>assets/css/style.css">
+
     </head>
 
 </head>
-<body style="background: white;">
+<body >
+    <?php include('header.php'); ?>
 
   <div class="tab">
-    <div class="container" align="center">
+    <div align="center" style="font-size:30px;">
       Agenda
     </div>
   </div>
 
-        <div class="container">
+        <div class="container" style="font-size:17px">
 
                 <div class="row">
-                        <div class="page-header"><h2></h2></div>
-                                <div class="pull-left form-inline"><br>
-                                        <div class="btn-group">
-                                            <button class="btn btn-primary" data-calendar-nav="prev"><< Anterior</button>
-                                            <button class="btn" data-calendar-nav="today">Hoje</button>
-                                            <button class="btn btn-primary" data-calendar-nav="next">Próxima >></button>
+                        <div class="page-header"><h2></h2></br></br></br></br></br></div>
+                                <div class="pull-left form-inline" ><br>
+                                        <div class="btn-group" >
+                                            <button class="btn btn-primary" data-calendar-nav="prev"  style="font-size:17px; margin-left"><< Anterior</button>
+                                            <button class="btn" data-calendar-nav="today" style="font-size:17px; background-color:blue">Hoje</button>
+                                            <button class="btn btn-primary" data-calendar-nav="next" style="font-size:17px">Próxima >></button>
                                         </div>
                                         <div class="btn-group">
-                                            <button class="btn btn-warning" data-calendar-view="year">Ano</button>
-                                            <button class="btn btn-warning active" data-calendar-view="month">Mês</button>
-                                            <button class="btn btn-warning" data-calendar-view="week">Semana</button>
-                                            <button class="btn btn-warning" data-calendar-view="day">Dia</button>
+                                            <button class="btn btn-warning" data-calendar-view="year" style="font-size:17px; margin-left:30px">Ano</button>
+                                            <button class="btn btn-warning active" data-calendar-view="month"  style="font-size:17px">Mês</button>
+                                            <button class="btn btn-warning" data-calendar-view="week"  style="font-size:17px">Semana</button>
+                                            <button class="btn btn-warning" data-calendar-view="day"  style="font-size:17px">Dia</button>
                                         </div>
 
                                 </div>
                                     <div class="pull-right form-inline"><br>
-                                        <button class="btn btn-info" data-toggle='modal' data-target='#add_evento'>Adicionar Eventos</button>
+                                        <button class="btn btn-info" data-toggle='modal' data-target='#add_evento'  style="font-size:17px; margin-left:30px; background-color:blue">Adicionar Eventos</button>
                                     </div>
 
                 </div><hr>
@@ -125,10 +138,10 @@ if (isset($_POST['from']))
                 </div>
 
                 <!--ventana modal para el calendario-->
-                <div class="modal fade" id="events-modal">
+                <div class="modal fade" id="events-modal" >
                     <div class="modal-dialog">
                             <div class="modal-content">
-                                    <div class="modal-body" style="height: 400px">
+                                    <div class="modal-body" style="height: 400px;">
                                         <p>One fine body&hellip;</p>
                                     </div>
                                 <div class="modal-footer">
@@ -255,7 +268,7 @@ if (isset($_POST['from']))
       <div class="modal-header">
         <h4 class="modal-title" id="myModalLabel">Adicionar novo evento</h4>
       </div>
-      <div class="modal-body">
+      <div class="modal-body" style="font-size:16px">
         <form action="" method="post">
                     <label for="from">Inicio</label>
                     <div class='input-group date' id='from'>
@@ -265,7 +278,7 @@ if (isset($_POST['from']))
 
                     <br>
 
-                    <label for="to">Final</label>
+                    <label for="to" >Final</label>
                     <div class='input-group date' id='to'>
                         <input type='text' name="to" id="to" class="form-control" readonly />
                         <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
@@ -273,7 +286,7 @@ if (isset($_POST['from']))
 
                     <br>
 
-                    <label for="tipo">Tipo de evento</label>
+                    <label for="tipo" >Tipo de evento</label>
                     <select class="form-control" name="class" id="tipo">
                         <option value="event-info">Informação</option>
                         <option value="event-success">Êxito</option>
@@ -316,20 +329,10 @@ if (isset($_POST['from']))
   </div>
 </div>
 </div>
-<div class="parceiro-button">
-  <a style="  position: fixed;
-    bottom: 10px;
-    right: 10px;
-    background-color:darkgreen;
-    width: 150px;
-    z-index: 9999;
-    border-radius: 3px;
-    font-weight: normal;
-    border: 1px solid #28a745;
-    border-radius: 10px;
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f509407a', endColorstr='#e06e6e',GradientType=0 ); /* IE6-9 */" href="<?php echo BASE; ?>"
-  <button type="button" class="btn btn-primary" ></i> Voltar ao Site!
-  </button></a>
-</div>
+
+
+    <?php include('footer.php'); ?>
+
+
 </body>
 </html>
