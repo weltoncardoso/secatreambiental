@@ -17,7 +17,7 @@
 
     <div class="tab">
       <div class="container" align="center">
-        Nossos Clientes
+        Agenda
       </div>
     </div></br></br></br></br>
     <?php include('agenda2.php'); ?>

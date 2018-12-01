@@ -1,10 +1,10 @@
 <?php
 class Agenda extends model {
 
-	public function getCliente($id) {
+	public function getAgenda($id) {
 		$array = array();
 
-		$sql = "SELECT * FROM clientes WHERE id = '$id'";
+		$sql = "SELECT * FROM eventos WHERE id = '$id'";
 		$sql = $this->db->query($sql);
 
 		if($sql->rowCount() > 0) {
@@ -14,10 +14,10 @@ class Agenda extends model {
 		return $array;
 	}
 
-	public function getTotalClientes() {
+	public function getTotalAgendas() {
 		$q = 0;
 
-		$sql = "SELECT COUNT(*) as c FROM clientes";
+		$sql = "SELECT COUNT(*) as c FROM eventos";
 		$sql = $this->db->query($sql);
 
 		if($sql->rowCount() > 0) {
@@ -28,10 +28,10 @@ class Agenda extends model {
 		return $q;
 	}
 
-	public function getClientes($offset, $limit) {
+	public function getAgendas($offset, $limit) {
 		$array = array();
 
-		$sql = "SELECT * FROM clientes ORDER BY date_cliente DESC LIMIT $offset, $limit";
+		$sql = "SELECT * FROM eventos ORDER BY start DESC LIMIT $offset, $limit";
 
 		$sql = $this->db->query($sql);
 
@@ -42,18 +42,6 @@ class Agenda extends model {
 		return $array;
 	}
 
-	public function getImagem($offset, $limit) {
-		$array = array();
-
-		$sql = "SELECT *, (select clientes.nome from clientes where clientes.id = clientes_img.id_cliente ORDER BY date_cliente DESC ) as images FROM clientes_img ORDER BY date_cliente DESC LIMIT $offset, $limit";
-		$sql = $this->db->query($sql);
-
-		if($sql->rowCount() > 0) {
-			$array = $sql->fetchAll();
-		}
-
-		return $array;
-	}
 
 
 
@@ -64,44 +52,25 @@ class Agenda extends model {
 		return $this->db->lastInsertId();
 
 	}
-	public function inserirImagem($id, $md5imagem) {
 
-		$sql = "INSERT INTO clientes_img SET id_cliente = '$id', url = '$md5imagem', date_cliente = NOW()";
+
+	public function updateAgenda($id, $nome, $date) {
+
+		$sql = "UPDATE eventos SET title = '$nome', start = '$date' WHERE id = '$id'";
 		$this->db->query($sql);		
 
 	}
 
 
 
-	public function updateCliente($id, $nome, $estado, $alunos) {
+	public function removerAgenda($id) {
 
-		$sql = "UPDATE clientes SET nome = '$nome', estado = '$estado', alunos = '$alunos' WHERE id = '$id'";
-		$this->db->query($sql);		
+	
 
-	}
-
-	public function updateImagem($id, $md5imagem) {
-
-		$sql = "UPDATE clientes_img SET url = '$md5imagem' WHERE id_cliente = '$id'";
-		$this->db->query($sql);
-
-	}
-
-	public function removerCliente($id) {
-
-		$sql = "SELECT url FROM clientes_img WHERE id_cliente = '$id'";
-		$sql = $this->db->query($sql);
-		if($sql->rowCount() > 0) {
-			$img = $sql->fetch();
-			$img = $img['url'];
-
-			unlink('../painel/assets/images/prods/'.$img);
-
-			$this->db->query("DELETE FROM clientes WHERE id = '$id'");
-			$this->db->query("DELETE FROM clientes_img WHERE id = '$id'");
+			$this->db->query("DELETE FROM eventos WHERE id = '$id'");
 		}
 
-	}
+	
 
 	
 
