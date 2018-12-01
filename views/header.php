@@ -20,7 +20,7 @@
          <li class="nav-item"><a class="nav-link" href="<?php echo BASE; ?>leis">Leis e Normas</a></li>
          <li class="nav-item"><a class="nav-link" href="<?php echo BASE; ?>curiosidades">Curiosidades</a></li>
          <li class="nav-item"><a class="nav-link" href="<?php echo BASE; ?>noticias">Notícias</a></li>
-         <li class="nav-item"><a class="nav-link" href="<?php echo BASE; ?>calendario">Agenda</a></li>
+         <li class="nav-item"><a class="nav-link" href="<?php echo BASE; ?>agenda">Agenda</a></li>
          <li class="nav-item"><a class="nav-link" href="<?php echo BASE; ?>cursos">Cursos</a></li>
          <li class="nav-item"><a class="nav-link" href="<?php echo BASE; ?>contato">Contato</a></li>
       </ul>

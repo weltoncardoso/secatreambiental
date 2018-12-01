@@ -18,6 +18,7 @@
             <li><a href="<?php echo BASE; ?>clientes">Clientes</a></li>            
             <li><a href="<?php echo BASE; ?>leis">Leis</a></li>            
             <li><a href="<?php echo BASE; ?>slide">Slides</a></li>            
+            <li><a href="<?php echo BASE; ?>agenda">Agenda</a></li>            
             <!-- <li><a href="<?php echo BASE; ?>cursos">Cursos</a></li>  -->           
           </ul>
           <ul class="nav navbar-nav navbar-right">
