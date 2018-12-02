@@ -20,7 +20,7 @@
 			</div></a>
 		<?php endforeach ?>
 	<?php endforeach ?>
-	
+
 </div>
 
 <div class="curso_right">

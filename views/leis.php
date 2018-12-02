@@ -113,7 +113,7 @@ table td{height: 40px;line-height: 40px;text-align: left;padding-left: 10px;padd
 	</tr>
 </table>
 </div>
-<<<<<<< HEAD
+
 	   <div class="table-responsive">
 
 <h1>Biografias</h1>
@@ -199,8 +199,6 @@ table td{height: 40px;line-height: 40px;text-align: left;padding-left: 10px;padd
 </table>
 <div>
 </div>
-=======
->>>>>>> 9e32a47f0168e98da2f2e5e5dfde70ed07a3c5e9
 
   </div>
 

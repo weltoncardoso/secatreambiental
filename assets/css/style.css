@@ -51,12 +51,12 @@ text-decoration: none;
 
 .pag_ativo{
 	background-color: #437b4a;
-	
+
 }
 
 .pag_ativo a{
 	color: #fff;
-	
+
 }
 .btncurso{
 text-align: right;
@@ -98,7 +98,7 @@ color: blue;
 	font-style: italic;
 	font-weight: 550;
 }
-.clientestabela { 
+.clientestabela {
 text-align: center;
  margin-top: 150px;
  margin-left: 100px;
@@ -121,7 +121,7 @@ text-align: center;
 
 .button{
 		text-align: center;
-		background-color: 
+		background-color:
 
 }
 
@@ -148,7 +148,7 @@ text-align: center;
 	text-transform: uppercase;
 	color: #fff;
 	background: #437b4a;
-	padding: 15px 0 15px 0; 
+	padding: 15px 0 15px 0;
 }
 .navbar-dark .navbar-nav .nav-link {
   color: #fff;
@@ -178,7 +178,7 @@ text-align: center;
 	background: linear-gradient(to bottom, #55c767 0%,#49aa4f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#55c767', endColorstr='#49aa4f',GradientType=0 ); /* IE6-9 */
 	z-index: 100;
-	border: 1px solid #202b29;  
+	border: 1px solid #202b29;
 }
 .whatsapp{
 	color: #fff;
@@ -193,7 +193,7 @@ text-align: center;
 	background: linear-gradient(to bottom, #55c767 0%,#49aa4f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#55c767', endColorstr='#49aa4f',GradientType=0 ); /* IE6-9 */
 	z-index: 100;
-	border: 1px solid #202b29;  
+	border: 1px solid #202b29;
 }
 .whatsapp span{
 	font-size: 12px;
@@ -221,12 +221,12 @@ text-decoration: none;
 }
 .pag_ativo{
 	background-color: #437b4a;
-	
+
 }
 
 .pag_ativo a{
 	color: #fff;
-	
+
 }
 .noticias-button a{
 	cursor:pointer;
@@ -306,7 +306,7 @@ text-decoration: none;
 }
 
 .v-banner{
-    background-color: rgba(100, 100, 100, 0.3);
+    background-color: rgba(100, 100, 100, 0);
 	margin-top:120px;
 	margin-left:140px;
 	height: 50%;
@@ -380,7 +380,7 @@ text-decoration: none;
 }
 .about p{
 	width: 50%;
-	margin: 0 auto; 
+	margin: 0 auto;
 	font-size: 1.25em;
 	line-height: 1.8em;
 }
@@ -417,7 +417,7 @@ text-decoration: none;
 }
 .differential .card img{
 	max-width: 144px;
-	margin: 0 auto; 
+	margin: 0 auto;
 }
 .about{
 	text-align: center;
@@ -426,7 +426,7 @@ text-decoration: none;
 	font-size: 11px;
 	color: #fff;
 	text-align: center;
-	padding: 25px 0 25px 0; 
+	padding: 25px 0 25px 0;
 	background: #363d39;
 }
 .social{
@@ -495,7 +495,7 @@ width: 400px;
 	margin: 0 auto;
 	text-align: center;
 	color: #0a1c11;
-	margin-bottom: 60px; 
+	margin-bottom: 60px;
 }
 .agronomos .card{
 	width: 80%;
@@ -608,7 +608,7 @@ width: 400px;
 
 
 
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
 .pagination{
 	margin-left: 35%;
 }
@@ -635,7 +635,7 @@ width: 400px;
 	background: linear-gradient(to bottom, #55c767 0%,#49aa4f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#55c767', endColorstr='#49aa4f',GradientType=0 ); /* IE6-9 */
 	z-index: 100;
-	border: 1px solid #202b29;  
+	border: 1px solid #202b29;
 }
 	.tudo {
  display: table;
@@ -646,7 +646,7 @@ width: 400px;
 	font-size: 46px;
 	color: #bca708;
 }
-.clientestabela { 
+.clientestabela {
  margin-top: 150px;
  margin-left: 2px;
  float: left;
@@ -688,8 +688,8 @@ width: 400px;
 		width: 100%;
 		position: inherit;
 		top: 0;
-		left: 0;	
-		margin-top: 10px;	
+		left: 0;
+		margin-top: 10px;
 	}
 	.view p{
 		width: 90%;
@@ -781,19 +781,3 @@ width: 400px;
 	background-color:#FFF;
 	float:left;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

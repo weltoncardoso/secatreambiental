@@ -8,6 +8,7 @@ class vendasController extends controller {
             header("Location: ".BASE."login");
 
     }
+  }
 
     public function index() {
     	$dados = array(
@@ -39,7 +40,7 @@ class vendasController extends controller {
                 $status = addslashes($_POST['status']);
                 $vendas->updateStatus($status, $id);
             }
-            
+
             $dados['venda'] = $vendas->getVenda($id);
             $dados['produtos'] = $vendas->getProdutos($id);
 

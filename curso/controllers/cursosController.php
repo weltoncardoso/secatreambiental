@@ -1,13 +1,13 @@
 <?php
 class cursosController extends controller {
-	
+
 public function __construct() {
        parent::__construct();
 
         $alunos = new Alunos();
         if(!$alunos->isLogged()) {
         	header("Location: ".BASE."login");
-        	
+
         }
 
 }
@@ -33,20 +33,20 @@ public function entrar($id) {
 		$dados['modulos'] = $modulos->getModulos($id);
 		$dados['aulas_assistidas'] = $alunos->getNumAulasAssistidas($id);
 		$dados['total_aulas'] = $curso->getTotalAulas();
-        
+
         $idAcesso = $curso->getId();
 		$dados['aluno'] = $curso->getCurso($idAcesso);
-		
-			$dataBanco = $dados['aluno']['date_cadastro'];		
+
+			$dataBanco = $dados['aluno']['date_cadastro'];
 			$dataADD = date('Y/m/d', strtotime("+60 days",strtotime($dataBanco)));
 			$dataAtual =  date("Y/m/d");
  			if($dataAtual < $dataADD){
-				$this->loadTemplate('curso_entrar', $dados);  
+				$this->loadTemplate('curso_entrar', $dados);
             }else {
-				$this->loadView('403', $dados);            	       		
+				$this->loadView('403', $dados);
 			}
-             			
-	
+
+
 	} else {
 		header("Location: ".BASE);
 	}
@@ -75,7 +75,7 @@ public function aula($id_aula)
 		$modulos = new Modulos();
 		$dados['modulos'] = $modulos->getModulos($id);
 		$dados['aulas_assistidas'] = $alunos->getNumAulasAssistidas($id);
-		$dados['total_aulas'] = $curso->getTotalAulas();	
+		$dados['total_aulas'] = $curso->getTotalAulas();
 		$dados['aula_info'] = $aula->getAula($id_aula);
 
 		if ($dados['aula_info']['tipo'] == 'video') {
@@ -86,7 +86,7 @@ public function aula($id_aula)
 			if (!isset($_SESSION['poll'.$id_aula])) {
 				$_SESSION['poll'.$id_aula] = 1;
 			}
-			
+
 		}
 
 		if (isset($_POST['duvida']) && !empty($_POST['duvida'])) {
@@ -105,9 +105,9 @@ public function aula($id_aula)
 				}
 
 				$_SESSION['poll'.$id_aula]++;
-			
+
 		}
-		
+
 
 	$this->loadTemplate($view, $dados);
 	} else {

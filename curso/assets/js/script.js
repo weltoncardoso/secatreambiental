@@ -14,10 +14,7 @@ function marcarAssistido(obj) {
 	var id = $(obj).attr('data-id');
 	$(obj).remove();
 	$.ajax({
-		url:'/cursos/ajax/marcar_assistido/'+id,
+		url:'/secatreambiental/curso/ajax/marcar_assistido/'+id,
 		type: 'GET'
 	});
 }
-$(function(){
-	$('input[name=preco]').mask('000.000.000.000.000,00', {reverse:true,placeholder:"0,00"});
-});
