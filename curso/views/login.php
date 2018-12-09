@@ -12,10 +12,10 @@
   <title>Secatre Ambiental - Cursos login</title>
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700" rel="stylesheet">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-  
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 
-  
+
       <style>
       /* colors */
 html {
@@ -236,8 +236,8 @@ form .inputGroup2 #showPasswordToggle input:disabled ~ .indicator:after {
   window.console = window.console || function(t) {};
 </script>
 
-  
-  
+
+
   <script>
   if (document.location.search.match(/type=embed/gi)) {
     window.parent.postMessage("resize", "*");
@@ -254,7 +254,7 @@ form .inputGroup2 #showPasswordToggle input:disabled ~ .indicator:after {
 		<div>
 			<svg class="mySVG" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 200">
 				<defs>
-					<circle id="armMaskPath" cx="100" cy="100" r="100"/>	
+					<circle id="armMaskPath" cx="100" cy="100" r="100"/>
 				</defs>
 				<clipPath id="armMask">
 					<use xlink:href="#armMaskPath" overflow="visible"/>
@@ -326,8 +326,8 @@ form .inputGroup2 #showPasswordToggle input:disabled ~ .indicator:after {
 						<polygon fill="#DDF1FA" stroke="#3A5E77" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="121.3,98.4 111,59.7 149.8,49.3 169.8,85.4"/>
 						<path fill="#DDF1FA" stroke="#3A5E77" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M134.4,53.5l19.3-5.2c2.7-0.7,5.4,0.9,6.1,3.5v0c0.7,2.7-0.9,5.4-3.5,6.1l-10.3,2.8"/>
 						<path fill="#DDF1FA" stroke="#3A5E77" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M150.9,59.4l26-7c2.7-0.7,5.4,0.9,6.1,3.5v0c0.7,2.7-0.9,5.4-3.5,6.1l-21.3,5.7"/>
-						
-						<g class="twoFingers">			
+
+						<g class="twoFingers">
 							<path fill="#DDF1FA" stroke="#3A5E77" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M158.3,67.8l23.1-6.2c2.7-0.7,5.4,0.9,6.1,3.5v0c0.7,2.7-0.9,5.4-3.5,6.1l-23.1,6.2"/>
 							<path fill="#A9DDF3" d="M180.1,65l2.2-0.6c1.1-0.3,2.2,0.3,2.4,1.4v0c0.3,1.1-0.3,2.2-1.4,2.4l-2.2,0.6L180.1,65z"/>
 							<path fill="#DDF1FA" stroke="#3A5E77" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M160.8,77.5l19.4-5.2c2.7-0.7,5.4,0.9,6.1,3.5v0c0.7,2.7-0.9,5.4-3.5,6.1l-18.3,4.9"/>
@@ -346,16 +346,16 @@ form .inputGroup2 #showPasswordToggle input:disabled ~ .indicator:after {
 						<path fill="#a9ddf3" d="M207.9 74.7l-2.2-.6c-1.1-.3-2.2.3-2.4 1.4-.3 1.1.3 2.2 1.4 2.4l2.2.6 1-3.8zM206.7 64l-2.2-.6c-1.1-.3-2.2.3-2.4 1.4-.3 1.1.3 2.2 1.4 2.4l2.2.6 1-3.8zM211.2 54.8l-2.2-.6c-1.1-.3-2.2.3-2.4 1.4-.3 1.1.3 2.2 1.4 2.4l2.2.6 1-3.8zM234.6 49.4l-2.2-.6c-1.1-.3-2.2.3-2.4 1.4-.3 1.1.3 2.2 1.4 2.4l2.2.6 1-3.8z"/>
 						<path fill="#fff" stroke="#3a5e77" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M263.3 96.7c41.4 14.9 84.1 30.7 108.2 35.5l14-52.3C352 70 313.6 63.5 273.6 58.1"/>
 						<path fill="#fff" stroke="#3a5e77" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M278.2 59.3l-18.6-10 2.5 11.9-10.7 6.5 9.9 8.7-13.9 6.4 9.1 5.9-13.2 9.2 23.1-.9M284.5 100.1c-.4 4 1.8 8.9 6.7 14.8 3.5-1.8 6.7-3.6 9.7-5.5 1.8 4.2 5.1 8.9 10.1 14.1 2.7-2.1 5.1-4.4 7.1-6.8 4.1 3.4 9 7 14.7 11 1.2-3.4 1.8-7 1.7-10.9M314 66.7s5.4-5.7 12.6-7.4c1.7 2.9 3.3 5.7 4.9 8.6 3.8-2.5 9.8-4.4 18.2-5.7.1 3.1.1 6.1 0 9.2 5.5-1 12.5-1.6 20.8-1.9-1.4 3.9-2.5 8.4-2.5 8.4"/>
-					</g>				
+					</g>
 				</g>
-				
-				
 
-				
+
+
+
 			</svg>
 		</div>
 	</div>
-	
+
 	<div class="inputGroup inputGroup1">
 		<label for="loginEmail" id="loginEmailLabel">Email</label>
 		<input type="email" name="email" id="loginEmail" maxlength="254" />
@@ -370,12 +370,15 @@ form .inputGroup2 #showPasswordToggle input:disabled ~ .indicator:after {
 		</label>
 	</div>
 	<div class="inputGroup inputGroup3">
-		<button  type="submit" id="login">Entrar</button>
+		<button  type="submit" id="login">Entrar</button> </br>
+     <a href="" style="background-color:">
+    <button>Voltar</button>
+  </a>
 	</div>
 	<div style="clear: both;"></div>
             <div style=" color: silver; text-align: right; bottom: 0">
                 © Copyright welton cardoso 2018.
-              </div>	
+              </div>
 </form>
 
     <script src="//static.codepen.io/assets/common/stopExecutionOnTimeout-41c52890748cd7143004e05d3c5f786c66b19939c4500ce446314d1748483e13.js"></script>
@@ -383,7 +386,7 @@ form .inputGroup2 #showPasswordToggle input:disabled ~ .indicator:after {
   <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js'></script>
 <!-- <script src='//s3-us-west-2.amazonaws.com/s.cdpn.io/16327/MorphSVGPlugin.min.js?r=182'></script> -->
 
-  
+
 
     <script >
       var emailLabel = document.querySelector('#loginEmailLabel'),email = document.querySelector('#loginEmail'),passwordLabel = document.querySelector('#loginPasswordLabel'),password = document.querySelector('#loginPassword'),showPasswordCheck = document.querySelector('#showPasswordCheck'),showPasswordToggle = document.querySelector('#showPasswordToggle'),mySVG = document.querySelector('.svgContainer'),twoFingers = document.querySelector('.twoFingers'),armL = document.querySelector('.armL'),armR = document.querySelector('.armR'),eyeL = document.querySelector('.eyeL'),eyeR = document.querySelector('.eyeR'),nose = document.querySelector('.nose'),mouth = document.querySelector('.mouth'),mouthBG = document.querySelector('.mouthBG'),mouthSmallBG = document.querySelector('.mouthSmallBG'),mouthMediumBG = document.querySelector('.mouthMediumBG'),mouthLargeBG = document.querySelector('.mouthLargeBG'),mouthMaskPath = document.querySelector('#mouthMaskPath'),mouthOutline = document.querySelector('.mouthOutline'),tooth = document.querySelector('.tooth'),tongue = document.querySelector('.tongue'),chin = document.querySelector('.chin'),face = document.querySelector('.face'),eyebrow = document.querySelector('.eyebrow'),outerEarL = document.querySelector('.earL .outerEar'),outerEarR = document.querySelector('.earR .outerEar'),earHairL = document.querySelector('.earL .earHair'),earHairR = document.querySelector('.earR .earHair'),hair = document.querySelector('.hair'),bodyBG = document.querySelector('.bodyBGnormal'),bodyBGchanged = document.querySelector('.bodyBGchanged');
@@ -755,8 +758,8 @@ initLoginForm();
 
 
 
-  
-  
+
+
 
 </body>
 

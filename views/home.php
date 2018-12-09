@@ -160,16 +160,21 @@
       <span class="sr-only">Next</span>
     </a>
 </div>
->>>>>>> 9e32a47f0168e98da2f2e5e5dfde70ed07a3c5e9
 
     </section>
 
     <section class="partners py-5 my-5">
 
+
       <div class="container">
-        <div class="row">
-          <span>Colaboradores</span>
-        </div>
+
+          <h1 style="
+					text-transform: uppercase;
+    letter-spacing: .2em;
+    font-size: 3.125em;
+    color: #263e3d;"
+		>Colaboradores</h1>
+
         <div class="row">
           <div class="owl-carousel owl-theme">
 
@@ -185,7 +190,7 @@
     <section class="about py-5 my-5">
     	<div class="container">
     		<h1>Secatre Ambiental</h1>
-        <p class="mt-4">Foi a primeira empresa institu&iacute;da em Bras&iacute;lia/DF com atua&ccedil;&atilde;o em engenharia de seguran&ccedil;a do trabalho. Atuando h&aacute; mais de vinte anos no mercado de trabalho, em especial  com a &aacute;rea de seguran&ccedil;a, sa&uacute;de e meio ambiente; A Secatre desenvolveu v&aacute;rias per&iacute;cias t&eacute;cnicas em assuntos trabalhistas, v&aacute;rios semin&aacute;rios de repercuss&atilde;o nacional onde s&atilde;o destacados a &quot;Seguran&ccedil;a em Esteriliza&ccedil;&atilde;o a G&aacute;s &Oacute;xido de Etileno e Seguran&ccedil;a em Radia&ccedil;&atilde;o Ionizante, ambos com n&uacute;mero de participantes superior a trezentos, oriundos de v&aacute;rios pontos do Pa&iacute;s. Mais recentemente desenvolveu Semin&aacute;rio sobre Tratamento de Res&iacute;duos de Servi&ccedil;os de Sa&uacute;de e o Workshop sobre Novas Diretrizes para o Tratamento de Res&iacute;duos de Servi&ccedil;os de Sa&uacute;de.</p>
+        <p class="mt-4">Foi a primeira empresa instituída em Brasília/DF com atuação em engenharia de segurança do trabalho e em segurança ambiental. Atuando a quase trinta anos no mercado de trabalho, vem agora lançar Cursos à Distância - EAD, para dar maior conforto aos seus clientes e garantir maior flexibilidade.</p>
     	</div>
     </section>
 
@@ -197,7 +202,7 @@
                 <img class="card-img-top" src="<?php echo BASE; ?>assets/img/icon-experiencia.png" alt="Experiência">
                 <div class="card-body">
                   <h5 class="card-title">Experiência</h5>
-                  <p class="card-text">A secatre Ambiental já promoveu a compensação de reserva legal em dezenas de propriedades, especialmente nos biomas Mata Atlântica e Cerrado.</p>
+                  <p class="card-text">A experiência acumulada e adquirida em longo período será repassada aos seus clientes com muita dedicação!.</p>
                 </div>
               </div>
             </div>
@@ -206,7 +211,7 @@
                 <img class="card-img-top" src="<?php echo BASE; ?>assets/img/icon-seguranca.png" alt="Segurança">
                 <div class="card-body">
                   <h5 class="card-title">Segurança</h5>
-                  <p class="card-text">Nossas áreas tiveram toda sua documentação verificada desde a origem e foram certificadas junto aos órgãos ambientais.</p>
+                  <p class="card-text">Sempre atuando em segurança ocupacional garante que seus cursos trarão segurança para você no amanhã!</p>
                 </div>
               </div>
             </div>
@@ -215,7 +220,7 @@
                 <img class="card-img-top" src="<?php echo BASE; ?>assets/img/icon-rapidez.png" alt="Rapidez">
                 <div class="card-body">
                   <h5 class="card-title">Rapidez</h5>
-                  <p class="card-text">Nosso corpo jurídico mantém toda a documentação necessária atualizada e pronta para averbação, agilizando assim a efetivação do negócio e a regularização ambiental de sua propriedade.</p>
+                  <p class="card-text">O tempo quem faz é o aluno! Propomos dar subsídios para que alcance com rapidez o mercado de trabalho!</p>
                 </div>
               </div>
             </div>
@@ -224,14 +229,20 @@
                 <img class="card-img-top" src="<?php echo BASE; ?>assets/img/icon-garantia.png" alt="Garantia">
                 <div class="card-body">
                   <h5 class="card-title">Garantia</h5>
-                  <p class="card-text">O pagamento só será realizado no ato da averbação da matrícula da área adquirida, propiciando absoluta segurança e tranquilidade ao comprador.</p>
+                  <p class="card-text">Nossos serviços e cursos são oferecidos com a garantia de que seguem as legislações pertinentes ao tema escolhido!</p>
                 </div>
               </div>
             </div>
           </div>
       </div>
     </section>
-        <div class="titulo">Últimas Notícias</div>
+		<h1 style="
+					text-transform: uppercase;
+					letter-spacing: .2em;
+					font-size: 3.125em;
+					color: #263e3d;"
+				>Últimas Notícias</h1>
+        <!-- <div class="titulo">Últimas Notícias</div> -->
 
     <section class="view py-5 my-5">
       <div class="container">
@@ -242,12 +253,17 @@
 
               <?php if ($not['id']== $img['id_noticia']): ?>
 
-                <div class="col-md-6">
+                <div class="areaImagem">
                 <img src="./painel/assets/images/prods/<?php echo $img['url']?>" class="img-fluid" /> </br></br></br></br>
                 </div>
 
                 <div class="col-md-6">
-            <h2><?php echo $not['titulo']; ?></h2>
+            <h1 style="
+						text-transform: uppercase;
+	    			letter-spacing: .1em;
+	    			font-size: 2.0em;
+	    			color: #263e3d">
+						<?php echo $not['titulo']; ?></h1>
             <p><?php echo $not['descricao']; ?> </p>
 
                 </div>
@@ -267,7 +283,12 @@
     </section>
 
     <section class="map">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d61418.74155764689!2d-47.95201305230152!3d-15.82127421209615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x935a3a9b57957e05%3A0x12037641d60f6974!2sSQS+312+Bl+J+-+s%2Fn+PA%2C+Asa+Sul+Superquadra+Sul+312+Cond+do+Bloco+J+da+Sqs+312+-+Bras%C3%ADlia%2C+DF%2C+70365-100!3m2!1d-15.8213596!2d-47.9169935!4m5!1s0x935a3a9b57957e05%3A0x12037641d60f6974!2sCond+do+Bloco+J+da+Sqs+312+-+Bras%C3%ADlia%2C+DF!3m2!1d-15.8213596!2d-47.9169935!5e0!3m2!1spt-BR!2sbr!4v1542155200915" width="100%" height="550" frameborder="0" style="border:0" allowfullscreen></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d61418.74155764689!2d-47.95201305230152!3d-15.82127421209615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x935a3a9b57957e05%3A0x12037641d60f6974!2sSQS+312+Bl+J+-+s%2Fn+PA%2C+Asa+Sul+Superquadra+Sul+312+Cond+do+Bloco+J+da+Sqs+312+-+Bras%C3%ADlia%2C+DF%2C+70365-100!3m2!1d-15.8213596!2d-47.9169935!4m5!1s0x935a3a9b57957e05%3A0x12037641d60f6974!2sCond+do+Bloco+J+da+Sqs+312+-+Bras%C3%ADlia%2C+DF!3m2!1d-15.8213596!2d-47.9169935!5e0!3m2!1spt-BR!2sbr!4v1542155200915" width="49%" float="left" margin-right="10%"  height="540" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+			<iframe class="calendario" width="49%" float="left" margin-right="10%"  height="540" src="<?php echo BASE; ?>/agenda" >
+</iframe>
+
+
     </section>
 
     <?php include('footer.php'); ?>

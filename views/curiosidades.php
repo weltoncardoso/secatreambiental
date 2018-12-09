@@ -6,7 +6,7 @@ tr:nth-child(odd) {background: #ccc}
 table{margin-top: 20px;margin-bottom: 60px;margin-left: 25%;}
 table th{height: 40px;line-height: 40px;text-align: left;padding-left: 10px;padding-right: 10px;}
 table td{height: 40px;line-height: 40px;text-align: left;padding-left: 10px;padding-right: 10px;}</style>
- 
+
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -18,7 +18,7 @@ table td{height: 40px;line-height: 40px;text-align: left;padding-left: 10px;padd
 
     <title>Secatre Ambiental</title>
   </head>
-  <body>    
+  <body>
 
     <?php include('header.php'); ?>
 
@@ -32,22 +32,20 @@ table td{height: 40px;line-height: 40px;text-align: left;padding-left: 10px;padd
 <table width="50%" >
 	<thead>
 		<tr>
-			<th>Nome</th>
-			<th width="50">Acões</th>
+			<th>Documento em PDF</th>
+
 		</tr>
 	</thead>
 
 
 	<?php foreach($leisbiografias as $not):?>
-		<tr> 
-		<td><?php echo $not['nome']; ?></td>
-		<td width="50">
-		    <a target="_blank" href="<?php echo BASE; ?>painel/leis/view/<?php echo $not['id']; ?>" style="background-color:#1E90FF; color:#FFFFFF" class="btn btn-default">Ver PDF</a>
-		</td>
+		<tr>
+		<td><a target="_blank" href="<?php echo BASE; ?>painel/leis/view/<?php echo $not['id']; ?>"><?php echo $not['nome']; ?></a></td>
+
 	</tr>
 	<?php endforeach; ?>
 <tr>
-<td colspan="2" style="margin-left:10px">
+<!-- <td colspan="2" style="margin-left:10px">
  <div class="pagination_leis">
         <div class="pag_item" ><a href="<?php echo BASE; ?>leis?p=<?php echo $p-1; ?>" aria-label="Previous">
         <span aria-hidden="true">&laquo;</span></a></div>
@@ -63,7 +61,7 @@ table td{height: 40px;line-height: 40px;text-align: left;padding-left: 10px;padd
             <span aria-hidden="true">&raquo;</span></a></div>
   </div>
 
-</td>
+</td> -->
 
 	</tr>
 </table>
@@ -74,18 +72,15 @@ table td{height: 40px;line-height: 40px;text-align: left;padding-left: 10px;padd
 <table width="50%" >
 	<thead>
 		<tr>
-			<th>Nome</th>
-			<th width="50">Acões</th>
+			<th>Documento em PDF</th>
+
 		</tr>
 	</thead>
 
 
 	<?php foreach($leisoutras as $not):?>
-		<tr> 
-		<td><?php echo $not['nome']; ?></td>
-		<td width="50">
-		    <a target="_blank" href="<?php echo BASE; ?>painel/leis/view/<?php echo $not['id']; ?>" style="background-color:#1E90FF; color:#FFFFFF" class="btn btn-default">Ver PDF</a>
-		</td>
+		<tr>
+		<td><a target="_blank" href="<?php echo BASE; ?>painel/leis/view/<?php echo $not['id']; ?>"><?php echo $not['nome']; ?></a></td>
 	</tr>
 	<?php endforeach; ?>
 <tr>
@@ -119,11 +114,3 @@ table td{height: 40px;line-height: 40px;text-align: left;padding-left: 10px;padd
 
   </body>
 </html>
-
-
-
-
-
-
-
-

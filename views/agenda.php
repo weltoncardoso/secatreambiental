@@ -13,18 +13,7 @@
     <title>Secatre Ambiental</title>
   </head>
   <body>
-
-    <?php include('header.php'); ?>
-
-    <div class="tab">
-      <div class="container" align="center">
-        Agenda
-      </div>
-    </div></br></br></br></br>
     <?php include('agenda2.php'); ?>
-
-    <?php include('footer.php'); ?>
-
   </body>
 </html>
 

@@ -8,11 +8,16 @@
       <div class="col-md-3">
        <h5>Institucional</h5>
         <ul>
-          <li><a href="<?php echo BASE; ?>historia"">A Empresa</a></li>
-          <li><a href="<?php echo BASE; ?>cursos"">Nossos Cursos</a></li>
-          <li><a href="<?php echo BASE; ?>diferencial"">Nosso Diferencial</a></li>
+          <li><a href="<?php echo BASE; ?>">Início</a></li>
+          <li><a href="<?php echo BASE; ?>historia">História</a></li>
+          <li><a href="<?php echo BASE; ?>diferenciais">Diferenciais</a></li>
+          <li><a href="<?php echo BASE; ?>clientes">Clientes</a></li>
+          <li><a href="<?php echo BASE; ?>leis">Legislação</a></li>
+          <li><a href="<?php echo BASE; ?>curiosidades">Curiosidades</a></li>
           <li><a href="<?php echo BASE; ?>noticias">Noticias</a></li>
+          <li><a href="<?php echo BASE; ?>cursos">Cursos</a></li>
           <li><a href="<?php echo BASE; ?>admin">Area da Empresa</a></li>
+
         </ul>
       </div>
       <div class="col-md-3">
@@ -25,14 +30,14 @@
         </p>
       </div>
       <div class="col-md-3">
-        <h5>Receba nossa newsletter</h5>
-        <div class="input-group mb-0 mt-4">
+        <h5>Nossas Redes Sociais</h5>
+        <!-- <div class="input-group mb-0 mt-4">
           <input type="text" class="form-control py-3" placeholder="E-mail" aria-label="E-mail" aria-describedby="basic-addon2">
           <div class="input-group-append">
             <button class="btn btn-outline-secondary" type="button">Assinar</button>
           </div>
-        </div>
-        <div class="social mt-4" align="center">
+        </div> -->
+        <div class="social mt-2" align="left">
           <a href="https://www.facebook.com/secatre/" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i></a>
           <a href="https://www.linkedin.com/company/secatre-seguran%C3%A7a-ambiental-&-gerenc.residuos-ltda/" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
 

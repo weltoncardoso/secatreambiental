@@ -129,6 +129,27 @@ form input[type='email']:focus, form input[type="text"]:focus, form input[type="
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
   border: solid 2px #4eb8dd;
 }
+.voltar {
+  display: block;
+  margin: 0;
+  padding: .65em 1em 1em;
+  background-color: #4eb8dd;
+  border: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+  box-shadow: none;
+  width: 100%;
+  height: 65px;
+  font-size: 1.55em;
+  color: #FFF;
+  font-weight: 600;
+  font-family: inherit;
+  transition: background-color .2s ease-out;
+}
+.voltar:hover, 
+.voltar:active {
+  background-color: #217093;
+}
 form button {
   display: block;
   margin: 0;
@@ -370,7 +391,10 @@ form .inputGroup2 #showPasswordToggle input:disabled ~ .indicator:after {
 		</label>
 	</div>
 	<div class="inputGroup inputGroup3">
-		<button  type="submit" id="login">Entrar</button>
+		<button  type="submit" id="login">Entrar</button></br>
+    <a style="color:#000;text-decoration: none" href="<?php echo BASE; ?>../">
+    <div class="voltar" style="background-color: red; text-align: center ">Voltar ao Site</div>
+    </a>
 	</div>
 	<div style="clear: both;"></div>
             <div style=" color: silver; text-align: right; bottom: 0">

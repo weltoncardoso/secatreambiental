@@ -24,19 +24,23 @@
 
     <div class="container py-5 my-2">
           <div class="row justify-content-center">
-            <h4 class="py-4 mb-5 text-center">Para informações Entre em Contato Conosco, estaremos prontos a atende-lô.</h4>
+            <h4 class="py-4 mb-5 text-center">Para informações entre em contato conosco, estaremos prontos a atendê-lo.</h4>
           </div>
 
           <div class="row">
             <div class="col-md-6">
               <form>
                 <div class="form-group">
-                  <label for="exampleInputEmail1"><i class="fas fa-envelope"></i>&nbsp;<b>Email</b></label></br>
-                  secatre@gmail.com.br
+                  <label for="exampleInputEmail1"><i class="fas fa-envelope"></i>&nbsp;<b>E-mail</b></label></br>
+                  secatre@secatreambiental.com.br
                 </div>
                 <div class="form-group">
                   <label for="exampleInputEmail1"><img src="./assets/img/whats.png" width="15px" height="15px">&nbsp;<b>WhatsApp</b></label></br>
                 61 99984-7102
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputEmail1"><img src="./assets/img/fone.jpg" width="15px" height="15px">&nbsp;<b>Fixo</b></label></br>
+                61 3346-7105
                 </div>
 
                 <div class="form-group">

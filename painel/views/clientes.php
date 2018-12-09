@@ -8,30 +8,30 @@
 		<tr>
 			<th>Imagem</th>
 			<th>Nome</th>
+			<th>Regiao</th>
 			<th>Estado</th>
-			<th>Qtde Alunos</th>
 			<th width="200">Acões</th>
 		</tr>
 	</thead>
 
 
-	<?php foreach($images as $img): ?>
 	<?php foreach($clientes as $not):?>
 
 
-		<tr> 
-		<?php if ($not['id']== $img['id_cliente']): ?>
-			<td width="110"><img src="<?php echo BASE; ?>assets/images/prods/<?php echo $img['url']?>" border="0" height="80" width="160" /></td> 
+
+		<tr>
+
+		
+		<td width="110"><img src="../assets/img/prods/<?php echo $not['url']?>" border="0" height="80" width="160" /></td>
 		<td><?php echo $not['nome']; ?></td>
+		<td><?php echo $not['regiao']; ?></td>
 		<td><?php echo $not['estado']; ?></td>
-	    <td><?php echo $not['alunos']; ?></td>
 		<td>
 			<a href="<?php echo BASE; ?>clientes/edit/<?php echo $not['id']; ?>" class="btn btn-default" style="background-color:blue; color:#fff;">Editar</a>
 			<a href="<?php echo BASE; ?>clientes/remove/<?php echo $not['id']; ?>" style="background-color:#FF0000; color:#FFFFFF" class="btn btn-default">Excluir</a>
 		</td>
 	</tr>
-        <?php  endif ?>
-	<?php endforeach; ?>
+ 
 	<?php endforeach; ?>
 </table>
 
@@ -57,12 +57,3 @@ for($q=1;$q <= $conta;$q++): ?>
 
 </div>
 </div>
-
-
-
-
-
-
-
-
-

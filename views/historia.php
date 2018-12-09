@@ -49,7 +49,7 @@
 
               <h3><i class="fab fa-envira"></i>Nossos Valores</h3><hr>
 
-              <p>Respeito aos alunos procurando capacitar para o mercado de trabalho seguindo as normas legais com confiança, respeito e compromisso com as diversidades de nosso País!</p>
+              <p>Respeito aos clientes procurando capacitar para o mercado de trabalho seguindo as normas legais com confiança, respeito e compromisso com as diversidades de nosso País!</p>
             </div>
           </div>
       </div>

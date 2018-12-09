@@ -55,23 +55,29 @@
 </tr>
 <tr>
     <td>
-            <label form="alunos">Alunos</label><br/>
-
-    	<input type="number" name="alunos" class="form-control" value="<?php echo $clientes['alunos']; ?>" placeholder="Quantidade de Alunos" class="form-control" /><br/>
-</td>
-<td>
+     <label form="image">Logo</label><br/>
+    <input type="file" name="imagem" />
+    <label>Logo Atual</label><br/>
+    <img src="<?php echo BASE; ?>../assets/img/prods/<?php echo $clientes['url']?>" border="0" height="100" />
+    <br/>
 </br>
-
-	<input type="file" name="imagem" />
-    <label form="image">Logo</label><br/>
-	<?php foreach($imagem as $img): ?>
-		<?php if ($clientes['id']== $img['id_cliente']): ?>
-	<img src="<?php echo BASE; ?>assets/images/prods/<?php echo $img['url']?>" border="0" height="100" />
-	<br/><br/>
-        <?php endif ?>
-    <?php endforeach; ?>
 </td>
+
+<td>
+  <label form="regiao">Regiao</label>
+
+ <select name="regiao" class="form-control">
+      <option value="CO" <?php echo ($clientes['regiao']=='CO')?'selected="selected"':'';?>>Centro-oeste</option>
+      <option value="NE" <?php echo ($clientes['regiao']=='NE')?'selected="selected"':'';?>>Nordeste</option>
+      <option value="N" <?php echo ($clientes['regiao']=='N')?'selected="selected"':'';?>>Norte</option>
+      <option value="SE" <?php echo ($clientes['regiao']=='SE')?'selected="selected"':'';?>>Sudeste</option>
+      <option value="S" <?php echo ($clientes['regiao']=='S')?'selected="selected"':'';?>>Sul</option>
+  </select></br></br></br></br>
+</td>
+
+</tr>
 </table>
+</br></br>
 <div style="text-align:center">
     <input type="submit" value="Editar" class="btn btn-default" /></div>
 

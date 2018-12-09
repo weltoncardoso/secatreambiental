@@ -28,7 +28,7 @@ class clientesController extends controller
         $offset2 = (7 * ($data['p']-1));
         $data['limit_clientes'] = $limit2;
         $data['total_clientes'] = $cli->getTotalClientes();
-        $data['images'] = $cli->getImagem($offset2, $limit2);
+        // $data['images'] = $cli->getImagem($offset2, $limit2);
         $data['clientes'] = $cli->getClientes($offset2, $limit2);
         $data['clientesDF'] = $cli->getClientesDF();
         $data['clientesGO'] = $cli->getClientesGO();

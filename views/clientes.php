@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,800,900" rel="stylesheet">
-    <link rel="shortcut icon" href="<?php echo BASE; ?>assets/<?php echo BASE; ?>assets/img/thor.ico">
-    <link rel="stylesheet" href="fonts/font-awesome/css/all.css" />
+    <link rel="shortcut icon" href="<?php echo BASE; ?>assets/img/thor.ico">
+    <link rel="stylesheet" href="<?php echo BASE; ?>assets/fonts/font-awesome/css/all.css" />
     <link rel="stylesheet" href="<?php echo BASE; ?>assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?php echo BASE; ?>assets/css/style.css">
 
@@ -20,30 +20,28 @@
         Nossos Clientes
       </div>
     </div>
-    <div class="tudo">
-<div class="clientestabela" style="float: left;">
-     <div class="table-responsive">
 
+    <div class="tudo" style="margin-left: 5%">
+    <div class="clientestabela" style="float: left;">
+      <div class="table-responsive">
   <table>
   <thead>
     <tr>
+      
       <th>Logo</th>
       <th>Instituição</th>
-      <th>UF</th>
-      <th>Alunos</th>
+      <th>Região</th>
+      <th>Estado</th>
     </tr>
   </thead>
-  <?php foreach($images as $img): ?>
   <?php foreach($clientes as $not):?>
-    <tr>
-    <?php if ($not['id']== $img['id_cliente']): ?>
-      <td width="110"><img src="./painel/assets/images/prods/<?php echo $img['url']?>" border="0" height="80" width="160" /></td>
-    <td width="290"><?php echo $not['nome']; ?></td>
+    <tr align="center">
+    <td width="150"><img src="./assets/img/prods/<?php echo $not['url']?>" border="0" height="80" width="90" /></td>
+    <td width="350"><?php echo $not['nome']; ?></td>
+    <td width="80"><?php echo $not['regiao']; ?></td>
     <td width="80"><?php echo $not['estado']; ?></td>
-      <td width="50"><?php echo $not['alunos']; ?></td>
+
   </tr>
-  <?php  endif ?>
-  <?php endforeach; ?>
   <?php endforeach; ?>
 </table>
 </div>
@@ -69,7 +67,7 @@
         </div>
 
 </div>
-<div class="mapa">
+<div class="mapa" align="center">
 
     <?php include('mapa.php'); ?>
 </div>

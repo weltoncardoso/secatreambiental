@@ -437,7 +437,7 @@ class Clientes extends model {
 	public function getClientes($offset2, $limit2) {
 		$array = array();
 
-		$sql = "SELECT * FROM clientes ORDER BY date_cliente DESC LIMIT $offset2, $limit2";
+		$sql = "SELECT * FROM clientes ORDER BY estado ASC LIMIT $offset2, $limit2";
 
 		$sql = $this->db->query($sql);
 
@@ -450,71 +450,36 @@ class Clientes extends model {
 
 
 
-	public function getImagem($offset2, $limit2) {
-		$array = array();
+	// public function getImagem($offset2, $limit2) {
+	// 	$array = array();
 
-		$sql = "SELECT *, (select clientes.nome from clientes where clientes.id = clientes_img.id_cliente ORDER BY date_cliente DESC ) as images FROM clientes_img ORDER BY date_cliente DESC LIMIT $offset2, $limit2";
-		$sql = $this->db->query($sql);
+	// 	$sql = "SELECT *, (select clientes.nome from clientes where clientes.id = clientes_img.id_cliente ORDER BY date_cliente DESC ) as images FROM clientes_img ORDER BY date_cliente DESC LIMIT $offset2, $limit2";
+	// 	$sql = $this->db->query($sql);
 
-		if($sql->rowCount() > 0) {
-			$array = $sql->fetchAll();
-		}
+	// 	if($sql->rowCount() > 0) {
+	// 		$array = $sql->fetchAll();
+	// 	}
 
-		return $array;
-	}
+	// 	return $array;
+	// }
 
 
 
-	public function inserir($nome, $estado, $alunos) {
+	public function inserir($nome, $regiao, $estado, $md5imagem) {
 
-		$sql = "INSERT INTO clientes SET nome = '$nome', estado = '$estado', alunos = '$alunos', date_cliente = NOW()";
+		$sql = "INSERT INTO clientes SET nome = '$nome', regiao = '$regiao', estado = '$estado', url = '$md5imagem', date_cliente = NOW()";
 		$this->db->query($sql);	
 		return $this->db->lastInsertId();
 
 	}
-	public function inserirImagem($id, $md5imagem) {
-
-		$sql = "INSERT INTO clientes_img SET id_cliente = '$id', url = '$md5imagem', date_cliente = NOW()";
-		$this->db->query($sql);		
-
-	}
-
-
-
-	public function updateCliente($id, $nome, $estado, $alunos) {
-
-		$sql = "UPDATE clientes SET nome = '$nome', estado = '$estado', alunos = '$alunos' WHERE id = '$id'";
-		$this->db->query($sql);		
-
-	}
-
-	public function updateImagem($id, $md5imagem) {
-
-		$sql = "UPDATE clientes_img SET url = '$md5imagem' WHERE id_cliente = '$id'";
-		$this->db->query($sql);
-
-	}
+	
 
 	public function removerCliente($id) {
 
-		$sql = "SELECT url FROM clientes_img WHERE id_cliente = '$id'";
-		$sql = $this->db->query($sql);
-		if($sql->rowCount() > 0) {
-			$img = $sql->fetch();
-			$img = $img['url'];
-
-			unlink('../painel/assets/images/prods/'.$img);
-
 			$this->db->query("DELETE FROM clientes WHERE id = '$id'");
-			$this->db->query("DELETE FROM clientes_img WHERE id = '$id'");
 		}
 
-	}
-
-	
-
-
-	
+		
 
 }
 ?>

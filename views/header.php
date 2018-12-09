@@ -14,13 +14,13 @@
         <div class="area_aluno">
         <a href="<?php echo BASE; ?>curso">Área do Aluno</a>
         </div>
+        <li class="nav-item"><a class="nav-link" href="<?php echo BASE; ?>">Início</a></li>
          <li class="nav-item"><a class="nav-link" href="<?php echo BASE; ?>historia">História</a></li>
          <li class="nav-item"><a class="nav-link" href="<?php echo BASE; ?>diferenciais">Diferenciais</a></li>
          <li class="nav-item"><a class="nav-link" href="<?php echo BASE; ?>clientes">Clientes</a></li>
-         <li class="nav-item"><a class="nav-link" href="<?php echo BASE; ?>leis">Leis e Normas</a></li>
+         <li class="nav-item"><a class="nav-link" href="<?php echo BASE; ?>leis">Legislação</a></li>
          <li class="nav-item"><a class="nav-link" href="<?php echo BASE; ?>curiosidades">Curiosidades</a></li>
          <li class="nav-item"><a class="nav-link" href="<?php echo BASE; ?>noticias">Notícias</a></li>
-         <li class="nav-item"><a class="nav-link" href="<?php echo BASE; ?>agenda">Agenda</a></li>
          <li class="nav-item"><a class="nav-link" href="<?php echo BASE; ?>cursos">Cursos</a></li>
          <li class="nav-item"><a class="nav-link" href="<?php echo BASE; ?>contato">Contato</a></li>
       </ul>

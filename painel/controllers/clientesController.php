@@ -3,12 +3,12 @@ class clientesController extends controller {
 
     public function __construct() {
         parent::__construct();
-  
+
         $adm = new Usuarios();
         if(!$adm->isLogged()) {
             header("Location: ".BASE."login");
         }
-        
+
     }
 
     public function index() {
@@ -27,7 +27,7 @@ class clientesController extends controller {
         $offset = (5 * ($dados['p']-1));
         $dados['limit_clientes'] = $limit;
         $dados['total_clientes'] = $cli->getTotalClientes();
-        $dados['images'] = $cli->getImagem($offset, $limit);
+        // $dados['images'] = $cli->getImagem($offset, $limit);
         $dados['clientes'] = $cli->getClientes($offset, $limit);
 
 
@@ -42,7 +42,7 @@ class clientesController extends controller {
         if(isset($_POST['nome']) && !empty($_POST['nome'])) {
             $nome = addslashes($_POST['nome']);
             $estado = addslashes($_POST['estado']);
-            $alunos = addslashes($_POST['alunos']);
+            $regiao = addslashes($_POST['regiao']);
             $imagem = $_FILES['imagem'];
 
             if(in_array($imagem['type'], array('image/jpeg', 'image/jpg', 'image/png'))) {
@@ -53,11 +53,11 @@ class clientesController extends controller {
 
                 $md5imagem = md5(time().rand(0,9999)).'.'.$ext;
                 //so faz um por vez
-                move_uploaded_file($imagem['tmp_name'], '../painel/assets/images/prods/'.$md5imagem);
+                move_uploaded_file($imagem['tmp_name'], '../assets/img/prods/'.$md5imagem);
                // move_uploaded_file($imagem['tmp_name'], '../painel/assets/images/prods/'.$md5imagem);
 
                 $cli = new clientes();
-                $id = $cli->inserir($nome, $estado, $alunos);
+                $id = $cli->inserir($nome, $regiao, $estado);
 
                 $cli->inserirImagem($id, $md5imagem);
 
@@ -71,24 +71,22 @@ class clientesController extends controller {
     public function edit($id) {
         $dados = array(
             'clientes' => array(),
-            'imagem' =>array()
         );
 
         $offset = 0;
         $limit = 5;
-        
+
         $cli = new clientes();
-        $dados['imagem'] = $cli->getImagem($offset, $limit);
         $dados['clientes'] = $cli->getCliente($id);
 
 
         if(isset($_POST['nome']) && !empty($_POST['nome'])) {
             $nome = addslashes($_POST['nome']);
             $estado = addslashes($_POST['estado']);
-            $alunos = addslashes($_POST['alunos']);
+            $regiao = addslashes($_POST['regiao']);
 
 
-            $cli->updateCliente($id, $nome, $estado, $alunos);
+            $cli->updateCliente($id, $nome, $estado, $regiao);
 
             if(isset($_FILES['imagem']) && !empty($_FILES['imagem']['tmp_name'])) {
                 $imagem = $_FILES['imagem'];
@@ -99,15 +97,15 @@ class clientesController extends controller {
                         $ext = 'png';
                     }
                     $md5imagem = md5(time().rand(0,9999)).'.'.$ext;
-                move_uploaded_file($imagem['tmp_name'], '../painel/assets/images/prods/'.$md5imagem);
-                    
+                move_uploaded_file($imagem['tmp_name'], '../assets/img/prods/'.$md5imagem);
+
                     $cli->updateImagem($id, $md5imagem);
                 }
             }
 
 
             header("Location: ".BASE."clientes");
-            
+
         }
 
         $this->loadTemplate('clientes_edit', $dados);
@@ -126,6 +124,6 @@ class clientesController extends controller {
 
     }
 
-    
+
 }
 ?>

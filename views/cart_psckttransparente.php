@@ -104,6 +104,11 @@
 <p> 
             <input class="efetuarCompra" type="submit" value="Efetuar Pagamento"/> 
           </p> 
+          <p>
+          <a style="color:#fff;text-decoration: none" href="JavaScript: window.history.back();">
+          <div class="voltar" style="background-color: red; text-align: center ">Cancelar</div>
+          </a>
+          </p>
 </div>
 </div>
 <div class="parceiro-div">
