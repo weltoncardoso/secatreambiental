@@ -47,21 +47,24 @@ class leisController extends controller
             'pdfs' =>array()
         );
 
-        $offset = 0;
-        $limit = 10;
+        
         $lei = new leis();
         
         $dados['leis'] = $lei->getLeiPDF($id);
-        $dados['pdfs'] = $lei->getPdfs($offset, $limit);
+    
+
+        $dados['pdfs'] = $lei->getPdfs();
         
         foreach($dados['pdfs'] as $pd){ 
         foreach($dados['leis'] as $lei){ 
+           
 
-         if ($lei['id']== $pd['id_lei']){
 
+         if ($lei['id'] == $pd['id_lei']){
+               
         header("Content-Type: application/pdf");
-        readfile("../painel/assets/pdfs/prods/".$pd['url']);
-    }
+        readfile("./assets/pdfs/prods/".$pd['url']);
+    } 
 }
 
 }

@@ -57,9 +57,9 @@ class Clientes extends model {
 
 
 
-	public function inserir($nome, $regiao, $estado) {
+	public function inserir($nome, $regiao, $estado, $md5imagem) {
 
-		$sql = "INSERT INTO clientes SET nome = '$nome', regiao = '$regiao', estado = '$estado', date_cliente = NOW()";
+		$sql = "INSERT INTO clientes SET nome = '$nome', regiao = '$regiao', estado = '$estado', url = '$md5imagem', date_cliente = NOW()";
 		$this->db->query($sql);	
 		return $this->db->lastInsertId();
 

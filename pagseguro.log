@@ -737,3 +737,6 @@
 08/12/2018 17:11:09 PagSeguro.Session[info]: Begin
 08/12/2018 17:11:09 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
 08/12/2018 17:11:10 PagSeguro.Session[info]: Session ID: 09e93ef6096445e987baa1cb9c816c6c
+12/12/2018 21:11:45 PagSeguro.Session[info]: Begin
+12/12/2018 21:11:46 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+12/12/2018 21:11:48 PagSeguro.Session[info]: Session ID: 6a0f1efcfc2346b29bce3047967397ae

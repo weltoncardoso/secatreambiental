@@ -115,7 +115,7 @@ class leis extends model {
 			$img = $sql->fetch();
 			$img = $img['url'];
 
-			unlink('../painel/assets/pdfs/prods/'.$img);
+			unlink('../assets/pdfs/prods/'.$img);
 
 			$this->db->query("DELETE FROM leis WHERE id = '$id'");
 			$this->db->query("DELETE FROM leis_pdf WHERE id = '$id'");

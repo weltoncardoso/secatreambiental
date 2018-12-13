@@ -55,11 +55,11 @@ class clientesController extends controller {
                 //so faz um por vez
                 move_uploaded_file($imagem['tmp_name'], '../assets/img/prods/'.$md5imagem);
                // move_uploaded_file($imagem['tmp_name'], '../painel/assets/images/prods/'.$md5imagem);
-
+                
                 $cli = new clientes();
-                $id = $cli->inserir($nome, $regiao, $estado);
+                $id = $cli->inserir($nome, $regiao, $estado, $md5imagem);
 
-                $cli->inserirImagem($id, $md5imagem);
+
 
                 header("Location: ".BASE."clientes");
             }

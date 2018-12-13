@@ -40,7 +40,7 @@ table td{height: 40px;line-height: 40px;text-align: left;padding-left: 10px;padd
 
 	<?php foreach($leisbiografias as $not):?>
 		<tr>
-		<td><a target="_blank" href="<?php echo BASE; ?>painel/leis/view/<?php echo $not['id']; ?>"><?php echo $not['nome']; ?></a></td>
+		<td><a target="_blank" href="<?php echo BASE; ?>leis/view/<?php echo $not['id']; ?>"><?php echo $not['nome']; ?></a></td>
 
 	</tr>
 	<?php endforeach; ?>
@@ -80,7 +80,7 @@ table td{height: 40px;line-height: 40px;text-align: left;padding-left: 10px;padd
 
 	<?php foreach($leisoutras as $not):?>
 		<tr>
-		<td><a target="_blank" href="<?php echo BASE; ?>painel/leis/view/<?php echo $not['id']; ?>"><?php echo $not['nome']; ?></a></td>
+		<td><a target="_blank" href="<?php echo BASE; ?>leis/view/<?php echo $not['id']; ?>"><?php echo $not['nome']; ?></a></td>
 	</tr>
 	<?php endforeach; ?>
 <tr>

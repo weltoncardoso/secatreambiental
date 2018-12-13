@@ -47,7 +47,7 @@
                 defaultDate: date,
                 editable: true,
                 eventLimit: true,
-                events: '/secatreambiental/views/eventos.php',
+                events: '<?php echo BASE; ?>views/eventos.php',
                 eventColor: '#dd6777'
             });
 
@@ -57,7 +57,7 @@
                 var dados = jQuery(this).serialize();
                 $.ajax({
                     type: "POST",
-                    url: "/secatreambiental/views/cadastrar_evento.php",
+                    url: "<?php echo BASE; ?>views/cadastrar_evento.php",
                     data: dados,
                     success: function(data)
                     {

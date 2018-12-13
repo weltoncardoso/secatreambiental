@@ -9,7 +9,7 @@
   <link rel="shortcut icon" type="image/x-icon" href="<?php echo BASE; ?>assets/img/ico.ico" />
   <link rel="mask-icon" type="" href="https://static.codepen.io/assets/favicon/logo-pin-f2d2b6d2c61838f7e76325261b7195c27224080bc099486ddd6dccb469b8e8e6.svg" color="#111" />
   <meta name="robots" content="noindex">
-  <title>Secatre Ambiental - Painel Cursos-login</title>
+  <title>Secatre Ambiental - login painel</title>
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700" rel="stylesheet">
 <meta name="viewport" content="width=device-width, initial-scale=1">
   

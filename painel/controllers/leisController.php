@@ -47,7 +47,7 @@ class leisController extends controller {
 
                 
                 $md5pdfs = $pdfs['name'];      
-                move_uploaded_file($pdfs['tmp_name'], '../painel/assets/pdfs/prods/'.$md5pdfs);
+                move_uploaded_file($pdfs['tmp_name'], '../assets/pdfs/prods/'.$md5pdfs);
 
                 $lei = new leis();
                 $id = $lei->inserir($nome, $categoria);
@@ -87,7 +87,7 @@ class leisController extends controller {
         
                 $md5pdfs = $pdfs['name'];      
                 
-                move_uploaded_file($pdfs['tmp_name'], '../painel/assets/pdfs/prods/'.$md5pdfs);
+                move_uploaded_file($pdfs['tmp_name'], '../assets/pdfs/prods/'.$md5pdfs);
                     
                     $lei->updatePdfs($id, $md5pdfs);
                 }
@@ -122,7 +122,7 @@ class leisController extends controller {
          if ($lei['id']== $pd['id_lei']){
 
         header("Content-Type: application/pdf");
-        readfile("../painel/assets/pdfs/prods/".$pd['url']);
+        readfile("../assets/pdfs/prods/".$pd['url']);
     }
 }
 
