@@ -16,7 +16,7 @@
             <li class="active"><a href="<?php echo BASE; ?>">Home</a></li>
             <li><a href="<?php echo BASE; ?>noticias">Noticias</a></li>            
             <li><a href="<?php echo BASE; ?>clientes">Clientes</a></li>            
-            <li><a href="<?php echo BASE; ?>leis">Leis</a></li>            
+            <li><a href="<?php echo BASE; ?>leis">PDFs</a></li>            
             <li><a href="<?php echo BASE; ?>slide">Slides</a></li>            
             <li><a href="<?php echo BASE; ?>agenda">Agenda</a></li>            
             <!-- <li><a href="<?php echo BASE; ?>cursos">Cursos</a></li>  -->           

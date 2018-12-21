@@ -21,12 +21,14 @@
         </ul>
       </div>
       <div class="col-md-3">
-        <h5>Localização</h5>
+        <h5>Contato</h5>
         <p>
-        SQS 312 Bloco J <br>
-        Asa Sul DF <br>
-        Brasilia - DF<br>
-        <span>61 99984-7102</span>
+        WhatsApp<br>
+        <span>61 99984-7102</span><br>
+        Fixo<br>
+        <span>61 3346-7105</span><br>
+        E-mail<br>
+        <h6>secatre@secatreambiental.com.br</h6>
         </p>
       </div>
       <div class="col-md-3">

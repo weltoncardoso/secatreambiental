@@ -42,6 +42,7 @@ class leisController extends controller {
 
         if(isset($_POST['nome']) && !empty($_POST['nome'])) {
             $nome = addslashes($_POST['nome']);
+            $descricao = addslashes($_POST['descricao']);
             $categoria = addslashes($_POST['categoria']);
             $pdfs = $_FILES['pdfs'];
 
@@ -50,7 +51,7 @@ class leisController extends controller {
                 move_uploaded_file($pdfs['tmp_name'], '../assets/pdfs/prods/'.$md5pdfs);
 
                 $lei = new leis();
-                $id = $lei->inserir($nome, $categoria);
+                $id = $lei->inserir($nome, $descricao, $categoria);
 
                 $lei->inserirpdfs($id, $md5pdfs);
 
@@ -77,10 +78,11 @@ class leisController extends controller {
 
         if(isset($_POST['nome']) && !empty($_POST['nome'])) {
             $nome = addslashes($_POST['nome']);
+            $descricao = addslashes($_POST['descricao']);
             $categoria = addslashes($_POST['categoria']);
           
 
-            $lei->updateLei($id, $nome, $categoria);
+            $lei->updateLei($id, $nome, $descricao, $categoria);
 
             if(isset($_FILES['pdfs']) && !empty($_FILES['pdfs']['tmp_name'])) {
                 $pdfs = $_FILES['pdfs'];

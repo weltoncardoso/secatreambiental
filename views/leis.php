@@ -28,10 +28,11 @@ table td{height: 40px;line-height: 40px;text-align: left;padding-left: 10px;padd
       <div class="table-responsive">
 
       <h1>Leis Federais</h1>
-      <table width="50%">
+      <table width="65%" style="margin: 0 15% 0 15%" >
       <thead>
       <tr>
-       <th>Documento em PDF</th>
+       <th style="width: 30%; text-align: center;">Lei</th>
+      <th style="text-align: center">Descrição</th>
     
       </tr>
       </thead>
@@ -39,7 +40,15 @@ table td{height: 40px;line-height: 40px;text-align: left;padding-left: 10px;padd
 
       <?php foreach($leisfederais as $not):?>
       <tr>
-      <td><a target="_blank" href="<?php echo BASE; ?>leis/view/<?php echo $not['id']; ?>"><?php echo $not['nome']; ?></a></td>
+      <td style="background-color: #dee2e6;
+  border-bottom: 2px solid #fff">
+        <a target="_blank" href="<?php echo BASE; ?>leis/view/<?php echo $not['id']; ?>">
+          <?php echo $not['nome']; ?></a>
+        </td>
+        <td style="background-color: #dee2e6;
+  border-bottom: 2px solid #fff">
+    <?php echo $not['descricao']; ?>
+       </td>
 
       </tr>
       <?php endforeach; ?>
@@ -68,10 +77,11 @@ table td{height: 40px;line-height: 40px;text-align: left;padding-left: 10px;padd
     <h1>Leis Distritais</h1>
 	   <div class="table-responsive">
 
-<table width="50%">
+<table width="65%" style="margin: 0 15% 0 15%" >
 	<thead>
 		<tr>
-			<th>Documento em PDF</th>
+			<th style="width: 30%; text-align: center;">Lei</th>
+      <th style="text-align: center">Descrição</th>
 
 		</tr>
 	</thead>
@@ -79,7 +89,15 @@ table td{height: 40px;line-height: 40px;text-align: left;padding-left: 10px;padd
 
 	<?php foreach($leisdistritais as $not):?>
 		<tr>
-		<td><a target="_blank" href="<?php echo BASE; ?>leis/view/<?php echo $not['id']; ?>"><?php echo $not['nome']; ?></a></td>
+		<td style="background-color: #dee2e6;
+  border-bottom: 2px solid #fff">
+      <a target="_blank" href="<?php echo BASE; ?>leis/view/<?php echo $not['id']; ?>">
+        <?php echo $not['nome']; ?></a>
+      </td>
+    <td style="background-color: #dee2e6;
+  border-bottom: 2px solid #fff">
+    <?php echo $not['descricao']; ?>
+       </td>
   </tr>
 	<?php endforeach; ?>
 

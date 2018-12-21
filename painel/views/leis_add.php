@@ -23,7 +23,7 @@ function c(id) {
 }
 </script>
 
-<h1>Adicionar - Leis</h1>
+<h1>Adicionar - PDF</h1>
 </br>
 
 <form method="POST" enctype="multipart/form-data">
@@ -34,6 +34,12 @@ function c(id) {
     <label form="nome">Titulo</label><br/>
 	<input onkeyup="c('input-1')"  placeholder="nome"  class="form-control" required class="inp_editar" type="text" name="nome" id="input-1"/><br/>
 </td>
+<td>
+    <label form="descricao">Descrição</label><br/>
+    <input onkeyup="c('input-1')"  placeholder="Descrição"  class="form-control" required class="inp_editar" type="text" name="descricao" id="input-1"/><br/>
+</td>
+</tr>
+<tr>
 
 <td>
     <label form="categoria">Categoria</label><br/>
@@ -44,8 +50,7 @@ function c(id) {
     <option value="outras">Outras</option>
     </select></br>
     </td>
-</tr>
-    <tr>
+
 <td colspan="2">
 
          <label form="pdfs">PDF</label><br/>

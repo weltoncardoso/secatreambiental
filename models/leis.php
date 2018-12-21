@@ -163,7 +163,7 @@ class Leis extends model {
 		public function getLeisBiografias($offset, $limit) {
 		$array = array();
 
-		$sql = "SELECT * FROM leis WHERE categoria = 'biografias' ORDER BY date_lei DESC LIMIT $offset, $limit";
+		$sql = "SELECT * FROM leis WHERE categoria = 'biografias' ORDER BY date_lei ASC LIMIT $offset, $limit";
 
 		$sql = $this->db->query($sql);
 

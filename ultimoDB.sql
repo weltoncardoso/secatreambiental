@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: 09-Dez-2018 às 16:40
+-- Generation Time: 13-Dez-2018 às 23:37
 -- Versão do servidor: 10.1.9-MariaDB
 -- PHP Version: 5.6.15
 
@@ -871,11 +871,11 @@ CREATE TABLE `slide_img` (
 --
 
 INSERT INTO `slide_img` (`id`, `id_slide`, `url`, `date_slide`) VALUES
-(1, 1, 'c3c545b0ec170d1ee865f7eccdf536ee.jpg', '2018-11-29 22:34:05'),
-(2, 2, '034cadf1b22cdd57749622d315de888b.jpg', '2018-11-29 23:02:07'),
-(3, 3, '01d0fe61a66ade10e1bae3dd9fe750ea.jpg', '2018-11-29 23:02:20'),
-(4, 4, '1170d73a252f72ef63858d1acd9953a5.jpg', '2018-11-29 23:07:34'),
-(5, 5, 'b7152bc3bf38b19948c144fd724dd912.jpg', '2018-11-29 23:08:01');
+(1, 1, 'aba35ad0b97a1fce40ee88fcf07e3229.png', '2018-11-29 22:34:05'),
+(2, 2, '8f254ae8ca85aad199e3d68e1db77e99.png', '2018-11-29 23:02:07'),
+(3, 3, '495e6cf4d55df3be1eb17cd8fbb045ec.png', '2018-11-29 23:02:20'),
+(4, 4, '1b39e1306b3dfa014922becab1ad825e.png', '2018-11-29 23:07:34'),
+(5, 5, '623eef8aea99d76ba800e9aaad8f35f4.png', '2018-11-29 23:08:01');
 
 -- --------------------------------------------------------
 
@@ -1112,12 +1112,12 @@ ALTER TABLE `aulas`
 -- AUTO_INCREMENT for table `clientes`
 --
 ALTER TABLE `clientes`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=140;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=136;
 --
 -- AUTO_INCREMENT for table `clientes_img`
 --
 ALTER TABLE `clientes_img`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=139;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=136;
 --
 -- AUTO_INCREMENT for table `cursos`
 --

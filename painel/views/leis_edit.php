@@ -7,7 +7,7 @@
 
 
 
-<h1>Editar - Leis</h1>
+<h1>Editar - PDF</h1>
 </br>
 
 <form method="POST" enctype="multipart/form-data">
@@ -19,6 +19,13 @@
 	<input type="text" name="nome" value="<?php echo $leis['nome']; ?>" placeholder="Nome" class="form-control" /><br/>
 </td>
 <td>
+            <label form="descricao">Descrição</label><br/>
+
+    <input type="text" name="descricao" value="<?php echo $leis['descricao']; ?>" placeholder="Descrição" class="form-control" /><br/>
+</td>
+</tr>
+<tr>
+<td>
  <label form="categoria">Categoria</label><br/>
 
     <select name="categoria" class="form-control">
@@ -28,8 +35,8 @@
     <option value="outras" <?php echo ($leis['categoria']=='outras')?'selected="selected"':'';?>>Outras</option>
     </select></br>
 </td>
-</tr>
-<tr>	  
+
+	  
 <td colspan="2">
 <br/>
 	<input type="file" name="pdfs" />

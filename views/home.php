@@ -163,7 +163,7 @@
 
     </section>
 
-    <section class="partners py-5 my-5">
+    <!-- <section class="partners py-5 my-5">
 
 
       <div class="container">
@@ -185,16 +185,16 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
-    <section class="about py-5 my-5">
+    <section class="about py-4 my-4">
     	<div class="container">
     		<h1>Secatre Ambiental</h1>
         <p class="mt-4">Foi a primeira empresa instituída em Brasília/DF com atuação em engenharia de segurança do trabalho e em segurança ambiental. Atuando a quase trinta anos no mercado de trabalho, vem agora lançar Cursos à Distância - EAD, para dar maior conforto aos seus clientes e garantir maior flexibilidade.</p>
     	</div>
     </section>
 
-    <section class="differential py-4 mt-5">
+    <!-- <section class="differential py-4 mt-5">
       <div class="container">
           <div class="row">
             <div class="col-md-3">
@@ -235,18 +235,17 @@
             </div>
           </div>
       </div>
-    </section>
+    </section> -->
 		<h1 style="
 					text-transform: uppercase;
 					letter-spacing: .2em;
-					font-size: 3.125em;
+					font-size: 2.500em;
 					color: #263e3d;"
 				>Últimas Notícias</h1>
-        <!-- <div class="titulo">Últimas Notícias</div> -->
 
-    <section class="view py-5 my-5">
+    <section class="view py-4 my-4">
       <div class="container">
-        <div class="row my-5 py-5">
+        <div class="row my-3 py-3">
 
            <?php foreach($images as $img): ?>
             <?php foreach($noticias as $not):?>
@@ -277,7 +276,7 @@
               <div style="text-align:center; ">
         <div class="noticias-button">
 
-          <button type="button" class="btn btn-primary"> <a href="<?php echo BASE; ?>noticias">Mais Notícias</a></button></div>
+          <button type="button" class="btn btn-primary" style="background-color: #55c767; border-radius: 15px"> <a href="<?php echo BASE; ?>noticias">Mais Notícias</a></button></div>
 
       </div>
     </section>

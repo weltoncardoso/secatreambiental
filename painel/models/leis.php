@@ -77,9 +77,9 @@ class leis extends model {
 
 
 
-	public function inserir($nome, $categoria) {
+	public function inserir($nome, $descricao, $categoria) {
 
-		$sql = "INSERT INTO leis SET nome = '$nome', categoria = '$categoria', date_lei = NOW()";
+		$sql = "INSERT INTO leis SET nome = '$nome', descricao = '$descricao', categoria = '$categoria', date_lei = NOW()";
 		$this->db->query($sql);	
 		return $this->db->lastInsertId();
 
@@ -93,9 +93,9 @@ class leis extends model {
 
 
 
-	public function updateLei($id, $nome, $categoria) {
+	public function updateLei($id, $nome, $descricao, $categoria) {
 
-		$sql = "UPDATE leis SET nome = '$nome', categoria = '$categoria' WHERE id = '$id'";
+		$sql = "UPDATE leis SET nome = '$nome', descricao = '$descricao', categoria = '$categoria' WHERE id = '$id'";
 		$this->db->query($sql);		
 
 	}

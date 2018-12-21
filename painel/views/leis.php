@@ -1,13 +1,14 @@
-<h1>Leis e Normas</h1>
+<h1>Leis, Normas e Biografias - PDFs</h1>
 
 <div style="text-align:center"></br>
-<a href="<?php echo BASE; ?>leis/add" class="btn btn-default" style="background-color:#0000ff; color:#ffffff">Adicionar Leis e Normas</a>
+<a href="<?php echo BASE; ?>leis/add" class="btn btn-default" style="background-color:#0000ff; color:#ffffff">Adicionar PDF</a>
 </div>
 </br>
 <table class="table table-striped">
 	<thead>
 		<tr>
 			<th>Nome</th>
+			<th>Descrição</th>
 			<th>Categoria</th>
 			<th width="200">Acões</th>
 		</tr>
@@ -19,6 +20,7 @@
 
 		<tr> 
 		<td><?php echo $not['nome']; ?></td>
+		<td><?php echo $not['descricao']; ?></td>
 		<td><?php echo $not['categoria']; ?></td>
 		<td width="300">
 		    <a target="_blank" href="<?php echo BASE; ?>leis/view/<?php echo $not['id']; ?>" style="background-color:green; color:#FFFFFF" class="btn btn-default">Ver PDF</a>

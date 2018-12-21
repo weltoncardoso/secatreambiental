@@ -11,10 +11,10 @@ if(ENVIRONMENT == 'development') {
 	$config['dbuser'] = 'root';
 	$config['dbpass'] = '';
 } else {
-	$config['dbname'] = 'secatreambient02';
-	$config['host'] = 'mysql.secatreambiental.com.br';
-	$config['dbuser'] = 'secatrea02_add1';
-	$config['dbpass'] = 'eltim325';
+	$config['dbname'] = 'ead';
+	$config['host'] = 'localhost';
+	$config['dbuser'] = 'root';
+	$config['dbpass'] = '';
 }
 //colocar email do vendedor ao final
 $config['pagseguro_seller'] = "weltonvcardoso@gmail.com";

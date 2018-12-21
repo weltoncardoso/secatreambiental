@@ -14,7 +14,7 @@ class homeController extends controller
 			
 		$data = array();
 		    $not = new noticias();
-                $limit = 3;
+                $limit = 2;
                 $offset = 0;
                 $data['p'] = 1;
                 if(isset($_GET['p']) && !empty($_GET['p'])){
