@@ -40,13 +40,13 @@
                 </div>
                 <div class="form-group">
                   <label for="exampleInputEmail1"><img src="./assets/img/fone.jpg" width="15px" height="15px">&nbsp;<b>Fixo</b></label></br>
-                61 3346-7105
+                61 3345-7105
                 </div>
 
-                <div class="form-group">
+                <!-- <div class="form-group">
                   <label for="exampleInputEmail1"><i class="fas fa-map-marker-alt"></i>&nbsp;<b>Endereço</b></label></br>
                     SQS 312 BLOCO J - ASA SUL /BRASILIA - DF
-                </div>
+                </div> -->
               </form>
             </div>
             <div class="col-md-6">

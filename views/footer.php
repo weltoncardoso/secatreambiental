@@ -26,7 +26,7 @@
         WhatsApp<br>
         <span>61 99984-7102</span><br>
         Fixo<br>
-        <span>61 3346-7105</span><br>
+        <span>61 3345-7105</span><br>
         E-mail<br>
         <h6>secatre@secatreambiental.com.br</h6>
         </p>
@@ -78,37 +78,61 @@
     <div class="panel panel-default">
       <div class="panel-heading">
         <h4 class="panel-title">
-          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Collapsible Group 1</a>
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Quero informações sobre a Instituição?</a>
         </h4>
       </div>
       <div id="collapse1" class="panel-collapse collapse in">
-        <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+        <div class="panel-body">Entre na página -> História</div>
       </div>
     </div>
     <div class="panel panel-default">
       <div class="panel-heading">
         <h4 class="panel-title">
-          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Collapsible Group 2</a>
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Quais as vantagens de estudar nesta Instituição?</a>
         </h4>
       </div>
       <div id="collapse2" class="panel-collapse collapse">
-        <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+        <div class="panel-body">Flexibilidade de estudo – qualquer dia, horário e local;<br/>
+Sem limite de idade;<br/>
+Facilidade de se aprimorar nos estudos sem sair de casa;<br/>
+Sem exigência de escolaridade;<br/>
+Conteúdo de alta qualidade;<br/>
+valor acessível;<br/>
+Enriquecer seu currículo;<br/>
+Equipe de profissional altamente qualificada.
+</div>
       </div>
     </div>
     <div class="panel panel-default">
       <div class="panel-heading">
         <h4 class="panel-title">
-          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Collapsible Group 3</a>
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">O que preciso instalar para fazer o curso?</a>
         </h4>
       </div>
       <div id="collapse3" class="panel-collapse collapse">
-        <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+        <div class="panel-body">Os cursos estão em formato de vídeo hospedados em uma plataforma especializada, não sendo necessário instalar qualquer programa seja no desktop, tablet ou celular o vídeo ira se ajustar com a melhor resulução possivél.</div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Como corrigir meu cadastro?
+</a>
+        </h4>
+      </div>
+      <div id="collapse4" class="panel-collapse collapse">
+        <div class="panel-body">Qualquer alteração em seu cadastro deve ser feita através do e-mail que encontra-se na página contato.</div>
+      </div>
+    </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">Quanto tempo tenho para realizar o curso?</a>
+        </h4>
+      </div>
+      <div id="collapse5" class="panel-collapse collapse">
+        <div class="panel-body">O curso estará disponivél para o aluno por 60 dias a contar de sua matrícula.</div>
       </div>
     </div>
   </div>
