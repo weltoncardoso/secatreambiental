@@ -5,6 +5,12 @@
 	<h3><?php echo $curso->getNome(); ?></h3>
 	<?php echo $curso->getDescricao(); ?>
 	<p><?php echo $aulas_assistidas.' / '.$total_aulas.' '.'('.(($aulas_assistidas/$total_aulas)*100).'%) do Curso'; ?></p>
+	<?php $param = (($aulas_assistidas/$total_aulas)*100);  ?>
+	<?php if($param == 100): ?>
+     <a style="margin-top: -35px;position: absolute;margin-left: 350px;text-decoration: none;color:#6aca76" href="<?php echo BASE; ?>certificados" style="color: #ffffff"><i class="fa fa-pencil"></i>☺ Emitir Certificado!</a>
+      <a style="margin-top: -35px;position: absolute;margin-left: 520px;text-decoration: none;color:#6aca76" href="<?php echo BASE; ?>pagamento" style="color: #ffffff"><i class="fa fa-pencil"></i>☺ Certificado Impresso!</a>
+       <a style="margin-top: -35px;position: absolute;margin-left: 700px;text-decoration: none;color:#6aca76" href="<?php echo BASE; ?>apostila" style="color: #ffffff"><i class="fa fa-pencil"></i>☺ Apostila Impressa!</a>
+<?php endif; ?>
 </div>
 <div class="curso_left">
 	<?php foreach ($modulos as $modulo): ?>

@@ -1,42 +1,78 @@
-<header>
-<div class="whatsapp">
-  <i class="fab fa-whatsapp"></i> <span>61</span> 99984-7102
-</div>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-nav">
-  <div class="container-fluid">
-    <a href="<?php echo BASE; ?>" class="navbar-brand h1 mb-0"><img src="<?php echo BASE; ?>assets/img/logo.png" alt=""></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSite">
-      <ul class="navbar-nav ml-auto">
-        <div class="area_aluno">
-        <a href="<?php echo BASE; ?>curso">Área do Aluno</a>
+<div class="header">
+    <section id="header" class="appear">
+
+     <div class="navbar navbar-fixed-top" role="navigation" data-0="line-height:100px; height:100px;  background-color:rgba(0,0,0,1);" data-300="line-height:60px; height:60px; background-color:rgba(0,0,0,1);">
+
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="fa fa-bars color-white"></span>
+          </button>
+          <a href="<?php echo BASE; ?>" class="navbar-brand"><img style="width: 220px;height: 50px;margin-left: 10px;margin-bottom: 25px;" src="<?php echo BASE; ?>assets/img/logo.png" alt=""></a>
         </div>
-        <li class="nav-item"><a class="nav-link" href="<?php echo BASE; ?>">Início</a></li>
-         <li class="nav-item"><a class="nav-link" href="<?php echo BASE; ?>historia">História</a>
-         <li class="dropdown">
-  <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Curiosidades
-  </a>
+        <div class="navbar-collapse collapse">
 
-  <div class="dropdown-menu" style="border-radius: 10px; background-color: transparent; border: 0"  aria-labelledby="dropdownMenuLink">
-    <a class="dropdown-item" href="<?php echo BASE; ?>curiosidades">Vultos da ciênçia</a>
-    <a class="dropdown-item" href="<?php echo BASE; ?>saiba_mais">Saiba mais</a>
-  </div>
-</li></li>
-         <!-- <li class="nav-item"><a class="nav-link" href="<?php echo BASE; ?>diferenciais">Diferenciais</a></li> -->
+          <ul class="nav navbar-nav" data-0="margin-top:20px;" data-300="margin-top:5px;">
+     
+             <li class="nav-item"><a class="nav-link" href="<?php echo BASE; ?>">Início</a></li>
+         <li class="nav-item"><a class="nav-link" href="<?php echo BASE; ?>historia">História</a></li>
+
+         <li class="menu-container">
+    <ul class="menu clearfix">
+        <li><a  href="#">Curiosidades</a>
+            <!-- Nível 1 -->
+            <!-- submenu -->
+            <ul class="sub-menu clearfix" style="background-color: rgba(0, 0, 0, 0.8);">
+                <li><a style="text-transform: capitalize" href="<?php echo BASE; ?>curiosidades">Vultos</a>
+                </li>
+                <li><a style="text-transform: capitalize" href="<?php echo BASE; ?>saiba_mais">Saiba mais</a>
+                </li>
+            </ul><!-- submenu -->
+             </ul>
+        </li>
+        <li class="menu-container ">
+    <ul class="menu clearfix">
+        <li><a  href="#">Legislação</a>
+            <!-- Nível 1 -->
+            <!-- submenu -->
+            <ul class="sub-menu clearfix" style="background-color: rgba(0, 0, 0, 0.8);">
+                <li><a style="text-transform: capitalize" href="#">Federal</a>
+                    <!-- Nível 2 -->
+                    <!-- submenu do submenu -->
+                    <ul class="sub-menu">
+                        <li><a style="text-transform: capitalize"href="<?php echo BASE; ?>leisFederais">Leis</a></li>
+                        <li><a style="text-transform: capitalize" href="<?php echo BASE; ?>decretosFederais">Decretos</a></li>
+                        <li><a style="text-transform: capitalize" href="<?php echo BASE; ?>resolucoesFederais">Resoluções</a></li>
+                        <li><a style="text-transform: capitalize" href="<?php echo BASE; ?>portariasFederais">Portarias</a></li>
+                    </ul><!-- submenu do submenu -->
+                   
+                </li>
+                <li><a style="text-transform: capitalize" href="#">Distrital</a>
+                    <!-- Nível 2 -->
+                    <!-- submenu do submenu -->
+                    <ul class="sub-menu">
+                        <li><a style="text-transform: capitalize" href="<?php echo BASE; ?>leisDistritais">Leis</a></li>
+                        <li><a style="text-transform: capitalize" href="<?php echo BASE; ?>decretosDistritais">Decretos</a></li>
+                        <li><a style="text-transform: capitalize" href="<?php echo BASE; ?>resolucoesDistritais">Resoluções</a></li>
+                        <li><a style="text-transform: capitalize" href="<?php echo BASE; ?>portariasDistritais">Portarias</a></li>
+                    </ul><!-- submenu do submenu -->
+                </li>
+            </ul><!-- submenu -->
+             </ul>
+        </li>
+      
          <li class="nav-item"><a class="nav-link" href="<?php echo BASE; ?>clientes">Clientes</a></li>
-         <li class="nav-item"><a class="nav-link" href="<?php echo BASE; ?>leis">Legislação</a></li>
-         
-         <!-- <li class="nav-item"><a class="nav-link" href="<?php echo BASE; ?>curiosidades">Curiosidades</a></li> -->
          <li class="nav-item"><a class="nav-link" href="<?php echo BASE; ?>noticias">Notícias</a></li>
-         <li class="nav-item"><a class="nav-link" href="<?php echo BASE; ?>cursos">Cursos</a></li>
+         <li class="nav-item" ><a class="nav-link" style="color: #54ee23" href="<?php echo BASE; ?>cursos">Cursos</a></li>
          <li class="nav-item"><a class="nav-link" href="<?php echo BASE; ?>contato">Contato</a></li>
-      </ul>
+         <li type="button" class="nav-item" style="color: #fff; font-size: 13px; font-weight: bold; text-transform: uppercase; margin-top: 15px; cursor: pointer" onMouseOver="this.style.color='#54ee23';" onMouseOut="this.style.color='#ffffff';" onclick="openWinCurso()">Área do aluno</a></li>
 
-    </div>
+          </ul>
+        </div>
+        <!--/.navbar-collapse -->
+      </div>
+
+
+    </section>
   </div>
-</nav>
-</header>
+

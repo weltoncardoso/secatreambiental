@@ -5,6 +5,7 @@ body{
 header{
 	background: url(../img/bg.jpg);
 }
+
 .pagination{
 	margin-left: 50%;
 }
@@ -449,7 +450,7 @@ text-decoration: none;
 .view p{
 	max-width: 650px;
 	margin-left: 2%;
-	margin-top: 200px;
+	margin-top: 120px;
 	font-size: 20px;
 	text-align: justify;
 	color: #292929;
@@ -481,8 +482,8 @@ text-decoration: none;
 
 .areaImagem img{
 border-radius: 10px;
-height: 500px;
-width: 400px;
+height: 400px;
+width: 500px;
 	-webkit-box-shadow: -14px -15px 0px 1px rgba(54,61,57,1);
 	-moz-box-shadow: -14px -15px 0px 1px rgba(54,61,57,1);
 	box-shadow: -14px -15px 0px 1px rgba(54,61,57,1);
@@ -802,3 +803,4 @@ width: 400px;
 .voltar:hover, 
 .voltar:active {
   background-color: #217093;
+

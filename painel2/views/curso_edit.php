@@ -39,6 +39,13 @@
             <label for="Imagem">Imagem atual</label><br/>
             <img src="<?php echo BASE; ?>../painel2/assets/images/<?php echo $curso['imagem']; ?>" border="0" height="80">
           </p>
+
+          <p> 
+            <label for="Imagem">Certificado</label>
+            <input id="certificado" name="certificado" type="file"/>
+            <label for="Imagem">Certificado atual</label><br/>
+            <img src="<?php echo BASE; ?>../curso/certificados/img/<?php echo "bg-".$curso['type'].".png"; ?>" border="0" height="80">
+          </p>
            
           <p> 
             <input type="submit" value="Salvar Curso"/> 

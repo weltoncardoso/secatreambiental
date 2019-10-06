@@ -1,34 +1,21 @@
-<!doctype html>
-<html >
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:400,800,900" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-    <link rel="shortcut icon" href="<?php echo BASE; ?>assets/img/thor.ico">
-    <link rel="stylesheet" href="<?php echo BASE; ?>assets/fonts/font-awesome/css/all.css" />
-    <link rel="stylesheet" href="<?php echo BASE; ?>assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="<?php echo BASE; ?>assets/css/style.css">
 
-    <title>Secatre Ambiental</title>
-  </head>
-  <body>
+<?php include('header.php'); ?>
 
-    <?php include('header.php'); ?>
-
+ 
     <div class="tab">
       <div class="container" align="center">
         História da Empresa
       </div>
     </div>
 
-    <section class="about-page py-5 my-5">
+    <section class="about-page py-4 my-4">
       <div class="container">
           <div class="row">
             <div class="col-md-5">
-              <div class="about-page-img"><img src="<?php echo BASE; ?>assets/img/educacao-ambiental.jpg" alt="Historia" class="img-fluid"></div>
+              <div class="about-page-img"><img width="95%" src="<?php echo BASE; ?>assets/img/educacao-ambiental.jpg" alt="Historia" class="img-fluid"></div>
             </div>
             <div class="col-md-7 px-5">
+              <br />
               <h1>Secatre Ambiental</h1>
 
         <p class="mt-6">Foi a primeira empresa de engenharia de segurança do trabalho e segurança ambiental instituída em Brasília. Atuando há quase trinta anos no mercado de trabalho, anuncia o lançamento de seus cursos à distância - EAD, para dar maior conforto aos seus clientes e garantir maior flexibilidade de horários.</p>
@@ -57,8 +44,28 @@
           </div>
       </div>
     </section>
+  
+  <?php include('footer.php'); ?>
+  <a href="#header" class="scrollup"><i class="fa fa-chevron-up"></i></a>
 
-    <?php include('footer.php'); ?>
+  <script src="<?php echo BASE; ?>assets/js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+  <script src="<?php echo BASE; ?>assets/js/jquery.js"></script>
+  <script src="<?php echo BASE; ?>assets/js/jquery.easing.1.3.js"></script>
+  <script src="<?php echo BASE; ?>assets/js/bootstrap.min.js"></script>
+  <script src="<?php echo BASE; ?>assets/js/jquery.isotope.min.js"></script>
+  <script src="<?php echo BASE; ?>assets/js/jquery.nicescroll.min.js"></script>
+  <script src="<?php echo BASE; ?>assets/js/fancybox/jquery.fancybox.pack.js"></script>
+  <script src="<?php echo BASE; ?>assets/js/skrollr.min.js"></script>
+  <script src="<?php echo BASE; ?>assets/js/jquery.scrollTo.js"></script>
+  <script src="<?php echo BASE; ?>assets/js/jquery.localScroll.js"></script>
+  <script src="<?php echo BASE; ?>assets/js/stellar.js"></script>
+  <script src="<?php echo BASE; ?>assets/js/responsive-slider.js"></script>
+  <script src="<?php echo BASE; ?>assets/js/jquery.appear.js"></script>
+  <script src="<?php echo BASE; ?>assets/js/grid.js"></script>
+  <script src="<?php echo BASE; ?>assets/js/main.js"></script>
+  <script src="<?php echo BASE; ?>assets/js/wow.min.js"></script>
+  <script>
+    wow = new WOW({}).init();
+  </script>
+  <script src="<?php echo BASE; ?>assets/contactform/contactform.js"></script>
 
-  </body>
-</html>

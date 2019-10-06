@@ -33,7 +33,7 @@ body {
   height: 100%;
   font-size: 16px;
   font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 400;
+  font-weight: 200;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -45,13 +45,15 @@ form {
           transform: translate(-50%, -50%);
   display: block;
   width: 100%;
+  height: 108%;
   max-width: 400px;
+  max-height: 640px;
   background-color: #FFF;
   margin: 0;
   padding: 2.25em;
   box-sizing: border-box;
   border: solid 1px #DDD;
-  border-radius: .5em;
+  border-radius: .8em;
   font-family: 'Source Sans Pro', sans-serif;
 }
 form .svgContainer {
@@ -132,14 +134,14 @@ form input[type='email']:focus, form input[type="text"]:focus, form input[type="
 .voltar {
   display: block;
   margin: 0;
-  padding: .65em 1em 1em;
+  padding: .40em 1em 1em;
   background-color: #4eb8dd;
   border: none;
-  border-radius: 4px;
+  border-radius: 10px;
   box-sizing: border-box;
   box-shadow: none;
   width: 100%;
-  height: 65px;
+  height: 50px;
   font-size: 1.55em;
   color: #FFF;
   font-weight: 600;
@@ -153,14 +155,14 @@ form input[type='email']:focus, form input[type="text"]:focus, form input[type="
 form button {
   display: block;
   margin: 0;
-  padding: .65em 1em 1em;
+  padding: .40em 1em 1em;
   background-color: #4eb8dd;
   border: none;
-  border-radius: 4px;
+  border-radius: 10px;
   box-sizing: border-box;
   box-shadow: none;
   width: 100%;
-  height: 65px;
+  height: 50px;
   font-size: 1.55em;
   color: #FFF;
   font-weight: 600;
@@ -395,11 +397,7 @@ form .inputGroup2 #showPasswordToggle input:disabled ~ .indicator:after {
     <a style="color:#000;text-decoration: none" href="<?php echo BASE; ?>../">
     <div class="voltar" style="background-color: red; text-align: center ">Voltar ao Site</div>
     </a>
-  </div>
-  <div style="clear: both;"></div>
-            <div style=" color: silver; text-align: right; bottom: 0">
-                © Copyright welton cardoso 2018.
-              </div>  
+  </div>       
 </form>
 
     <script src="//static.codepen.io/assets/common/stopExecutionOnTimeout-41c52890748cd7143004e05d3c5f786c66b19939c4500ce446314d1748483e13.js"></script>

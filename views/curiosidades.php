@@ -1,59 +1,37 @@
-<!doctype html>
-<html lang="en">
-<style type="text/css">
-tr:nth-child(even) {background: #eee}
-tr:nth-child(odd) {background: #ccc}
-table{margin-top: 20px;margin-bottom: 60px;margin-left: 25%;}
-table th{height: 40px;line-height: 40px;text-align: left;padding-left: 10px;padding-right: 10px;}
-table td{height: 40px;line-height: 40px;text-align: left;padding-left: 10px;padding-right: 10px;}</style>
+<?php include('header.php'); ?>
 
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:400,800,900" rel="stylesheet">
-    <link rel="shortcut icon" href="<?php echo BASE; ?>assets/img/thor.ico">
-    <link rel="stylesheet" href="<?php echo BASE; ?>assets/fonts/font-awesome/css/all.css" />
-    <link rel="stylesheet" href="<?php echo BASE; ?>assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="<?php echo BASE; ?>assets/css/style.css">
-
-    <title>Secatre Ambiental</title>
-  </head>
-  <body>
-
-    <?php include('header.php'); ?>
-
-    <div style="padding-left:30px;"class="tab" align="center">
-          CURIOSIDADES
+    <div style="padding-left:30px; "class="tab" align="center">
+          Grandes vultos da ciencia e seus feitos
       </div>
 
-	   <div class="table-responsive">
+     <div class="table-responsive">
 
-<h1>Grandes vultos da ciência e seus feitos para a sociedade</h1>
+<h1 align="center" style="margin-top: 20px"></h1>
 <table width="65%" style="margin: 0 15% 0 15%" >
-	<thead>
-		<tr>
-			<th style="text-align: center">Vulto</th>
+  <thead>
+    <tr>
+      <th style="text-align: center">Vulto</th>
       <th style="text-align: center">Feito</th>
 
-		</tr>
-	</thead>
+    </tr>
+  </thead>
 
 
-	<?php foreach($leisbiografias as $not):?>
+  <?php foreach($leisbiografias as $not):?>
     
-		<tr>
-		<td width="25%" style="background-color: #dee2e6;
-  border-bottom: 2px solid #fff">
-  <a target="_blank" style="text-decoration: none" href="<?php echo BASE; ?>leis/view/<?php echo $not['id']; ?>" title="Clic para abrir o documento em PDF!">
+    <tr>
+    <td width="20%" style="background-color: #dee2e6;
+  border-bottom: 2px solid #fff; text-align: center">
+  <a target="_blank" style="text-decoration: none " href="<?php echo BASE; ?>leis/view/<?php echo $not['id']; ?>" title="Clic para abrir o documento em PDF!">
 
-      <?php echo utf8_encode($not['nome']); ?></a></td>
+      <?php echo $not['nome']; ?></a></td>
       <td style="background-color: #dee2e6;
-  border-bottom: 2px solid #fff">
-        <?php echo utf8_encode($not['descricao']); ?>
+  border-bottom: 2px solid #fff; padding-left:10px ">
+        <?php echo $not['descricao']; ?>
       </td>
 
-	</tr>
-	<?php endforeach; ?>
+  </tr>
+  <?php endforeach; ?>
 <tr>
 <td colspan="2" style="margin-left:10px">
  <div class="pagination_leis">
@@ -73,12 +51,30 @@ table td{height: 40px;line-height: 40px;text-align: left;padding-left: 10px;padd
 
 </td> 
 
-	</tr>
+  </tr>
 </table>
 </div>
+<br />
+<?php include('footer.php'); ?>
+  <a href="#header" class="scrollup"><i class="fa fa-chevron-up"></i></a>
 
-
-    <?php include('footer.php'); ?>
-
-  </body>
-</html>
+  <script src="<?php echo BASE; ?>assets/js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+  <script src="<?php echo BASE; ?>assets/js/jquery.js"></script>
+  <script src="<?php echo BASE; ?>assets/js/jquery.easing.1.3.js"></script>
+  <script src="<?php echo BASE; ?>assets/js/bootstrap.min.js"></script>
+  <script src="<?php echo BASE; ?>assets/js/jquery.isotope.min.js"></script>
+  <script src="<?php echo BASE; ?>assets/js/jquery.nicescroll.min.js"></script>
+  <script src="<?php echo BASE; ?>assets/js/fancybox/jquery.fancybox.pack.js"></script>
+  <script src="<?php echo BASE; ?>assets/js/skrollr.min.js"></script>
+  <script src="<?php echo BASE; ?>assets/js/jquery.scrollTo.js"></script>
+  <script src="<?php echo BASE; ?>assets/js/jquery.localScroll.js"></script>
+  <script src="<?php echo BASE; ?>assets/js/stellar.js"></script>
+  <script src="<?php echo BASE; ?>assets/js/responsive-slider.js"></script>
+  <script src="<?php echo BASE; ?>assets/js/jquery.appear.js"></script>
+  <script src="<?php echo BASE; ?>assets/js/grid.js"></script>
+  <script src="<?php echo BASE; ?>assets/js/main.js"></script>
+  <script src="<?php echo BASE; ?>assets/js/wow.min.js"></script>
+  <script>
+    wow = new WOW({}).init();
+  </script>
+  <script src="<?php echo BASE; ?>assets/contactform/contactform.js"></script>

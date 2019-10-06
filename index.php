@@ -1,7 +1,7 @@
 <?php
 session_start();
 require 'vendor/autoload.php';
-require 'config.php';
+ require 'config.php';
 
 spl_autoload_register(function ($class){
     if(strpos($class, 'Controller') > -1) {
@@ -18,3 +18,4 @@ spl_autoload_register(function ($class){
 $core = new core();
 $core->run();
 ?>
+

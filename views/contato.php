@@ -1,20 +1,4 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:400,800,900" rel="stylesheet">
-
-    <link rel="shortcut icon" href="img/thor.ico">
-    <link rel="stylesheet" href="fonts/font-awesome/css/all.css" />
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-
-    <title>Secatre Ambiental</title>
-  </head>
-  <body>
-
-    <?php include('header.php'); ?>
+<?php include('header.php'); ?>
 
     <div class="tab">
       <div class="container" style="text-align:center">
@@ -31,7 +15,7 @@
             <div class="col-md-6">
               <form>
                 <div class="form-group">
-                  <label for="exampleInputEmail1"><i class="fas fa-envelope"></i>&nbsp;<b>E-mail</b></label></br>
+                  <label for="exampleInputEmail1"><img src="./assets/img/email.png" border="0" width="15px" height="15px">&nbsp;<b>E-mail</b></label></br>
                   secatre@secatreambiental.com.br
                 </div>
                 <div class="form-group">
@@ -56,8 +40,27 @@
           </div>
         </div>
 
+<?php include('footer.php'); ?>
 
-    <?php include('footer.php'); ?>
+  <a href="#header" class="scrollup"><i class="fa fa-chevron-up"></i></a>
 
-  </body>
-</html>
+  <script src="<?php echo BASE; ?>assets/js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+  <script src="<?php echo BASE; ?>assets/js/jquery.js"></script>
+  <script src="<?php echo BASE; ?>assets/js/jquery.easing.1.3.js"></script>
+  <script src="<?php echo BASE; ?>assets/js/bootstrap.min.js"></script>
+  <script src="<?php echo BASE; ?>assets/js/jquery.isotope.min.js"></script>
+  <script src="<?php echo BASE; ?>assets/js/jquery.nicescroll.min.js"></script>
+  <script src="<?php echo BASE; ?>assets/js/fancybox/jquery.fancybox.pack.js"></script>
+  <script src="<?php echo BASE; ?>assets/js/skrollr.min.js"></script>
+  <script src="<?php echo BASE; ?>assets/js/jquery.scrollTo.js"></script>
+  <script src="<?php echo BASE; ?>assets/js/jquery.localScroll.js"></script>
+  <script src="<?php echo BASE; ?>assets/js/stellar.js"></script>
+  <script src="<?php echo BASE; ?>assets/js/responsive-slider.js"></script>
+  <script src="<?php echo BASE; ?>assets/js/jquery.appear.js"></script>
+  <script src="<?php echo BASE; ?>assets/js/grid.js"></script>
+  <script src="<?php echo BASE; ?>assets/js/main.js"></script>
+  <script src="<?php echo BASE; ?>assets/js/wow.min.js"></script>
+  <script>
+    wow = new WOW({}).init();
+  </script>
+  <script src="<?php echo BASE; ?>assets/contactform/contactform.js"></script>

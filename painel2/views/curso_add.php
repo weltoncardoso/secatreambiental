@@ -38,6 +38,11 @@
             <label for="Imagem">Imagem</label>
             <input id="imagem" name="imagem" type="file" required="required"/>
           </p>
+
+          <p> 
+            <label for="Imagem">Certificado</label>
+            <input id="certificado" name="certificado" type="file" required="required"/>
+          </p>
            
           <p> 
             <input type="submit" value="Adicionar Curso"/> 

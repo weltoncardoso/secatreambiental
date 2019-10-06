@@ -32,7 +32,7 @@ class Clientes extends model {
 	public function getClientesDF() {
 		$array = array();
 
-		$sql = "SELECT * FROM clientes WHERE estado = 'DF' ORDER BY date_cliente DESC";
+		$sql = "SELECT * FROM clientes WHERE estado = 'DF' ORDER BY nome";
 
 		$sql = $this->db->query($sql);
 

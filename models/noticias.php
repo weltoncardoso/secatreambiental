@@ -42,7 +42,19 @@ class Noticias extends model {
 		return $array;
 	}
 
+	public function getNoticiaSld() {
+		$array = array();
 
+		$sql = "SELECT * FROM noticias ORDER BY date_noticia DESC LIMIT 1 ";
+
+		$sql = $this->db->query($sql);
+
+		if($sql->rowCount() > 0) {
+			$array = $sql->fetch();
+		}
+
+		return $array;
+	}
 
 	public function getImagem($offset, $limit) {
 		$array = array();

@@ -23,9 +23,9 @@
 
 		
 		<td width="110"><img src="../assets/img/prods/<?php echo $not['url']?>" border="0" height="80" width="160" /></td>
-		<td><?php echo $not['nome']; ?></td>
-		<td><?php echo $not['regiao']; ?></td>
-		<td><?php echo $not['estado']; ?></td>
+		<td><?php echo ($not['nome']); ?></td>
+		<td><?php echo utf8_decode($not['regiao']); ?></td>
+		<td><?php echo utf8_decode($not['estado']); ?></td>
 		<td>
 			<a href="<?php echo BASE; ?>clientes/edit/<?php echo $not['id']; ?>" class="btn btn-default" style="background-color:blue; color:#fff;">Editar</a>
 			<a href="<?php echo BASE; ?>clientes/remove/<?php echo $not['id']; ?>" style="background-color:#FF0000; color:#FFFFFF" class="btn btn-default">Excluir</a>

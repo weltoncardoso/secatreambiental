@@ -40,6 +40,19 @@
 		}
  	}
 
+ 	public function getModuloDeAula($id_aula)
+ 	{
+ 		$sql = "SELECT id_modulo FROM aulas WHERE id = '$id_aula'";
+ 		$sql = $this->db->query($sql);
+
+		if ($sql->rowCount() > 0) {
+			$row = $sql->fetch();
+			return $row['id_modulo'];
+		} else {
+			return 0;
+		}
+ 	}
+
  	public function getAula($id_aula)
  	{
  		$array = array();
@@ -86,7 +99,10 @@
  	public function marcarAssistido($id)
  	{
  		$aluno = $_SESSION['lgaluno'];
- 		$sql = "INSERT INTO historico SET data_viewed = NOW(), id_aluno = '$aluno', id_aula = '$id'";
+ 		$aula = new Aulas();
+		$cid = $aula->getCursoDeAula($id);
+		$mid = $aula->getModuloDeAula($id);
+ 		$sql = "INSERT INTO historico SET data_viewed = NOW(), id_aluno = '$aluno', id_aula = '$id', id_modulo = '$mid', id_curso = '$cid'";
  		$sql = $this->db->query($sql);
  	}
 

@@ -38,7 +38,7 @@ public function entrar($id) {
 		$dados['aluno'] = $curso->getCurso($idAcesso);
 
 			$dataBanco = $dados['aluno']['date_cadastro'];
-			$dataADD = date('Y/m/d', strtotime("+60 days",strtotime($dataBanco)));
+			$dataADD = date('Y/m/d', strtotime("+90 days",strtotime($dataBanco)));
 			$dataAtual =  date("Y/m/d");
  			if($dataAtual < $dataADD){
 				$this->loadTemplate('curso_entrar', $dados);
@@ -66,6 +66,7 @@ public function aula($id_aula)
 
 	$aula = new Aulas();
 	$id = $aula->getCursoDeAula($id_aula);
+	$mid = $aula->getModuloDeAula($id_aula);
 
 	if ($alunos->isInscrito($id)) {
 		$curso = new Cursos();
@@ -77,6 +78,7 @@ public function aula($id_aula)
 		$dados['aulas_assistidas'] = $alunos->getNumAulasAssistidas($id);
 		$dados['total_aulas'] = $curso->getTotalAulas();
 		$dados['aula_info'] = $aula->getAula($id_aula);
+
 
 		if ($dados['aula_info']['tipo'] == 'video') {
 		   $view = 'curso_aula_video';
@@ -100,6 +102,7 @@ public function aula($id_aula)
 				if ($opcao == $dados['aula_info']['resposta']) {
 					$dados['resposta'] = true;
 					$aula->marcarAssistido($id_aula);
+
 				} else {
 					$dados['resposta'] = false;
 				}

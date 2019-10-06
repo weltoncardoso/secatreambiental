@@ -78,7 +78,89 @@ class Leis extends model {
 	public function getTotalLeisDistritais() {
 		$q = 0;
 
-		$sql = "SELECT COUNT(*) as c FROM leis WHERE categoria = 'leis distritais'";
+		$sql = "SELECT COUNT(*) as c FROM leis WHERE categoria = 'leis distritais' AND tipo = '1'";
+		$sql = $this->db->query($sql);
+
+		if($sql->rowCount() > 0) {
+			$q = $sql->fetch();
+			$q = $q['c'];
+		}
+
+		return $q;
+	}
+	public function getTotalDecretosDistritais() {
+		$q = 0;
+
+		$sql = "SELECT COUNT(*) as c FROM leis WHERE categoria = 'leis distritais' AND tipo = '2'";
+		$sql = $this->db->query($sql);
+
+		if($sql->rowCount() > 0) {
+			$q = $sql->fetch();
+			$q = $q['c'];
+		}
+
+		return $q;
+	}
+	public function getTotalDecretosFederais() {
+		$q = 0;
+
+		$sql = "SELECT COUNT(*) as c FROM leis WHERE categoria = 'leis federais' AND tipo = '2'";
+		$sql = $this->db->query($sql);
+
+		if($sql->rowCount() > 0) {
+			$q = $sql->fetch();
+			$q = $q['c'];
+		}
+
+		return $q;
+	}
+
+	public function getTotalResolucoesFederais() {
+		$q = 0;
+
+		$sql = "SELECT COUNT(*) as c FROM leis WHERE categoria = 'leis federais' AND tipo = '3'";
+		$sql = $this->db->query($sql);
+
+		if($sql->rowCount() > 0) {
+			$q = $sql->fetch();
+			$q = $q['c'];
+		}
+
+		return $q;
+	}
+
+	public function getTotalResolucoesDistritais() {
+		$q = 0;
+
+		$sql = "SELECT COUNT(*) as c FROM leis WHERE categoria = 'leis distritais' AND tipo = '3'";
+		$sql = $this->db->query($sql);
+
+		if($sql->rowCount() > 0) {
+			$q = $sql->fetch();
+			$q = $q['c'];
+		}
+
+		return $q;
+	}
+
+	public function getTotalPortariasFederais() {
+		$q = 0;
+
+		$sql = "SELECT COUNT(*) as c FROM leis WHERE categoria = 'leis federais' AND tipo = '4'";
+		$sql = $this->db->query($sql);
+
+		if($sql->rowCount() > 0) {
+			$q = $sql->fetch();
+			$q = $q['c'];
+		}
+
+		return $q;
+	}
+
+	public function getTotalPortariasDistritais() {
+		$q = 0;
+
+		$sql = "SELECT COUNT(*) as c FROM leis WHERE categoria = 'leis distritais' AND tipo = '4'";
 		$sql = $this->db->query($sql);
 
 		if($sql->rowCount() > 0) {
@@ -92,7 +174,7 @@ class Leis extends model {
 		public function getTotalLeisFederais() {
 		$q = 0;
 
-		$sql = "SELECT COUNT(*) as c FROM leis WHERE categoria = 'leis federais'";
+		$sql = "SELECT COUNT(*) as c FROM leis WHERE categoria = 'leis federais' AND tipo = '1'";
 		$sql = $this->db->query($sql);
 
 		if($sql->rowCount() > 0) {
@@ -135,7 +217,92 @@ class Leis extends model {
 	public function getLeisDistritais($offset, $limit) {
 		$array = array();
 
-		$sql = "SELECT * FROM leis WHERE categoria = 'leis distritais' ORDER BY date_lei DESC LIMIT $offset, $limit";
+		$sql = "SELECT * FROM leis WHERE categoria = 'leis distritais' AND tipo = '1' ORDER BY date_lei DESC LIMIT $offset, $limit";
+
+		$sql = $this->db->query($sql);
+
+		if($sql->rowCount() > 0) {
+			$array = $sql->fetchAll();
+		}
+
+		return $array;
+	}
+
+	public function getDecretosDistritais($offset, $limit) {
+		$array = array();
+
+		$sql = "SELECT * FROM leis WHERE categoria = 'leis distritais' AND tipo = '2' ORDER BY date_lei DESC LIMIT $offset, $limit";
+
+		$sql = $this->db->query($sql);
+
+		if($sql->rowCount() > 0) {
+			$array = $sql->fetchAll();
+		}
+
+		return $array;
+	}
+
+	public function getDecretosFederais($offset, $limit) {
+		$array = array();
+
+		$sql = "SELECT * FROM leis WHERE categoria = 'leis federais' AND tipo = '2' ORDER BY date_lei DESC LIMIT $offset, $limit";
+
+		$sql = $this->db->query($sql);
+
+		if($sql->rowCount() > 0) {
+			$array = $sql->fetchAll();
+		}
+
+		return $array;
+	}
+
+	public function getResolucoesFederais($offset, $limit) {
+		$array = array();
+
+		$sql = "SELECT * FROM leis WHERE categoria = 'leis federais' AND tipo = '3' ORDER BY date_lei DESC LIMIT $offset, $limit";
+
+		$sql = $this->db->query($sql);
+
+		if($sql->rowCount() > 0) {
+			$array = $sql->fetchAll();
+		}
+
+		return $array;
+	}
+
+
+	public function getResolucoesDistritais($offset, $limit) {
+		$array = array();
+
+		$sql = "SELECT * FROM leis WHERE categoria = 'leis distritais' AND tipo = '3' ORDER BY date_lei DESC LIMIT $offset, $limit";
+
+		$sql = $this->db->query($sql);
+
+		if($sql->rowCount() > 0) {
+			$array = $sql->fetchAll();
+		}
+
+		return $array;
+	}
+
+	public function getPortariasFederais($offset, $limit) {
+		$array = array();
+
+		$sql = "SELECT * FROM leis WHERE categoria = 'leis federais' AND tipo = '4' ORDER BY date_lei DESC LIMIT $offset, $limit";
+
+		$sql = $this->db->query($sql);
+
+		if($sql->rowCount() > 0) {
+			$array = $sql->fetchAll();
+		}
+
+		return $array;
+	}
+
+	public function getPortariasDistritais($offset, $limit) {
+		$array = array();
+
+		$sql = "SELECT * FROM leis WHERE categoria = 'leis distritais' AND tipo = '4' ORDER BY date_lei DESC LIMIT $offset, $limit";
 
 		$sql = $this->db->query($sql);
 
@@ -149,7 +316,7 @@ class Leis extends model {
 	public function getLeisFederais($offset, $limit) {
 		$array = array();
 
-		$sql = "SELECT * FROM leis WHERE categoria = 'leis federais' ORDER BY date_lei DESC LIMIT $offset, $limit";
+		$sql = "SELECT * FROM leis WHERE categoria = 'leis federais' AND tipo = '1' ORDER BY date_lei DESC LIMIT $offset, $limit";
 
 		$sql = $this->db->query($sql);
 
@@ -187,10 +354,6 @@ class Leis extends model {
 
 		return $array;
 	}
-
-
-
-	
 
 }
 ?>

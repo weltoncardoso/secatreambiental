@@ -77,13 +77,14 @@ class leis extends model {
 
 
 
-	public function inserir($nome, $descricao, $categoria) {
+	public function inserir($nome, $descricao, $categoria, $tipo) {
 
-		$sql = "INSERT INTO leis SET nome = '$nome', descricao = '$descricao', categoria = '$categoria', date_lei = NOW()";
+		$sql = "INSERT INTO leis SET nome = '$nome', descricao = '$descricao', date_lei = NOW(), categoria = '$categoria', tipo = '$tipo'";
 		$this->db->query($sql);	
 		return $this->db->lastInsertId();
 
 	}
+
 	public function inserirpdfs($id, $md5pdfs) {
 
 		$sql = "INSERT INTO leis_pdf SET id_lei = '$id', url = '$md5pdfs', date_lei = NOW()";
@@ -93,9 +94,9 @@ class leis extends model {
 
 
 
-	public function updateLei($id, $nome, $descricao, $categoria) {
+	public function updateLei($id, $nome, $descricao, $categoria, $tipo) {
 
-		$sql = "UPDATE leis SET nome = '$nome', descricao = '$descricao', categoria = '$categoria' WHERE id = '$id'";
+		$sql = "UPDATE leis SET nome = '$nome', descricao = '$descricao', categoria = '$categoria', tipo = '$tipo' WHERE id = '$id'";
 		$this->db->query($sql);		
 
 	}

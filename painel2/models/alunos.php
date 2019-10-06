@@ -53,5 +53,31 @@
 		$this->db->query($sql);
  }
 
+ public function getAlunos_curso() {
+ 		$array = array();
+
+ 	$sql = "SELECT
+al.nome as aluno,
+cu.nome as curso,
+COALESCE(mo.nome, 's/modulo') as modulo,
+(select count(aul.tipo = 0) from aulas aul where aul.id_modulo = mo.id ) as qtd_de_aula,
+sum((select count(modi.id) from modulos modi where modi.id = hi.id_modulo)) as qtd_assitida
+FROM
+ cursos cu
+left join historico hi  on cu.id = hi.id_curso
+left join modulos mo on mo.id = hi.id_modulo
+left join aluno_curso alu on alu.id_curso = cu.id
+left join alunos al on al.id = alu.id_aluno
+
+
+group by 1,2,3";
+ 	$sql = $this->db->query($sql);
+
+		if ($sql->rowCount() > 0) {
+			$array = $sql->fetchAll();
+ }
+ return $array;
+ 	}
+
  }
 ?>

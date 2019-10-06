@@ -62,7 +62,25 @@ public function excluir($id) {
         	$nome = addslashes($_POST['nome']);
         	$descricao = addslashes($_POST['descricao']);
 			$imagem = $_FILES['imagem'];
+			$certificado = $_FILES['certificado'];
 			$preco = addslashes($_POST['preco']);
+
+
+
+
+
+
+
+			if (!empty($certificado['tmp_name'])) {
+				$namecert = 'bg-'.$certificado['name'].'.png';
+				$types = array('image/jpeg', 'image/jpg', 'image/png');
+
+				if (in_array($certificado['type'], $types)) {
+					move_uploaded_file($certificado['tmp_name'], "../curso/certificados/img/".$namecert);
+					header("Location: ".BASE);
+				}
+
+			}
 
 			if (!empty($imagem['tmp_name'])) {
 				$md5name = md5(time().rand(0,9999)).'.jpg';
@@ -70,7 +88,8 @@ public function excluir($id) {
 
 				if (in_array($imagem['type'], $types)) {
 					move_uploaded_file($imagem['tmp_name'], "../painel2/assets/images/".$md5name);
-					$this->db->query("INSERT INTO cursos SET nome = '$nome', descricao = '$descricao', imagem = '$md5name', preco = '$preco'");
+					$nomeType = $certificado['name'];
+					$this->db->query("INSERT INTO cursos SET nome = '$nome', descricao = '$descricao', imagem = '$md5name', preco = '$preco', date_curso = NOW(), type = '$nomeType'");
 					header("Location: ".BASE);
 				}
 
@@ -89,6 +108,7 @@ public function excluir($id) {
 	        	$nome = addslashes($_POST['nome']);
 	        	$descricao = addslashes($_POST['descricao']);
 				$imagem = $_FILES['imagem'];
+				$certificado = $_FILES['certificado'];
 				$preco = addslashes($_POST['preco']);
 
 				$this->db->query("UPDATE cursos SET nome = '$nome', descricao = '$descricao', preco = '$preco' WHERE id = '$id'");
@@ -99,6 +119,16 @@ public function excluir($id) {
 				if (in_array($imagem['type'], $types)) {
 					move_uploaded_file($imagem['tmp_name'], "../painel2/assets/images/".$md5name);
 					$this->db->query("UPDATE cursos SET imagem = '$md5name' WHERE id = '$id'");
+				    }
+				}
+
+				if (!empty($certificado['tmp_name'])) {
+				$md5name = 'bg-'.$certificado['name'].'.png';
+				$types = array('image/jpeg', 'image/jpg', 'image/png');
+				if (in_array($certificado['type'], $types)) {
+					$nomeType = $certificado['name'];
+					move_uploaded_file($certificado['tmp_name'], "../curso/certificados/img/".$md5name);
+					 $this->db->query("UPDATE cursos SET type = '$nomeType' WHERE id = '$id'");
 				    }
 				}
 	        }

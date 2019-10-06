@@ -22,8 +22,8 @@
 		<tr> 
 		<?php if ($not['id']== $img['id_noticia']): ?>
 			<td width="110"><img src="<?php echo BASE; ?>assets/images/prods/<?php echo $img['url']?>" border="0" height="80" /></td> 
-		<td><?php echo $not['titulo']; ?></td>
-	    <td><?php echo $not['descricao']; ?></td>
+		<td><?php echo ($not['titulo']); ?></td>
+	    <td><?php echo ($not['descricao']); ?></td>
 		<td>
 			<a href="<?php echo BASE; ?>noticias/edit/<?php echo $not['id']; ?>" style="background-color:#0000FF; color:#FFFFFF" class="btn btn-default">Editar</a>
 			<a href="<?php echo BASE; ?>noticias/remove/<?php echo $not['id']; ?>" style="background-color:#FF0000; color:#FFFFFF" class="btn btn-default">Excluir</a>

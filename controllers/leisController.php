@@ -1,20 +1,18 @@
 <?php
-/**
-* 
-*/
+
 class leisController extends controller
 {
 
-	public function __construct() {
+    public function __construct() {
        parent::__construct();
-        	
+            
         }
-	
-	public function index() {
-			
+    
+    public function index() {
+            
       $dados = array();
         $lei = new leis();
-                $limit = 10;
+                $limit = 7;
                 $offset = 0;
                 $dados['p'] = 1;
                 if(isset($_GET['p']) && !empty($_GET['p'])){
@@ -38,9 +36,9 @@ class leisController extends controller
         $dados['leisbiografias'] = $lei->getLeisBiografias($offset, $limit);
         $dados['leisoutras'] = $lei->getLeisOutras($offset, $limit);
 
-		$this->loadTemplate('leis', $dados);
+        $this->loadTemplate('leis', $dados);
 
-		}
+        }
       public function view($id) {
         $dados = array(
             'leis' => array(),

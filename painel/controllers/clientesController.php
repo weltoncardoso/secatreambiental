@@ -85,8 +85,7 @@ class clientesController extends controller {
             $estado = addslashes($_POST['estado']);
             $regiao = addslashes($_POST['regiao']);
 
-
-            $cli->updateCliente($id, $nome, $estado, $regiao);
+            $cli->updateCliente($id, $nome, $regiao, $estado);
 
             if(isset($_FILES['imagem']) && !empty($_FILES['imagem']['tmp_name'])) {
                 $imagem = $_FILES['imagem'];

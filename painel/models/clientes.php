@@ -79,10 +79,9 @@ class Clientes extends model {
 	}
 
 
-
 	public function updateCliente($id, $nome, $regiao, $estado) {
 
-		$sql = "UPDATE clientes SET nome = '$nome', regiao = '$regiao', estado = '$estado', WHERE id = '$id'";
+		$sql = "UPDATE clientes SET nome = '$nome', regiao = '$regiao', estado = '$estado' WHERE id = '$id'";
 		$this->db->query($sql);
 
 	}

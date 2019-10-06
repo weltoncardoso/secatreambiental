@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="sortcut icon" href="logo.ico" type="image/x-icon" />
+    <link rel="sortcut icon" href="logo.ico" type="image/x-icon" />
 </head>
 <body>
 <script type="text/javascript">
@@ -32,7 +32,7 @@ function c(id) {
 <tr>
     <td>
     <label form="nome">Titulo</label><br/>
-	<input onkeyup="c('input-1')"  placeholder="nome"  class="form-control" required class="inp_editar" type="text" name="nome" id="input-1"/><br/>
+    <input onkeyup="c('input-1')"  placeholder="nome"  class="form-control" required class="inp_editar" type="text" name="nome" id="input-1"/><br/>
 </td>
 <td>
     <label form="descricao">Descrição</label><br/>
@@ -49,14 +49,26 @@ function c(id) {
     <option value="biografias">Biografias</option>
     <option value="outras">Outras</option>
     </select></br>
-    </td>
-
+</td>
+<td>
+    <label form="tipo">Tipo</label><br/>
+    <select name="tipo" class="form-control">
+    <option value="1">Lei</option>
+    <option value="2">Decreto</option>
+    <option value="3">Resolução</option>
+    <option value="4">Portaria</option>
+    <option value="">Biografias</option>
+    <option value="5">outros</option>
+    </select></br>
+</td>
+</tr>
+<tr>
 <td colspan="2">
 
          <label form="pdfs">PDF</label><br/>
     <input type="file" name="pdfs" /><br/>
 
-	</td>
+</td>
  
 
 </table>

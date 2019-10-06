@@ -1,7 +1,7 @@
 <?php
 require 'environment.php';
 
-define("BASE", "http://localhost/secatreambiental/curso/");
+define("BASE", "http://localhost/sitenovo/curso/");
 
 
 global $config;
