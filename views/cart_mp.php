@@ -22,24 +22,24 @@
           <h1>Dados Pessoais</h1> 
            
           <p> 
-            <label for="nome_cad">Nome</label>
-            <input name="name" required="required" type="text" value="welton viana cardoso" />
+            <label for="nome_cad">Nome</label><br>
+            <input name="name" required="required" type="text" />
           </p>
           <p> 
-            <label for="nome_cad">CPF</label>
-            <input  name="cpf" required="required" type="text" value="93346557120" />
+            <label for="nome_cad">CPF</label><br>
+            <input  name="cpf" required="required" type="text" />
           </p>
           <p> 
-            <label for="nome_cad">Telefone</label>
-            <input  name="telefone" required="required" type="text" value="61994107525" />
+            <label for="nome_cad">Telefone</label><br>
+            <input  name="telefone" required="required" type="text" />
           </p>
           <p> 
-            <label for="nome_cad">E-mail</label>
-            <input  name="email" required="required" type="email" value="testempsecatre@gmail.com" />
+            <label for="nome_cad">E-mail</label><br>
+            <input  name="email" required="required" type="email" />
           </p>
           <p> 
-            <label for="nome_cad">Senha</label>
-            <input  name="password" required="required" type="password" value="12345"/>
+            <label for="nome_cad">Senha</label><br>
+            <input  name="password" required="required" type="password" />
           </p>
 
 
@@ -47,26 +47,26 @@
  <h1>Informações de Endereço</h1>
 
  <p> 
-            <label for="nome_cad">CEP</label>
-            <input  name="cep" required="required"  type="text" value="72301407" />
+            <label for="nome_cad">CEP</label><br>
+            <input  name="cep" required="required"  type="text" />
           </p><p> 
-            <label for="nome_cad">Rua</label>
-            <input  name="rua" required="required"  type="text" value="Qr 111, conjunto 07, lote" />
+            <label for="nome_cad">Rua</label><br>
+            <input  name="rua" required="required"  type="text" />
           </p><p> 
-            <label for="nome_cad">Numero</label>
-            <input  name="numero" required="required"  type="text" value="14" />
+            <label for="nome_cad">Numero</label><br>
+            <input  name="numero" required="required"  type="text" />
           </p><p> 
-            <label for="nome_cad">Complemento</label>
-            <input  name="complemento"  type="text" value="" />
+            <label for="nome_cad">Complemento</label><br>
+            <input  name="complemento"  type="text" />
           </p><p> 
-            <label for="nome_cad">Bairro</label>
-            <input  name="bairro" required="required"  type="text" value="Samambaia sul" />
+            <label for="nome_cad">Bairro</label><br>
+            <input  name="bairro" required="required"  type="text" />
           </p><p> 
-            <label for="nome_cad">Cidade</label>
-            <input  name="cidade" required="required"  type="text" value="Samambaia" />
+            <label for="nome_cad">Cidade</label><br>
+            <input  name="cidade" required="required"  type="text" />
           </p><p> 
-            <label for="nome_cad">Estado</label>
-            <input  name="estado" required="required"  type="text" value="DF" />
+            <label for="nome_cad">Estado</label><br>
+            <input  name="estado" required="required"  type="text" />
           </p>
 
             <p>
@@ -83,6 +83,5 @@
 <div class="parceiro-div2">
  <img src="<?php echo BASE; ?>assets/img/mercadopago.png" border="0">        
 </div>
-
 </body>
 </html>

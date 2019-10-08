@@ -1,4 +1,9 @@
-$(function(){
+$( function() {
+
+	$("#cadastro").submit(function() {
+    //desabilita o botão
+    $("#add").prop("disabled", true);
+});
 	
 	$('.efetuarCompra').on('click', function(){
 
@@ -25,7 +30,7 @@ $(function(){
 		var v_mes = $('select[name=cartao_mes]').val();
 		var v_ano = $('select[name=cartao_ano]').val();
 
-		var parc = $('select[name=parc]').val();
+	 	var parc = $('select[name=parc]').val();
 
 		if(cartao_numero != '' && cvv != '' && v_mes != '' && v_ano != '') {
 
@@ -39,7 +44,7 @@ $(function(){
 					window.cardToken = r.card.token;
 
 					$.ajax({
-						url:'http://localhost/secatre1.0/psckttransparente/checkout',
+						url:'http://localhost/secatreambiental/psckttransparente/checkout',
 						type:'POST',
 						data:{
 							id:id,
@@ -69,7 +74,7 @@ $(function(){
 							if(json.error == true) {
 								alert(json.msg);
 							} else {
-								window.location.href = "http://localhost/secatre1.0/psckttransparente/obrigado"
+								window.location.href="http://localhost/secatreambiental/psckttransparente/obrigado"
 							}
 						},
 						error:function() {
@@ -89,7 +94,7 @@ $(function(){
 			alert("Falta preencher dados do cartão.");
 		}
 
-	});
+	 });
 
 	$('input[name=cartao_numero]').on('keyup', function(e){
 		if($(this).val().length == 6) {
@@ -106,8 +111,9 @@ $(function(){
 						amount:$('input[name=total]').val(),
 						brand:window.cardBrand,
 						success:function(r) {
+							
 
-							if(r.error == false) {
+							 if(r.error == false) {
 
 								var parc = r.installments[window.cardBrand];
 
@@ -115,18 +121,20 @@ $(function(){
 
 								for(var i in parc) {
 									var optionValue = parc[i].quantity+';'+parc[i].installmentAmount+';';
-									if(parc[i].interestFree == true) {
-										optionValue += 'true';
-									} else {
-										optionValue += 'false';
-									}
+									
+									// trecho dispensado por nao uso sem juros
+									// if(parc[i].interestFree == true) {
+									// 	optionValue += 'true';
+									// } else {
+									// 	optionValue += 'false';
+									// }
 
 									html += '<option value="'+optionValue+'">'+parc[i].quantity+'x de R$ '+parc[i].installmentAmount+'</option>';
 								}
 
 								$('select[name=parc]').html(html);
 
-							}
+							 }
 
 						},
 						error:function(r) {

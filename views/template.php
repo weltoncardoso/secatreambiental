@@ -21,9 +21,9 @@
   <link rel="stylesheet" href="<?php echo BASE; ?>assets/css/font-awesome.min.css">
   <!-- skin -->
   <link rel="stylesheet" href="<?php echo BASE; ?>assets/skin/default.css">
- 
+  <script src="<?php echo BASE; ?>assets/js/jquery.min.js"></script>
 </head>
-
+<body>
 <?php $this->loadViewInTemplate($viewName, $viewData); ?>
 
 </body>

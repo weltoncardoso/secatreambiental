@@ -1,0 +1,173 @@
+
+06/10/2019 17:10:47 PagSeguro.Session[info]: Begin
+06/10/2019 17:10:47 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+06/10/2019 17:10:48 PagSeguro.Session[info]: Session ID: 56c19ccb96984501bbfd59edd07157e1
+06/10/2019 17:14:08 PagSeguro.Session[info]: Begin
+06/10/2019 17:14:08 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+06/10/2019 17:14:09 PagSeguro.Session[info]: Session ID: dc052c99a5974d91bcb795af477de2a7
+06/10/2019 17:14:24 PagSeguro.Session[info]: Begin
+06/10/2019 17:14:24 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+06/10/2019 17:14:25 PagSeguro.Session[info]: Session ID: 15cd52639f8949ca9997f947f97b87a0
+06/10/2019 17:17:32 PagSeguro.Session[info]: Begin
+06/10/2019 17:17:32 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+06/10/2019 17:17:34 PagSeguro.Session[info]: Session ID: d8ed497231ff4d218bf0e450de7481eb
+06/10/2019 17:23:55 PagSeguro.Session[info]: Begin
+06/10/2019 17:23:55 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+06/10/2019 17:23:56 PagSeguro.Session[info]: Session ID: 2489e7f399ca433592e74e33b46e1833
+06/10/2019 17:24:29 PagSeguro.Session[info]: Begin
+06/10/2019 17:24:29 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+06/10/2019 17:24:30 PagSeguro.Session[info]: Session ID: 8e5d90194b164be683053f197472750a
+06/10/2019 17:24:39 PagSeguro.Session[info]: Begin
+06/10/2019 17:24:39 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+06/10/2019 17:24:40 PagSeguro.Session[info]: Session ID: ac9f278caede4b0e911bc7a9e25386b6
+06/10/2019 17:26:45 PagSeguro.Session[info]: Begin
+06/10/2019 17:26:45 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+06/10/2019 17:26:46 PagSeguro.Session[info]: Session ID: 735322d160ab4cdeb3550f33c168f03e
+06/10/2019 17:27:40 PagSeguro.Session[info]: Begin
+06/10/2019 17:27:40 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+06/10/2019 17:27:41 PagSeguro.Session[info]: Session ID: 7c1dd7d88ce74a99877fc08b4986074d
+06/10/2019 17:30:35 PagSeguro.Session[info]: Begin
+06/10/2019 17:30:35 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+06/10/2019 17:30:36 PagSeguro.Session[info]: Session ID: 9dd5a6af19884db89383f8235f6aac13
+06/10/2019 19:10:56 PagSeguro.Session[info]: Begin
+06/10/2019 19:10:56 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+06/10/2019 19:10:57 PagSeguro.Session[info]: Session ID: e0294784816d4d1bb60bf3fb38a574ad
+07/10/2019 03:49:13 PagSeguro.Session[info]: Begin
+07/10/2019 03:49:13 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+07/10/2019 03:49:14 PagSeguro.Session[info]: Session ID: 9865bcc9638c4652af1c23c515f53ea3
+07/10/2019 03:49:54 PagSeguro.Session[info]: Begin
+07/10/2019 03:49:54 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+07/10/2019 03:49:54 PagSeguro.Session[info]: Session ID: 9a8dfef8134c4fa699eb80c075e59f5d
+07/10/2019 03:56:02 PagSeguro.Session[info]: Begin
+07/10/2019 03:56:02 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+07/10/2019 03:56:03 PagSeguro.Session[info]: Session ID: fdbf089a6aec438598da8ef2e4c66ff1
+07/10/2019 03:56:11 PagSeguro.Session[info]: Begin
+07/10/2019 03:56:11 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+07/10/2019 03:56:12 PagSeguro.Session[info]: Session ID: 25f3337d055648d9b0200e68222d051b
+07/10/2019 03:58:07 PagSeguro.Session[info]: Begin
+07/10/2019 03:58:07 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+07/10/2019 03:58:09 PagSeguro.Session[info]: Session ID: 6695030aba7c4724a04ead4c86c5ef5f
+07/10/2019 04:01:34 PagSeguro.Session[info]: Begin
+07/10/2019 04:01:34 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+07/10/2019 04:01:35 PagSeguro.Session[info]: Session ID: 3487402e8d06456d9fde752993298c01
+07/10/2019 04:02:45 PagSeguro.DirectPayment.CreditCard[info]: Begin
+07/10/2019 04:02:45 PagSeguro.DirectPayment.CreditCard[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/transactions/?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+07/10/2019 04:02:46 PagSeguro.Checkout[info]: Params: {"reference":"0","notificationURL":"http:\/\/localhost\/secatreambiental\/psckttransparente\/notification","billingAddressStreet":"Qr 111, conjunto 07, lote","billingAddressNumber":"14","billingAddressComplement":"","billingAddressCity":"Samambaia","billingAddressState":"DF","billingAddressDistrict":"Samambaia sul","billingAddressPostalCode":"72301407","billingAddressCountry":"BRA","currency":"BRL","creditCardHolderName":"welton viana cardoso","creditCardHolderCPF":"93346557120","installmentQuantity":"","itemId1":5,"itemDescription1":"Gerenciamento de Residuos de Servicos de Saude","itemQuantity1":10,"itemAmount1":"100.00","paymentMethod":"creditCard","paymentMode":"DEFAULT","receiverEmail":"weltonvcardoso@gmail.com","senderName":"welton viana cardoso","senderEmail":"c75128610136929672058@sandbox.pagseguro.com.br","senderAreaCode":"61","senderPhone":"(**) 99410-****","senderCPF":"933.***.***-**","senderIp":"127.0.0.1","senderHash":"f55c56707da3ff8a1ceae6abf712d831c571158384ce4e8096698a049cd2ec7e","shippingAddressStreet":"Qr 111, conjunto 07, lote","shippingAddressNumber":"14","shippingAddressComplement":"","shippingAddressCity":"Samambaia","shippingAddressState":"DF","shippingAddressDistrict":"Samambaia sul","shippingAddressPostalCode":"72301407","shippingAddressCountry":"BRA","creditCardToken":"4c03e0b9a6014042a8002d168d8958d8"}
+07/10/2019 04:02:47 PagSeguro.DirectPayment.CreditCard[error]: <?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?><errors><error><code>53040</code><message>installment value is required.</message></error><error><code>53038</code><message>installment quantity is required.</message></error></errors>
+07/10/2019 04:05:40 PagSeguro.DirectPayment.CreditCard[info]: Begin
+07/10/2019 04:05:40 PagSeguro.DirectPayment.CreditCard[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/transactions/?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+07/10/2019 04:05:40 PagSeguro.Checkout[info]: Params: {"reference":"0","notificationURL":"http:\/\/localhost\/secatreambiental\/psckttransparente\/notification","billingAddressStreet":"Qr 111, conjunto 07, lote","billingAddressNumber":"14","billingAddressComplement":"","billingAddressCity":"Samambaia","billingAddressState":"DF","billingAddressDistrict":"Samambaia sul","billingAddressPostalCode":"72301407","billingAddressCountry":"BRA","currency":"BRL","creditCardHolderName":"welton viana cardoso","creditCardHolderCPF":"93346557120","installmentQuantity":"","itemId1":5,"itemDescription1":"Gerenciamento de Residuos de Servicos de Saude","itemQuantity1":10,"itemAmount1":"100.00","paymentMethod":"creditCard","paymentMode":"DEFAULT","receiverEmail":"weltonvcardoso@gmail.com","senderName":"welton viana cardoso","senderEmail":"c75128610136929672058@sandbox.pagseguro.com.br","senderAreaCode":"61","senderPhone":"(**) 99410-****","senderCPF":"933.***.***-**","senderIp":"127.0.0.1","senderHash":"f55c56707da3ff8a1ceae6abf712d831c571158384ce4e8096698a049cd2ec7e","shippingAddressStreet":"Qr 111, conjunto 07, lote","shippingAddressNumber":"14","shippingAddressComplement":"","shippingAddressCity":"Samambaia","shippingAddressState":"DF","shippingAddressDistrict":"Samambaia sul","shippingAddressPostalCode":"72301407","shippingAddressCountry":"BRA","creditCardToken":"399fac1e226f4a0b880ea0d354e1c9b2"}
+07/10/2019 04:05:42 PagSeguro.DirectPayment.CreditCard[error]: <?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?><errors><error><code>53040</code><message>installment value is required.</message></error><error><code>53038</code><message>installment quantity is required.</message></error></errors>
+07/10/2019 04:11:42 PagSeguro.DirectPayment.CreditCard[info]: Begin
+07/10/2019 04:11:42 PagSeguro.DirectPayment.CreditCard[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/transactions/?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+07/10/2019 04:11:42 PagSeguro.Checkout[info]: Params: {"reference":"0","notificationURL":"http:\/\/localhost\/secatreambiental\/psckttransparente\/notification","billingAddressStreet":"Qr 111, conjunto 07, lote","billingAddressNumber":"14","billingAddressComplement":"","billingAddressCity":"Samambaia","billingAddressState":"DF","billingAddressDistrict":"Samambaia sul","billingAddressPostalCode":"72301407","billingAddressCountry":"BRA","currency":"BRL","creditCardHolderName":"welton viana cardoso","creditCardHolderCPF":"93346557120","installmentQuantity":"","itemId1":5,"itemDescription1":"Gerenciamento de Residuos de Servicos de Saude","itemQuantity1":10,"itemAmount1":"100.00","paymentMethod":"creditCard","paymentMode":"DEFAULT","receiverEmail":"weltonvcardoso@gmail.com","senderName":"welton viana cardoso","senderEmail":"c75128610136929672058@sandbox.pagseguro.com.br","senderAreaCode":"61","senderPhone":"(**) 99410-****","senderCPF":"933.***.***-**","senderIp":"127.0.0.1","senderHash":"f55c56707da3ff8a1ceae6abf712d831c571158384ce4e8096698a049cd2ec7e","shippingAddressStreet":"Qr 111, conjunto 07, lote","shippingAddressNumber":"14","shippingAddressComplement":"","shippingAddressCity":"Samambaia","shippingAddressState":"DF","shippingAddressDistrict":"Samambaia sul","shippingAddressPostalCode":"72301407","shippingAddressCountry":"BRA","creditCardToken":"c1af144c2d3a4436bb91c2b60801ce5b"}
+07/10/2019 04:11:43 PagSeguro.DirectPayment.CreditCard[error]: <?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?><errors><error><code>53040</code><message>installment value is required.</message></error><error><code>53038</code><message>installment quantity is required.</message></error></errors>
+07/10/2019 20:06:41 PagSeguro.Session[info]: Begin
+07/10/2019 20:06:41 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+07/10/2019 20:06:42 PagSeguro.Session[info]: Session ID: 0b4941ce8fa647e59cd1eef5b058290e
+07/10/2019 20:09:51 PagSeguro.Session[info]: Begin
+07/10/2019 20:09:51 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+07/10/2019 20:09:52 PagSeguro.Session[info]: Session ID: 9aafd95d8d9346359493c88ea49bad56
+07/10/2019 20:16:21 PagSeguro.Session[info]: Begin
+07/10/2019 20:16:22 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+07/10/2019 20:16:23 PagSeguro.Session[info]: Session ID: d239fab8a9ee459284ae747b8a98570d
+07/10/2019 20:17:59 PagSeguro.Session[info]: Begin
+07/10/2019 20:17:59 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+07/10/2019 20:18:00 PagSeguro.Session[info]: Session ID: 11fdd3244f3847978716d6733e87da48
+07/10/2019 20:18:49 PagSeguro.Session[info]: Begin
+07/10/2019 20:18:49 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+07/10/2019 20:18:51 PagSeguro.Session[info]: Session ID: 8bd904f523c94145b8e4b2652ef64b54
+07/10/2019 20:23:32 PagSeguro.Session[info]: Begin
+07/10/2019 20:23:32 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+07/10/2019 20:23:34 PagSeguro.Session[info]: Session ID: 56e58e9508a04a108294792d26ae03df
+07/10/2019 20:50:43 PagSeguro.Session[info]: Begin
+07/10/2019 20:50:43 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+07/10/2019 20:50:44 PagSeguro.Session[info]: Session ID: 392f701cd4f34919ab850766f3b93f83
+07/10/2019 20:55:32 PagSeguro.Session[info]: Begin
+07/10/2019 20:55:32 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+07/10/2019 20:55:33 PagSeguro.Session[info]: Session ID: 5aa766211b304b2db6feeae7eaa00bc6
+07/10/2019 21:08:38 PagSeguro.Session[info]: Begin
+07/10/2019 21:08:38 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+07/10/2019 21:08:39 PagSeguro.Session[info]: Session ID: dca3426e0e0b4ff3b5617b3e3f8029a1
+07/10/2019 21:08:58 PagSeguro.Session[info]: Begin
+07/10/2019 21:08:58 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+07/10/2019 21:08:59 PagSeguro.Session[info]: Session ID: d1a3c68d48184c08b48c77f99e14160c
+07/10/2019 21:14:28 PagSeguro.Session[info]: Begin
+07/10/2019 21:14:28 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+07/10/2019 21:14:29 PagSeguro.Session[info]: Session ID: d75ff01335404858b7bc59aa788965f4
+07/10/2019 22:20:27 PagSeguro.Session[info]: Begin
+07/10/2019 22:20:27 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+07/10/2019 22:20:28 PagSeguro.Session[info]: Session ID: 17c91a8d51e347f389bd1055285e931a
+07/10/2019 22:21:45 PagSeguro.Session[info]: Begin
+07/10/2019 22:21:45 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+07/10/2019 22:21:46 PagSeguro.Session[info]: Session ID: 7067da97f402497aa542b5697e7c1034
+07/10/2019 22:21:51 PagSeguro.Session[info]: Begin
+07/10/2019 22:21:51 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+07/10/2019 22:21:52 PagSeguro.Session[info]: Session ID: 6ed57b3b488d446aa2f09d39104492af
+07/10/2019 22:23:57 PagSeguro.Session[info]: Begin
+07/10/2019 22:23:57 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+07/10/2019 22:23:58 PagSeguro.Session[info]: Session ID: 2a152db8a03641cda01dd024a8ba6e9f
+07/10/2019 22:24:31 PagSeguro.Session[info]: Begin
+07/10/2019 22:24:31 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+07/10/2019 22:24:32 PagSeguro.Session[info]: Session ID: c235d413aa054a7db047d00a57d7eaf8
+07/10/2019 22:25:06 PagSeguro.Session[info]: Begin
+07/10/2019 22:25:06 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+07/10/2019 22:25:07 PagSeguro.Session[info]: Session ID: e555072fb68249ca8ede7ebbad431461
+07/10/2019 22:26:39 PagSeguro.Session[info]: Begin
+07/10/2019 22:26:39 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+07/10/2019 22:26:40 PagSeguro.Session[info]: Session ID: 375979097e1948b88a4d6631050219e7
+07/10/2019 22:29:06 PagSeguro.Session[info]: Begin
+07/10/2019 22:29:06 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+07/10/2019 22:29:07 PagSeguro.Session[info]: Session ID: 54b93bf487224ab0824b491387778d64
+07/10/2019 22:29:11 PagSeguro.Session[info]: Begin
+07/10/2019 22:29:11 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+07/10/2019 22:29:12 PagSeguro.Session[info]: Session ID: 26595f98732d41d0b8133c9faffeb77b
+07/10/2019 22:32:54 PagSeguro.Session[info]: Begin
+07/10/2019 22:32:54 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+07/10/2019 22:32:55 PagSeguro.Session[info]: Session ID: f1d15570fa3d4250a4353dad1ff1a651
+07/10/2019 22:33:35 PagSeguro.DirectPayment.CreditCard[info]: Begin
+07/10/2019 22:33:35 PagSeguro.DirectPayment.CreditCard[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/transactions/?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+07/10/2019 22:33:36 PagSeguro.Checkout[info]: Params: {"reference":"1","notificationURL":"http:\/\/localhost\/secatreambiental\/psckttransparente\/notification","billingAddressStreet":"Qr 111, conjunto 07, lote","billingAddressNumber":"14","billingAddressComplement":"","billingAddressCity":"Samambaia","billingAddressState":"DF","billingAddressDistrict":"Samambaia sul","billingAddressPostalCode":"72301407","billingAddressCountry":"BRA","currency":"BRL","creditCardHolderName":"welton viana cardoso","creditCardHolderCPF":"93346557120","installmentQuantity":"3","installmentValue":"35.35","itemId1":5,"itemDescription1":"Gerenciamento de Residuos de Servicos de Saude","itemQuantity1":1,"itemAmount1":"100.00","paymentMethod":"creditCard","paymentMode":"DEFAULT","receiverEmail":"weltonvcardoso@gmail.com","senderName":"welton viana cardoso","senderEmail":"c75128610136929672058@sandbox.pagseguro.com.br","senderAreaCode":"61","senderPhone":"(**) 99410-****","senderCPF":"933.***.***-**","senderIp":"127.0.0.1","senderHash":"5eeaa7bde9fc5d5c07ed67dbd355efd20d206cd0d3cfadd21796cb765d5b3df7","shippingAddressStreet":"Qr 111, conjunto 07, lote","shippingAddressNumber":"14","shippingAddressComplement":"","shippingAddressCity":"Samambaia","shippingAddressState":"DF","shippingAddressDistrict":"Samambaia sul","shippingAddressPostalCode":"72301407","shippingAddressCountry":"BRA","creditCardToken":"7ed7b18fe5194ba4a0a878032d46ea9d"}
+07/10/2019 22:33:39 PagSeguro.DirectPayment.CreditCard[info]: Credit Card Payment Code: CE9A2C34-D12C-43A9-A69D-A906E114D849
+07/10/2019 22:33:39 PagSeguro.DirectPayment.CreditCard[info]: Begin
+07/10/2019 22:33:39 PagSeguro.DirectPayment.CreditCard[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/transactions/?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+07/10/2019 22:33:39 PagSeguro.Checkout[info]: Params: {"reference":"2","notificationURL":"http:\/\/localhost\/secatreambiental\/psckttransparente\/notification","billingAddressStreet":"Qr 111, conjunto 07, lote","billingAddressNumber":"14","billingAddressComplement":"","billingAddressCity":"Samambaia","billingAddressState":"DF","billingAddressDistrict":"Samambaia sul","billingAddressPostalCode":"72301407","billingAddressCountry":"BRA","currency":"BRL","creditCardHolderName":"welton viana cardoso","creditCardHolderCPF":"93346557120","installmentQuantity":"3","installmentValue":"35.35","itemId1":5,"itemDescription1":"Gerenciamento de Residuos de Servicos de Saude","itemQuantity1":1,"itemAmount1":"100.00","paymentMethod":"creditCard","paymentMode":"DEFAULT","receiverEmail":"weltonvcardoso@gmail.com","senderName":"welton viana cardoso","senderEmail":"c75128610136929672058@sandbox.pagseguro.com.br","senderAreaCode":"61","senderPhone":"(**) 99410-****","senderCPF":"933.***.***-**","senderIp":"127.0.0.1","senderHash":"5eeaa7bde9fc5d5c07ed67dbd355efd20d206cd0d3cfadd21796cb765d5b3df7","shippingAddressStreet":"Qr 111, conjunto 07, lote","shippingAddressNumber":"14","shippingAddressComplement":"","shippingAddressCity":"Samambaia","shippingAddressState":"DF","shippingAddressDistrict":"Samambaia sul","shippingAddressPostalCode":"72301407","shippingAddressCountry":"BRA","creditCardToken":"7ea511f184314e69b3199d730b81afad"}
+07/10/2019 22:33:42 PagSeguro.DirectPayment.CreditCard[info]: Credit Card Payment Code: CA5FC81F-17A5-45DF-8D29-A2D8CE9459BD
+07/10/2019 22:33:42 PagSeguro.DirectPayment.CreditCard[info]: Begin
+07/10/2019 22:33:42 PagSeguro.DirectPayment.CreditCard[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/transactions/?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+07/10/2019 22:33:42 PagSeguro.Checkout[info]: Params: {"reference":"3","notificationURL":"http:\/\/localhost\/secatreambiental\/psckttransparente\/notification","billingAddressStreet":"Qr 111, conjunto 07, lote","billingAddressNumber":"14","billingAddressComplement":"","billingAddressCity":"Samambaia","billingAddressState":"DF","billingAddressDistrict":"Samambaia sul","billingAddressPostalCode":"72301407","billingAddressCountry":"BRA","currency":"BRL","creditCardHolderName":"welton viana cardoso","creditCardHolderCPF":"93346557120","installmentQuantity":"3","installmentValue":"35.35","itemId1":5,"itemDescription1":"Gerenciamento de Residuos de Servicos de Saude","itemQuantity1":1,"itemAmount1":"100.00","paymentMethod":"creditCard","paymentMode":"DEFAULT","receiverEmail":"weltonvcardoso@gmail.com","senderName":"welton viana cardoso","senderEmail":"c75128610136929672058@sandbox.pagseguro.com.br","senderAreaCode":"61","senderPhone":"(**) 99410-****","senderCPF":"933.***.***-**","senderIp":"127.0.0.1","senderHash":"5eeaa7bde9fc5d5c07ed67dbd355efd20d206cd0d3cfadd21796cb765d5b3df7","shippingAddressStreet":"Qr 111, conjunto 07, lote","shippingAddressNumber":"14","shippingAddressComplement":"","shippingAddressCity":"Samambaia","shippingAddressState":"DF","shippingAddressDistrict":"Samambaia sul","shippingAddressPostalCode":"72301407","shippingAddressCountry":"BRA","creditCardToken":"d53f85517af246ce88c4f3305e7e78b1"}
+07/10/2019 22:33:44 PagSeguro.DirectPayment.CreditCard[info]: Credit Card Payment Code: 6F8D5FE1-52B4-409C-819B-E9D75BD3FE08
+07/10/2019 22:38:15 PagSeguro.DirectPayment.CreditCard[info]: Begin
+07/10/2019 22:38:15 PagSeguro.DirectPayment.CreditCard[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/transactions/?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+07/10/2019 22:38:15 PagSeguro.Checkout[info]: Params: {"reference":"4","notificationURL":"http:\/\/localhost\/secatreambiental\/psckttransparente\/notification","billingAddressStreet":"Qr 111, conjunto 07, lote","billingAddressNumber":"14","billingAddressComplement":"","billingAddressCity":"Samambaia","billingAddressState":"DF","billingAddressDistrict":"Samambaia sul","billingAddressPostalCode":"72301407","billingAddressCountry":"BRA","currency":"BRL","creditCardHolderName":"welton viana cardoso","creditCardHolderCPF":"93346557120","installmentQuantity":"3","installmentValue":"35.35","itemId1":5,"itemDescription1":"Gerenciamento de Residuos de Servicos de Saude","itemQuantity1":1,"itemAmount1":"100.00","paymentMethod":"creditCard","paymentMode":"DEFAULT","receiverEmail":"weltonvcardoso@gmail.com","senderName":"welton viana cardoso","senderEmail":"c75128610136929672058@sandbox.pagseguro.com.br","senderAreaCode":"61","senderPhone":"(**) 99410-****","senderCPF":"933.***.***-**","senderIp":"127.0.0.1","senderHash":"5eeaa7bde9fc5d5c07ed67dbd355efd20d206cd0d3cfadd21796cb765d5b3df7","shippingAddressStreet":"Qr 111, conjunto 07, lote","shippingAddressNumber":"14","shippingAddressComplement":"","shippingAddressCity":"Samambaia","shippingAddressState":"DF","shippingAddressDistrict":"Samambaia sul","shippingAddressPostalCode":"72301407","shippingAddressCountry":"BRA","creditCardToken":"86cf12ab656d49b0af060829e9637f35"}
+07/10/2019 22:38:18 PagSeguro.DirectPayment.CreditCard[info]: Credit Card Payment Code: 45B010DF-0FAE-4863-9FD1-1BC809223977
+08/10/2019 00:45:27 PagSeguro.Session[info]: Begin
+08/10/2019 00:45:27 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+08/10/2019 00:45:28 PagSeguro.Session[info]: Session ID: 79057adc97db482e8aaecc8312a6cef6
+08/10/2019 00:46:23 PagSeguro.DirectPayment.CreditCard[info]: Begin
+08/10/2019 00:46:23 PagSeguro.DirectPayment.CreditCard[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/transactions/?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+08/10/2019 00:46:24 PagSeguro.Checkout[info]: Params: {"reference":"5","notificationURL":"http:\/\/localhost\/secatreambiental\/psckttransparente\/notification","billingAddressStreet":"Qr 111, conjunto 07, lote","billingAddressNumber":"14","billingAddressComplement":"","billingAddressCity":"Samambaia","billingAddressState":"DF","billingAddressDistrict":"Samambaia sul","billingAddressPostalCode":"72301407","billingAddressCountry":"BRA","currency":"BRL","creditCardHolderName":"welton viana cardoso","creditCardHolderCPF":"93346557120","installmentQuantity":"2","installmentValue":"52.26","itemId1":5,"itemDescription1":"Gerenciamento de Residuos de Servicos de Saude","itemQuantity1":1,"itemAmount1":"100.00","paymentMethod":"creditCard","paymentMode":"DEFAULT","receiverEmail":"weltonvcardoso@gmail.com","senderName":"welton viana cardoso","senderEmail":"c75128610136929672058@sandbox.pagseguro.com.br","senderAreaCode":"61","senderPhone":"(**) 99410-****","senderCPF":"933.***.***-**","senderIp":"127.0.0.1","senderHash":"a4e3e408fc6c5056c32aa9aac9d4800e056aeced4a2cfa56de82ea752557dac3","shippingAddressStreet":"Qr 111, conjunto 07, lote","shippingAddressNumber":"14","shippingAddressComplement":"","shippingAddressCity":"Samambaia","shippingAddressState":"DF","shippingAddressDistrict":"Samambaia sul","shippingAddressPostalCode":"72301407","shippingAddressCountry":"BRA","creditCardToken":"e3918014f62749c2911ebda9b8e205ee"}
+08/10/2019 00:46:27 PagSeguro.DirectPayment.CreditCard[info]: Credit Card Payment Code: 7995BCCE-D2FC-42CD-AE70-B2C598FB2334
+08/10/2019 00:57:19 PagSeguro.Session[info]: Begin
+08/10/2019 00:57:19 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+08/10/2019 00:57:20 PagSeguro.Session[info]: Session ID: 4629c2b8315848c084dbebd578aef11a
+08/10/2019 00:59:46 PagSeguro.Session[info]: Begin
+08/10/2019 00:59:46 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+08/10/2019 00:59:47 PagSeguro.Session[info]: Session ID: 9903174ccf6f4e459bd17ddebc77e953
+08/10/2019 01:00:35 PagSeguro.Session[info]: Begin
+08/10/2019 01:00:35 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+08/10/2019 01:00:36 PagSeguro.Session[info]: Session ID: feb7aa910ff04eeb9bda9600e25d80a2
+08/10/2019 01:00:36 PagSeguro.DirectPayment.CreditCard[info]: Begin
+08/10/2019 01:00:36 PagSeguro.DirectPayment.CreditCard[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/transactions/?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+08/10/2019 01:00:36 PagSeguro.Checkout[info]: Params: {"reference":"6","notificationURL":"http:\/\/localhost\/secatreambiental\/psckttransparente\/notification","billingAddressStreet":"Qr 111, conjunto 07, lote","billingAddressNumber":"14","billingAddressComplement":"","billingAddressCity":"Samambaia","billingAddressState":"DF","billingAddressDistrict":"Samambaia sul","billingAddressPostalCode":"72301407","billingAddressCountry":"BRA","currency":"BRL","creditCardHolderName":"welton viana cardoso","creditCardHolderCPF":"93346557120","installmentQuantity":"6","installmentValue":"18.45","itemId1":5,"itemDescription1":"Gerenciamento de Residuos de Servicos de Saude","itemQuantity1":1,"itemAmount1":"100.00","paymentMethod":"creditCard","paymentMode":"DEFAULT","receiverEmail":"weltonvcardoso@gmail.com","senderName":"welton viana cardoso","senderEmail":"c75128610136929672058@sandbox.pagseguro.com.br","senderAreaCode":"61","senderPhone":"(**) 99410-****","senderCPF":"933.***.***-**","senderIp":"127.0.0.1","senderHash":"a40f3d955b88c1a54768f472792b773bf55c43ed63bd647ba6be335f4969617f","shippingAddressStreet":"Qr 111, conjunto 07, lote","shippingAddressNumber":"14","shippingAddressComplement":"","shippingAddressCity":"Samambaia","shippingAddressState":"DF","shippingAddressDistrict":"Samambaia sul","shippingAddressPostalCode":"72301407","shippingAddressCountry":"BRA","creditCardToken":"f9d34a978fad48fe8ecd17d3436d78bb"}
+08/10/2019 01:00:38 PagSeguro.DirectPayment.CreditCard[info]: Credit Card Payment Code: 17947799-0977-43E3-AFA6-7A7B3F13157E
+08/10/2019 01:03:07 PagSeguro.Session[info]: Begin
+08/10/2019 01:03:07 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+08/10/2019 01:03:08 PagSeguro.Session[info]: Session ID: 38cd56472dfb470e85148660e011f024
+08/10/2019 01:03:10 PagSeguro.Session[info]: Begin
+08/10/2019 01:03:10 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+08/10/2019 01:03:11 PagSeguro.Session[info]: Session ID: 4f2fefbf872f44a790a8262998682247
+08/10/2019 01:04:03 PagSeguro.DirectPayment.CreditCard[info]: Begin
+08/10/2019 01:04:03 PagSeguro.DirectPayment.CreditCard[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/transactions/?email=weltonvcardoso%40gmail.com&token=AE5F24800A594E028A4BF765549EFA10
+08/10/2019 01:04:03 PagSeguro.Checkout[info]: Params: {"reference":"7","notificationURL":"http:\/\/localhost\/secatreambiental\/psckttransparente\/notification","billingAddressStreet":"Qr 111, conjunto 07, lote","billingAddressNumber":"14","billingAddressComplement":"","billingAddressCity":"Samambaia","billingAddressState":"DF","billingAddressDistrict":"Samambaia sul","billingAddressPostalCode":"72301407","billingAddressCountry":"BRA","currency":"BRL","creditCardHolderName":"welton viana cardoso","creditCardHolderCPF":"93346557120","installmentQuantity":"10","installmentValue":"11.72","itemId1":5,"itemDescription1":"Gerenciamento de Residuos de Servicos de Saude","itemQuantity1":1,"itemAmount1":"100.00","paymentMethod":"creditCard","paymentMode":"DEFAULT","receiverEmail":"weltonvcardoso@gmail.com","senderName":"welton viana cardoso","senderEmail":"c75128610136929672058@sandbox.pagseguro.com.br","senderAreaCode":"61","senderPhone":"(**) 99410-****","senderCPF":"933.***.***-**","senderIp":"127.0.0.1","senderHash":"e8691c5a50e8d0f3f58dfdcd7fdd1f20e996ea6bfb456ef800a73dc10ca51e0f","shippingAddressStreet":"Qr 111, conjunto 07, lote","shippingAddressNumber":"14","shippingAddressComplement":"","shippingAddressCity":"Samambaia","shippingAddressState":"DF","shippingAddressDistrict":"Samambaia sul","shippingAddressPostalCode":"72301407","shippingAddressCountry":"BRA","creditCardToken":"c5f5a27993f046b6a6a4fa3f7896cb15"}
+08/10/2019 01:04:06 PagSeguro.DirectPayment.CreditCard[info]: Credit Card Payment Code: 8645701F-3970-4F82-A563-5A95816727FF

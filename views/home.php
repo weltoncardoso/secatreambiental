@@ -21,6 +21,7 @@
   <link rel="stylesheet" href="<?php echo BASE; ?>assets/css/font-awesome.min.css">
   <!-- skin -->
   <link rel="stylesheet" href="<?php echo BASE; ?>assets/skin/default.css">
+  <script src="<?php echo BASE; ?>assets/js/jquery.min.js"></script>
   <script src="<?php echo BASE; ?>assets/js/menu.js"></script>
  
 </head>
@@ -128,7 +129,7 @@ function openWinCurso() {
               </div>
               <div class="col-md-10 col-md-offset-1">
                 <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.6s">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                  <p>A CONSERVAÇÃO E PRESERVAÇÃO DO MEIO AMBIENTE DEPENDE DE VOCÊ, FAÇA A SUA PARTE!</p>
                 </div>
               </div>
    
@@ -138,11 +139,11 @@ function openWinCurso() {
           <div class="item" style="background-image: url(assets/img/bg2.jpg);">
             <div class="carousel-caption">
               <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="1.0s">
-                <h2>Somos a Secatre Ambiental</h2>
+                <h2>Ganhe tempo reciclando seu conhecimento</h2>
               </div>
               <div class="col-md-10 col-md-offset-1">
                 <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.6s">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                  <p>CURSOS EAD - AGILIDADE E PRATICIDADE PARA APROVEITAR O SEU TEMPO!</p>
                 </div>
               </div>
 

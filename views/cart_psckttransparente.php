@@ -11,7 +11,6 @@
    -o-background-size: cover;
    background-size: cover;" >
   <div class="container" style="width: 100%; height: 100%">
-
 <div id="cadastro">
           <h1>Dados Pessoais</h1> 
            
@@ -29,11 +28,11 @@
           </p>
           <p> 
             <label for="nome_cad">E-mail</label>
-            <input  name="email" required="required" type="email" value="75128610136929672058@sandbox.pagseguro.com.br" />
+            <input  name="email" required="required" type="email" value="c75128610136929672058@sandbox.pagseguro.com.br" />
           </p>
           <p> 
             <label for="nome_cad">Senha</label>
-            <input  name="password" required="required" type="password"/>
+            <input  name="password" required="required" type="password" value="bPU355KuTuF27p1B"/>
           </p>
 
 
@@ -102,7 +101,8 @@
 
 <input type="hidden" name="total" value="<?php echo $total; ?>" />
 <p> 
-            <input class="efetuarCompra" type="submit" value="Efetuar Pagamento"/> 
+            <input id="add" onclick="this.value='Aguarde...'" class="efetuarCompra" type="submit" name="Submit" value="Efetuar Pagamento"/>
+            
           </p> 
           <p>
           <a style="color:#fff;text-decoration: none" href="JavaScript: window.history.back();">

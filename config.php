@@ -1,7 +1,7 @@
 <?php
 require 'environment.php';
 
-define("BASE", "http://localhost/sitenovo/");
+define("BASE", "http://localhost/secatreambiental/");
 
 global $config;
 $config = array();
@@ -23,8 +23,8 @@ $config['mp_appid'] = '1502216307414767';
 $config['mp_key'] = 'wS2IIj9JmXk6PxvKemrFFPcXw1HKLlzv';
 
 \PagSeguro\Library::initialize();
-\PagSeguro\Library::cmsVersion()->setName("SecatreAmbiental")->setRelease("1.0.0");
-\PagSeguro\Library::moduleVersion()->setName("SecatreAmbiental")->setRelease("1.0.0");
+\PagSeguro\Library::cmsVersion()->setName("SecatreAmbiental")->setRelease("2.0.0");
+\PagSeguro\Library::moduleVersion()->setName("SecatreAmbiental")->setRelease("2.0.0");
 
 \PagSeguro\Configuration\Configure::setEnvironment('sandbox');
 
