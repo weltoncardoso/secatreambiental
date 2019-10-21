@@ -44,7 +44,7 @@ class Noticias extends model {
 	public function getNoticiaSld() {
 		$array = array();
 
-		$sql = "SELECT * FROM noticias ORDER BY date_noticia DESC LIMIT 1";
+		$sql = "SELECT * FROM noticias ORDER BY date_noticia DESC LIMIT 2";
 
 		$sql = $this->db->query($sql);
 

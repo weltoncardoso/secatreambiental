@@ -1359,7 +1359,8 @@ section.featured h2.slogan {
   border-radius: 15px;
   color: #fff;
   padding: 10px;
-  background: #54ee23;
+  background: #3a906d;
+  opacity: 0.8;
 }
 
 @media (max-width: 767px) {

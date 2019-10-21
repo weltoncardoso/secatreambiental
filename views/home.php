@@ -29,7 +29,7 @@
 <body>
 <script>
 function openWinCurso() {
-    window.open("<?php echo BASE; ?>painel2");
+    window.open("<?php echo BASE; ?>curso");
 }
 </script>
 
@@ -204,7 +204,7 @@ function openWinCurso() {
 
 
                       <li><img alt="" class="img-responsive" src="./painel/assets/images/prods/<?php echo $img['url']?>" width="100%" height="350" /></li> 
-                      <li><img alt="" class="img-responsive" src="./painel/assets/images/prods/<?php echo $img['url']?>" width="100%" height="350" /></li> 
+                      <li><img alt="" class="img-responsive" src="./assets/img/secatre02.png" width="100%" height="350" /></li> 
                       
 
                <?php  endif ?>

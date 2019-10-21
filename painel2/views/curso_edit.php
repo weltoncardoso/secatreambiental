@@ -30,14 +30,14 @@
           </p>
           <p> 
             <label for="nome_cad">preço</label>
-            <input id="nome_cad" name="preco" type="text" value="<?php echo $curso['preco']; ?>" />
+            <input id="nome_cad" name="preco" type="text" value="<?php echo  number_format($curso['preco'], 2) ?>" />
           </p>
            
           <p> 
             <label for="Imagem">Imagem</label>
             <input id="imagem" name="imagem" type="file"/>
             <label for="Imagem">Imagem atual</label><br/>
-            <img src="<?php echo BASE; ?>../painel2/assets/images/<?php echo $curso['imagem']; ?>" border="0" height="80">
+            <img src="<?php echo BASE; ?>../curso/assets/images/cursos/<?php echo $curso['imagem']; ?>" border="0" height="80">
           </p>
 
           <p> 
@@ -108,7 +108,7 @@
    <?php foreach ($modulos as $modulo): ?>
    <h2> <?php echo utf8_encode($modulo['nome']) ?></h2>
     <?php foreach ($modulo['aulas'] as $aula): ?>
-    <h5><?php echo utf8_encode($aula['nome']) ?>
+    <h5><?php echo ($aula['nome']) ?>
     <div class="botaoExcAul" align="center">
         <a href="<?php echo BASE; ?>home/del_aula/<?php echo $aula['id']; ?>">Excluir</a></div>
     <div class="botaoEditAul" align="center">

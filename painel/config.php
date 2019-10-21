@@ -1,7 +1,7 @@
 <?php
 require 'environment.php';
 
-define("BASE", "http://localhost/sitenovo/painel/");
+define("BASE", "http://localhost/secatreambiental/painel/");
 
 global $config;
 $config = array();

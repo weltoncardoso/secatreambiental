@@ -11,7 +11,7 @@
 	<?php foreach ($cursos as $curso): ?>
 		<a href="<?php echo BASE; ?>cursos/entrar/<?php echo $curso['id_curso']; ?>">
 		<div class="cursoitem">
-			<img  src="<?php echo BASE; ?>../painel2/assets/images/<?php echo $curso['imagem']; ?>"  border="0" width="260" height="150" /><br/><br/>
+			<img  src="<?php echo BASE; ?>../curso/assets/images/cursos/<?php echo $curso['imagem']; ?>"  border="0" width="260" height="150" /><br/><br/>
 			<strong><?php echo $curso['nome'] ?></strong><br/><br/>
 			<!--<?php// echo $curso['descricao'] ?><br/><br/>!-->
 		</div>

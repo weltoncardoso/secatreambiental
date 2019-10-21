@@ -1,8 +1,9 @@
 <head>
   <meta charset="UTF-8" />
-  <title>Checkout Transparente - Pagseguro</title>
+  <title>Checkout - Mercado Pago</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <link rel="stylesheet" type="text/css" href="<?php echo BASE; ?>assets/css/cadastro.css" />
+  <script type="text/javascript"></script>
 
 </head>
 <body style=" background: url('<?php echo BASE; ?>/assets/img/bg.jpg') no-repeat center center fixed; 
@@ -18,7 +19,7 @@
   <div class="container" style="width: 100%; height: 100%">
 
 <div id="cadastro">
-        <form method="POST"> 
+        <form id="myform" method="POST"> 
           <h1>Dados Pessoais</h1> 
            
           <p> 
@@ -70,7 +71,7 @@
           </p>
 
             <p>
-            <input class="efetuarCompra" type="submit" value="Efetuar Pagamento"/> 
+           <input id="add" onclick="this.value='Aguarde...'" class="efetuarCompra" type="submit" name="Submit" value="Efetuar Pagamento"/>
           </p>
           <p>
           <a style="color:#fff;text-decoration: none" href="JavaScript: window.history.back();">
@@ -83,5 +84,7 @@
 <div class="parceiro-div2">
  <img src="<?php echo BASE; ?>assets/img/mercadopago.png" border="0">        
 </div>
+
+<script type="text/javascript" src="<?php echo BASE; ?>assets/js/mp.js"></script>
 </body>
 </html>

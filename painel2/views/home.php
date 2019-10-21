@@ -25,7 +25,7 @@
 		</tr>
 		<?php foreach ($cursos as $curso): ?>
 			<tr style="color: #black; font-size:23px">
-				<td width="50" align="center"><img src="<?php echo BASE; ?>../painel2/assets/images/<?php echo $curso['imagem']; ?>" border="0" height="70"></td>
+				<td width="50" align="center"><img src="<?php echo BASE; ?>../curso/assets/images/cursos/<?php echo $curso['imagem']; ?>" border="0" height="70"></td>
 				<td width="600" align="center"><?php echo $curso['nome']; ?></td>
 				<td align="center"><?php echo $curso['qtalunos']; ?></td>
 				<td width="300" align="center">

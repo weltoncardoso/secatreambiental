@@ -40,6 +40,7 @@ class cursosController extends controller
         }
         
         $data['curso_subtotal'] = $cart->getSubtotal();
+        
 
 		$this->loadView('cursos', $data);
 

@@ -87,7 +87,7 @@ public function excluir($id) {
 				$types = array('image/jpeg', 'image/jpg', 'image/png');
 
 				if (in_array($imagem['type'], $types)) {
-					move_uploaded_file($imagem['tmp_name'], "../painel2/assets/images/".$md5name);
+					move_uploaded_file($imagem['tmp_name'], "../curso/assets/images/cursos/".$md5name);
 					$nomeType = $certificado['name'];
 					$this->db->query("INSERT INTO cursos SET nome = '$nome', descricao = '$descricao', imagem = '$md5name', preco = '$preco', date_curso = NOW(), type = '$nomeType'");
 					header("Location: ".BASE);
@@ -117,7 +117,7 @@ public function excluir($id) {
 				$md5name = md5(time().rand(0,9999)).'.jpg';
 				$types = array('image/jpeg', 'image/jpg', 'image/png');
 				if (in_array($imagem['type'], $types)) {
-					move_uploaded_file($imagem['tmp_name'], "../painel2/assets/images/".$md5name);
+					move_uploaded_file($imagem['tmp_name'], "../curso/assets/images/cursos/".$md5name);
 					$this->db->query("UPDATE cursos SET imagem = '$md5name' WHERE id = '$id'");
 				    }
 				}
